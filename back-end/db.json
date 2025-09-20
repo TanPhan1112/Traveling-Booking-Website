@@ -143,7 +143,7 @@
       "location": "Bangkok, Pattaya",
       "description": "Văn hóa, ẩm thực, mua sắm",
       "images": [
-        "thailand1.jpg"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/feature/tourlist/front-end/images/Pattaya.png"
       ],
       "available_slots": 15
     },
@@ -158,7 +158,7 @@
       "location": "Siem Reap",
       "description": "Kỳ quan cổ đại Khmer",
       "images": [
-        "angkor1.jpg"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/feature/tourlist/front-end/images/SiemReap.png"
       ],
       "available_slots": 20
     },
@@ -173,7 +173,7 @@
       "location": "Bali",
       "description": "Biển xanh, resort sang trọng",
       "images": [
-        "bali1.jpg"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/feature/tourlist/front-end/images/Bali.png"
       ],
       "available_slots": 15
     },
@@ -188,7 +188,7 @@
       "location": "Singapore",
       "description": "Marina Bay, Sentosa",
       "images": [
-        "singapore1.jpg"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/feature/tourlist/front-end/images/Singapore.png"
       ],
       "available_slots": 18
     },
@@ -203,7 +203,7 @@
       "location": "Tokyo, Kyoto, Osaka",
       "description": "Ngắm lá đỏ, văn hóa Nhật",
       "images": [
-        "japan1.jpg"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/feature/tourlist/front-end/images/Kyoto.png"
       ],
       "available_slots": 10
     },
@@ -218,7 +218,7 @@
       "location": "Seoul, Nami",
       "description": "Trượt tuyết, ẩm thực Hàn",
       "images": [
-        "korea1.jpg"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/feature/tourlist/front-end/images/Nami.png"
       ],
       "available_slots": 12
     },
@@ -233,7 +233,7 @@
       "location": "Paris",
       "description": "Tháp Eiffel, bảo tàng Louvre",
       "images": [
-        "paris1.jpg"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/feature/tourlist/front-end/images/Paris.png"
       ],
       "available_slots": 8
     },
@@ -248,7 +248,7 @@
       "location": "Sydney, Melbourne",
       "description": "Nhà hát con sò, bãi biển Bondi",
       "images": [
-        "australia1.jpg"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/feature/tourlist/front-end/images/Melbourne.png"
       ],
       "available_slots": 9
     }
