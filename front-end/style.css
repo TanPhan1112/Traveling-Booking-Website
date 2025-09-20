@@ -32,7 +32,7 @@
 
 .margin2sides {
     margin: 0 auto;
-    width: 65rem;
+    width: 68rem;
 }
 
 /* CSS FIRST MENU */
@@ -131,6 +131,33 @@ main {
     padding: 3rem 0;
 }
 
+.listtournn {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    gap: 1rem;
+}
+
+.tournn-card {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+    border: var(--dark-accent) solid 1px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+        0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tournn-card img {
+    width: 10rem;
+}
+
+.tournn-card h2 {
+    padding-bottom: 0.5rem;
+}
+
+.tournn-card h3 {
+    padding-bottom: 0.5rem;
+}
 
 
 

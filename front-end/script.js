@@ -50,12 +50,14 @@ function displayTours(tours) {
                 tourNnCard.classList.add("tournn-card");
                 tourNnCard.innerHTML = `
                     <img src="${images}" alt="${location}">
-                    <h1>${title}</h1>
-                    <h3>Điểm đến: ${location} (${description})</h3>
-                    <p>Ngày đi: ${start_date}</p>
-                    <p>Ngày về: ${end_date} <span style="color:red;">(${duration})</span></p>
-                    <p>Giá: ${price}</p>
-                    <p>Số chỗ còn nhận: ${available_slots}</p>
+                    <div>
+                        <h2>${title}</h2>
+                        <h3>Điểm đến: ${location} (${description})</h3>
+                        <p>Ngày đi: <strong>${start_date}</strong></p>
+                        <p>Ngày về: <strong>${end_date}</strong> <span style="color:red;font-weight:bolder;">(${duration})</span></p>
+                        <p>Giá: <span style="color:red;font-weight:bolder;">${price}đ</span></p>
+                        <p>Số chỗ còn nhận: <strong>${available_slots}</strong></p>
+                    </div>
             `;
                 tourListNn.appendChild(tourNnCard);
             } else if (category_id === 1) {
