@@ -45,12 +45,12 @@ function displayTours(tours) {
         tourListNn.textContent = "Không có dữ liệu tour.";
         tourListTn.textContent = "Không có dữ liệu tour.";
     } else {
-        tours.forEach(({ title, price, duration, start_date, end_date, location, description, available_slots, category_id }) => {
+        tours.forEach(({ title, price, duration, start_date, end_date, location, description, available_slots, category_id, images }) => {
             if (category_id === 2) {
                 const tourNnCard = document.createElement("div");
                 tourNnCard.classList.add("tournn-card");
                 tourNnCard.innerHTML = `
-                    <img src="" alt="${location}">
+                    <img src="${images}" alt="${location}">
                     <h1>${title}</h1>
                     <h3>Điểm đến: ${location} (${description})</h3>
                     <p>Ngày đi: ${start_date}</p>
