@@ -145,6 +145,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
         0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: var(--primary-color);
 }
 
 .tournn-card img {
@@ -152,11 +153,17 @@ main {
 }
 
 .tournn-card h2 {
+    color: var(--dark-shades);
     padding-bottom: 0.5rem;
 }
 
 .tournn-card h3 {
+    color: var(--dark-shades);
     padding-bottom: 0.5rem;
+}
+
+.tournn-card p {
+    color: var(--dark-shades);
 }
 
 
