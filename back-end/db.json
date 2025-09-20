@@ -1,0 +1,448 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Du lịch trong nước",
+      "description": "Các tour khám phá Việt Nam từ Bắc tới Nam"
+    },
+    {
+      "id": 2,
+      "name": "Du lịch nước ngoài",
+      "description": "Các tour quốc tế đến các điểm đến nổi tiếng"
+    }
+  ],
+  "tours": [
+    {
+      "id": 201,
+      "title": "Khám phá Hà Giang",
+      "category_id": 1,
+      "price": 4500000,
+      "duration": "4N3Đ",
+      "start_date": "2025-10-01",
+      "end_date": "2025-10-04",
+      "location": "Hà Giang",
+      "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+      "images": [
+        "hagiang1.jpg"
+      ],
+      "available_slots": 20
+    },
+    {
+      "id": 202,
+      "title": "Du lịch Huế cổ kính",
+      "category_id": 1,
+      "price": 4700000,
+      "duration": "3N2Đ",
+      "start_date": "2025-11-05",
+      "end_date": "2025-11-07",
+      "location": "Huế",
+      "description": "Tham quan cố đô, lăng tẩm",
+      "images": [
+        "hue1.jpg"
+      ],
+      "available_slots": 18
+    },
+    {
+      "id": 203,
+      "title": "Đà Nẵng – Hội An",
+      "category_id": 1,
+      "price": 5200000,
+      "duration": "4N3Đ",
+      "start_date": "2025-10-15",
+      "end_date": "2025-10-18",
+      "location": "Đà Nẵng, Hội An",
+      "description": "Biển Mỹ Khê, phố cổ Hội An",
+      "images": [
+        "danang1.jpg"
+      ],
+      "available_slots": 25
+    },
+    {
+      "id": 204,
+      "title": "Phú Quốc nghỉ dưỡng",
+      "category_id": 1,
+      "price": 6900000,
+      "duration": "3N2Đ",
+      "start_date": "2025-10-20",
+      "end_date": "2025-10-22",
+      "location": "Phú Quốc",
+      "description": "Resort 5 sao, vé máy bay khứ hồi",
+      "images": [
+        "phuquoc1.jpg"
+      ],
+      "available_slots": 12
+    },
+    {
+      "id": 205,
+      "title": "Sa Pa – Fansipan",
+      "category_id": 1,
+      "price": 5600000,
+      "duration": "3N2Đ",
+      "start_date": "2025-10-30",
+      "end_date": "2025-11-01",
+      "location": "Lào Cai",
+      "description": "Chinh phục nóc nhà Đông Dương",
+      "images": [
+        "fansipan1.jpg"
+      ],
+      "available_slots": 20
+    },
+    {
+      "id": 206,
+      "title": "Nha Trang biển xanh",
+      "category_id": 1,
+      "price": 4800000,
+      "duration": "3N2Đ",
+      "start_date": "2025-11-12",
+      "end_date": "2025-11-14",
+      "location": "Nha Trang",
+      "description": "Tắm biển, lặn ngắm san hô",
+      "images": [
+        "nhatrang1.jpg"
+      ],
+      "available_slots": 22
+    },
+    {
+      "id": 207,
+      "title": "Miền Tây sông nước",
+      "category_id": 1,
+      "price": 3500000,
+      "duration": "2N1Đ",
+      "start_date": "2025-11-25",
+      "end_date": "2025-11-26",
+      "location": "Cần Thơ",
+      "description": "Chợ nổi Cái Răng, vườn trái cây",
+      "images": [
+        "mientay1.jpg"
+      ],
+      "available_slots": 28
+    },
+    {
+      "id": 208,
+      "title": "Quảng Bình – Phong Nha",
+      "category_id": 1,
+      "price": 5000000,
+      "duration": "3N2Đ",
+      "start_date": "2025-12-05",
+      "end_date": "2025-12-07",
+      "location": "Quảng Bình",
+      "description": "Động Phong Nha, hang Sơn Đoòng",
+      "images": [
+        "phongnha1.jpg"
+      ],
+      "available_slots": 16
+    },
+    {
+      "id": 209,
+      "title": "Du lịch Thái Lan",
+      "category_id": 2,
+      "price": 8500000,
+      "duration": "5N4Đ",
+      "start_date": "2025-11-10",
+      "end_date": "2025-11-14",
+      "location": "Bangkok, Pattaya",
+      "description": "Văn hóa, ẩm thực, mua sắm",
+      "images": [
+        "thailand1.jpg"
+      ],
+      "available_slots": 15
+    },
+    {
+      "id": 210,
+      "title": "Khám phá Angkor Wat",
+      "category_id": 2,
+      "price": 7800000,
+      "duration": "5N4Đ",
+      "start_date": "2025-12-01",
+      "end_date": "2025-12-05",
+      "location": "Siem Reap",
+      "description": "Kỳ quan cổ đại Khmer",
+      "images": [
+        "angkor1.jpg"
+      ],
+      "available_slots": 20
+    },
+    {
+      "id": 211,
+      "title": "Bali thiên đường nghỉ dưỡng",
+      "category_id": 2,
+      "price": 9200000,
+      "duration": "6N5Đ",
+      "start_date": "2025-12-15",
+      "end_date": "2025-12-20",
+      "location": "Bali",
+      "description": "Biển xanh, resort sang trọng",
+      "images": [
+        "bali1.jpg"
+      ],
+      "available_slots": 15
+    },
+    {
+      "id": 212,
+      "title": "Singapore hiện đại",
+      "category_id": 2,
+      "price": 8900000,
+      "duration": "4N3Đ",
+      "start_date": "2025-11-18",
+      "end_date": "2025-11-21",
+      "location": "Singapore",
+      "description": "Marina Bay, Sentosa",
+      "images": [
+        "singapore1.jpg"
+      ],
+      "available_slots": 18
+    },
+    {
+      "id": 213,
+      "title": "Nhật Bản mùa lá đỏ",
+      "category_id": 2,
+      "price": 18500000,
+      "duration": "7N6Đ",
+      "start_date": "2025-11-02",
+      "end_date": "2025-11-08",
+      "location": "Tokyo, Kyoto, Osaka",
+      "description": "Ngắm lá đỏ, văn hóa Nhật",
+      "images": [
+        "japan1.jpg"
+      ],
+      "available_slots": 10
+    },
+    {
+      "id": 214,
+      "title": "Hàn Quốc mùa đông",
+      "category_id": 2,
+      "price": 15000000,
+      "duration": "6N5Đ",
+      "start_date": "2025-12-10",
+      "end_date": "2025-12-15",
+      "location": "Seoul, Nami",
+      "description": "Trượt tuyết, ẩm thực Hàn",
+      "images": [
+        "korea1.jpg"
+      ],
+      "available_slots": 12
+    },
+    {
+      "id": 215,
+      "title": "Paris – Kinh đô ánh sáng",
+      "category_id": 2,
+      "price": 32000000,
+      "duration": "8N7Đ",
+      "start_date": "2025-12-20",
+      "end_date": "2025-12-27",
+      "location": "Paris",
+      "description": "Tháp Eiffel, bảo tàng Louvre",
+      "images": [
+        "paris1.jpg"
+      ],
+      "available_slots": 8
+    },
+    {
+      "id": 216,
+      "title": "Úc – Sydney & Melbourne",
+      "category_id": 2,
+      "price": 29500000,
+      "duration": "7N6Đ",
+      "start_date": "2025-12-05",
+      "end_date": "2025-12-11",
+      "location": "Sydney, Melbourne",
+      "description": "Nhà hát con sò, bãi biển Bondi",
+      "images": [
+        "australia1.jpg"
+      ],
+      "available_slots": 9
+    }
+  ],
+  "customers": [
+    {
+      "id": 301,
+      "full_name": "Nguyễn Văn A",
+      "email": "vana@example.com",
+      "phone": "0901111111",
+      "booked_tours": [
+        201
+      ]
+    },
+    {
+      "id": 302,
+      "full_name": "Trần Thị B",
+      "email": "thib@example.com",
+      "phone": "0902222222",
+      "booked_tours": [
+        209
+      ]
+    },
+    {
+      "id": 303,
+      "full_name": "Lê Minh Cường",
+      "email": "cuonglm@example.com",
+      "phone": "0903333333",
+      "booked_tours": [
+        202,
+        210
+      ]
+    },
+    {
+      "id": 304,
+      "full_name": "Phạm Thảo Vy",
+      "email": "thaovy@example.com",
+      "phone": "0904444444",
+      "booked_tours": [
+        204,
+        211
+      ]
+    },
+    {
+      "id": 305,
+      "full_name": "Ngô Thanh Tùng",
+      "email": "tungnt@example.com",
+      "phone": "0905555555",
+      "booked_tours": [
+        205
+      ]
+    },
+    {
+      "id": 306,
+      "full_name": "Vũ Thị Mai",
+      "email": "maivu@example.com",
+      "phone": "0906666666",
+      "booked_tours": [
+        206,
+        212
+      ]
+    },
+    {
+      "id": 307,
+      "full_name": "Đặng Quốc Huy",
+      "email": "huydq@example.com",
+      "phone": "0907777777",
+      "booked_tours": [
+        207
+      ]
+    },
+    {
+      "id": 308,
+      "full_name": "Lý Kim Ngân",
+      "email": "nganlk@example.com",
+      "phone": "0908888888",
+      "booked_tours": [
+        208,
+        213
+      ]
+    },
+    {
+      "id": 309,
+      "full_name": "Phan Văn Dũng",
+      "email": "dungpv@example.com",
+      "phone": "0909999999",
+      "booked_tours": [
+        214
+      ]
+    },
+    {
+      "id": 310,
+      "full_name": "Trương Minh Nhật",
+      "email": "nhattm@example.com",
+      "phone": "0910000000",
+      "booked_tours": [
+        203,
+        215
+      ]
+    },
+    {
+      "id": 311,
+      "full_name": "Nguyễn Thị Lan",
+      "email": "lannt@example.com",
+      "phone": "0911111111",
+      "booked_tours": [
+        216
+      ]
+    },
+    {
+      "id": 312,
+      "full_name": "Bùi Văn Khánh",
+      "email": "khanhbv@example.com",
+      "phone": "0912222222",
+      "booked_tours": [
+        201,
+        209
+      ]
+    },
+    {
+      "id": 313,
+      "full_name": "Hoàng Thị Hạnh",
+      "email": "hanhht@example.com",
+      "phone": "0913333333",
+      "booked_tours": [
+        202
+      ]
+    },
+    {
+      "id": 314,
+      "full_name": "Đỗ Minh Tuấn",
+      "email": "tuandm@example.com",
+      "phone": "0914444444",
+      "booked_tours": [
+        210,
+        203
+      ]
+    },
+    {
+      "id": 315,
+      "full_name": "Nguyễn Hoài Nam",
+      "email": "namnh@example.com",
+      "phone": "0915555555",
+      "booked_tours": [
+        204
+      ]
+    },
+    {
+      "id": 316,
+      "full_name": "Trần Thị Thu",
+      "email": "thutt@example.com",
+      "phone": "0916666666",
+      "booked_tours": [
+        211,
+        205
+      ]
+    },
+    {
+      "id": 317,
+      "full_name": "Phạm Văn Phúc",
+      "email": "phucpv@example.com",
+      "phone": "0917777777",
+      "booked_tours": [
+        206
+      ]
+    },
+    {
+      "id": 318,
+      "full_name": "Nguyễn Thị Hồng",
+      "email": "hongnth@example.com",
+      "phone": "0918888888",
+      "booked_tours": [
+        207,
+        212
+      ]
+    },
+    {
+      "id": 319,
+      "full_name": "Lê Quốc Bảo",
+      "email": "baolq@example.com",
+      "phone": "0919999999",
+      "booked_tours": [
+        208
+      ]
+    },
+    {
+      "id": 320,
+      "full_name": "Võ Thị Yến",
+      "email": "yenvt@example.com",
+      "phone": "0920000000",
+      "booked_tours": [
+        213,
+        214
+      ]
+    }
+  ]
+}
