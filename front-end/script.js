@@ -21,7 +21,6 @@ async function fetchTours() {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         const tours = await response.json();
-        console.log(tours);
         return tours;
     } catch (error) {
         const errorMsg = document.querySelector("#errorTour");
@@ -45,31 +44,35 @@ function displayTours(tours) {
         tourListNn.textContent = "Không có dữ liệu tour.";
         tourListTn.textContent = "Không có dữ liệu tour.";
     } else {
-        tours.forEach(({ title, price, duration, start_date, end_date, location, description, available_slots, category_id }) => {
+        tours.forEach(({ title, price, duration, start_date, end_date, location, description, available_slots, category_id, images }) => {
             if (category_id === 2) {
                 const tourNnCard = document.createElement("div");
                 tourNnCard.classList.add("tournn-card");
                 tourNnCard.innerHTML = `
-                    <img src="" alt="${location}">
-                    <h1>${title}</h1>
-                    <h3>Điểm đến: ${location} (${description})</h3>
-                    <p>Ngày đi: ${start_date}</p>
-                    <p>Ngày về: ${end_date} <span style="color:red;">(${duration})</span></p>
-                    <p>Giá: ${price}</p>
-                    <p>Số chỗ còn nhận: ${available_slots}</p>
+                    <img src="${images}" alt="${location}">
+                    <div>
+                        <h2>${title}</h2>
+                        <h3>Điểm đến: ${location} (${description})</h3>
+                        <p>Ngày đi: <strong>${start_date}</strong></p>
+                        <p>Ngày về: <strong>${end_date}</strong> <span style="color:red;font-weight:bolder;">(${duration})</span></p>
+                        <p>Giá: <span style="color:red;font-weight:bolder;">${price}đ</span></p>
+                        <p>Số chỗ còn nhận: <strong>${available_slots}</strong></p>
+                    </div>
             `;
                 tourListNn.appendChild(tourNnCard);
             } else if (category_id === 1) {
                 const tourTnCard = document.createElement("div");
                 tourTnCard.classList.add("tourtn-card");
                 tourTnCard.innerHTML = `
-                    <img src="" alt="${location}">
-                    <h1>${title}</h1>
-                    <h3>Điểm đến: ${location} (${description})</h3>
-                    <p>Ngày đi: ${start_date}</p>
-                    <p>Ngày về: ${end_date} <span style="color:red;">(${duration})</span></p>
-                    <p>Giá: ${price}</p>
-                    <p>Số chỗ còn nhận: ${available_slots}</p>
+                    <img src="${images}" alt="${location}">
+                    <div>
+                        <h2>${title}</h2>
+                        <h3>Điểm đến: ${location} (${description})</h3>
+                        <p>Ngày đi: <strong>${start_date}</strong></p>
+                        <p>Ngày về: <strong>${end_date}</strong> <span style="color:red;font-weight:bolder;">(${duration})</span></p>
+                        <p>Giá: <span style="color:red;font-weight:bolder;">${price}đ</span></p>
+                        <p>Số chỗ còn nhận: <strong>${available_slots}</strong></p>
+                    </div>
             `;
                 tourListTn.appendChild(tourTnCard);
             } else {
