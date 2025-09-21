@@ -119,6 +119,7 @@
 
 main {
     background-color: var(--light-shades);
+    padding-bottom: 5rem;
 }
 
 /* CSS TOUR NN */
