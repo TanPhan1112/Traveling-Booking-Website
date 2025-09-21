@@ -27,6 +27,14 @@ function myFunction() {
     }
 }
 
+var slider = document.getElementById("price");
+var output = document.getElementById("value");
+output.innerHTML = slider.value;
+
+slider.oninput = function () {
+    output.innerHTML = this.value;
+}
+
 async function fetchTours() {
     try {
         const response = await fetch('http://localhost:3000/tours');
@@ -47,15 +55,10 @@ function displayTours(tours) {
     const tourListNn = document.querySelector(".listtournn");
     tourListNn.textContent = "";
 
-    const tourListTn = document.querySelector(".listtourtn");
-    tourListTn.textContent = "";
-
     if (tours === null) {
         tourListNn.textContent = "Không có dữ liệu tour.";
-        tourListTn.textContent = "Không có dữ liệu tour.";
     } else if (tours.length === 0) {
         tourListNn.textContent = "Không có dữ liệu tour.";
-        tourListTn.textContent = "Không có dữ liệu tour.";
     } else {
         tours.forEach(({ title, price, duration, start_date, end_date, location, description, available_slots, category_id, images }) => {
             if (category_id === 2) {
@@ -69,28 +72,13 @@ function displayTours(tours) {
                         <p>Ngày đi: <strong>${start_date}</strong></p>
                         <p>Ngày về: <strong>${end_date}</strong> <span style="color:red;font-weight:bolder;">(${duration})</span></p>
                         <p>Giá: <span style="color:red;font-weight:bolder;">${price}đ</span></p>
-                        <p>Số chỗ còn nhận: <strong>${available_slots}</strong></p>
+                        <div class="detail">
+                            <p>Số chỗ còn nhận: <strong>${available_slots}</strong></p>
+                            <button style="color:red;font-weight:bolder;">XEM CHI TIẾT</button>
+                        </div>
                     </div>
             `;
                 tourListNn.appendChild(tourNnCard);
-            } else if (category_id === 1) {
-                const tourTnCard = document.createElement("div");
-                tourTnCard.classList.add("tourtn-card");
-                tourTnCard.innerHTML = `
-                    <img src="${images}" alt="${location}">
-                    <div>
-                        <h2>${title}</h2>
-                        <h3>Điểm đến: ${location} (${description})</h3>
-                        <p>Ngày đi: <strong>${start_date}</strong></p>
-                        <p>Ngày về: <strong>${end_date}</strong> <span style="color:red;font-weight:bolder;">(${duration})</span></p>
-                        <p>Giá: <span style="color:red;font-weight:bolder;">${price}đ</span></p>
-                        <p>Số chỗ còn nhận: <strong>${available_slots}</strong></p>
-                    </div>
-            `;
-                tourListTn.appendChild(tourTnCard);
-            } else {
-                tourListNn.textContent = "Không có dữ liệu tour.";
-                tourListTn.textContent = "Không có dữ liệu tour.";
             }
         });
     }
