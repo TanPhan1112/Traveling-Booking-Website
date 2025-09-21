@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Nước Ngoài</title>
+    <link rel="stylesheet" href="tournnstyle.css">
+    <script src="tournnscript.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="firstmenucolor">
+                <div class="firstmenu margin2sides">
+                    <p class="hotline" for="Hotline">&#9742; Hotline: <strong>1900xxxx</strong></p>
+                    <ul>
+                        <li><a href="#">Tin Tức</a></li>
+                        <li><a href="#">Giới Thiệu</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="secondmenucolor" id="mysecondmenu">
+                <div class="secondmenu margin2sides">
+                    <img src="images/logo.png" alt="logo">
+                    <ul id="categories">
+                        <li><a href="#">TOUR NƯỚC NGOÀI</a></li>
+                        <li><a href="#">TOUR TRONG NƯỚC</a></li>
+                        <li><a href="#">UPCOMING SERVICES...</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main-area">
+                <div class="tournn margin2sides">
+                    <h1>Tour nước ngoài</h1>
+                    <p id="errorTour"></p>
+                    <div class="tournn-grid">
+                        <div class="searchtournn">
+                            <p>Tìm chuyến đi phù hợp với bạn tại đây!</p>
+                            <div class="btn">
+                                <button>Trong nước</button>
+                                <button>Nước ngoài</button>
+                            </div>
+                            <p>Ngân sách bạn có</p>
+                            <input type="range" id="price" name="price" min="0" max="200000000">
+                            <p><span id="value"></span></p>
+                            <select name="departure">
+                                <option value="">Chọn điểm đi</option>
+                                <option value="TP. Hồ Chí Minh">TP. Hồ Chí Minh</option>
+                                <option value="Hà Nội">Hà Nội</option>
+                                <option value="Đà Nẵng">Đà Nẵng</option>
+                                <option value="Cần Thơ">Cần Thơ</option>
+                                <option value="Hải Phòng">Hải Phòng</option>
+                                <option value="Nha Trang">Nha Trang</option>
+                            </select>
+                            <select name="arrival">
+                                <option value="">Chọn điểm đến</option>
+                                <option value="Hà Giang">Hà Giang</option>
+                                <option value="Huế">Huế</option>
+                                <option value="Đà Nẵng">Đà Nẵng</option>
+                                <option value="Hội An">Hội An</option>
+                                <option value="Phú Quốc">Phú Quốc</option>
+                                <option value="Sa Pa">Sa Pa</option>
+                            </select>
+                            <p>Ngày khởi hành</p>
+                            <input type="text" id="startdate" placeholder="Từ ngày">
+                            <input type="text" id="enddate" placeholder="Đến ngày">
+                            <label class="bestprice">Tour giá tốt
+                                <input type="checkbox" name="checkbox">
+                            </label>
+                            <label class="lasthour">Tour giờ chót
+                                <input type="checkbox" name="checkbox">
+                            </label>
+                            <br><br>
+                            <input type="submit" value="TÌM TOUR">
+                        </div>
+                        <div class="listtournn"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footercolor">
+                <div class="footer-area margin2sides">
+                    <p>© 2025 Phan Đức Minh Tân</p>
+                    <nav>
+                        <a href="#">Điều khoản sử dụng</a>
+                        <a href="#">Chính sách bảo mật</a>
+                        <a href="#">Images được tạo bởi AI</a>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

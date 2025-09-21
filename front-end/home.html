@@ -14,7 +14,7 @@
         <header>
             <div class="firstmenucolor">
                 <div class="firstmenu margin2sides">
-                    <label class="hotline" for="Hotline">&#9742; Hotline: <strong>1900xxxx</strong></label>
+                    <p class="hotline" for="Hotline">&#9742; Hotline: <strong>1900xxxx</strong></p>
                     <ul>
                         <li><a href="#">Tin Tức</a></li>
                         <li><a href="#">Giới Thiệu</a></li>
@@ -26,7 +26,7 @@
                 <div class="secondmenu margin2sides">
                     <img src="images/logo.png" alt="logo">
                     <ul id="categories">
-                        <li><a href="#">TOUR NƯỚC NGOÀI</a></li>
+                        <li><a href="tournn.html">TOUR NƯỚC NGOÀI</a></li>
                         <li><a href="#">TOUR TRONG NƯỚC</a></li>
                         <li><a href="#">UPCOMING SERVICES...</a></li>
                     </ul>
@@ -38,12 +38,12 @@
             <div class="main-area">
                 <div class="tournn margin2sides">
                     <h1>Tour nước ngoài</h1>
-                    <label id="errorTour" for="error"></label>
+                    <p id="errorTour"></p>
                     <div class="listtournn"></div>
                 </div>
                 <div class="tourtn margin2sides">
                     <h1>Tour trong nước</h1>
-                    <label id="errorTour" for="error"></label>
+                    <p id="errorTour"></p>
                     <div class="listtourtn"></div>
                 </div>
             </div>
@@ -61,20 +61,6 @@
             </div>
         </footer>
     </div>
-    <script>
-        window.onscroll = function () { myFunction() };
-
-        var header = document.getElementById("mysecondmenu");
-        var sticky = header.offsetTop;
-
-        function myFunction() {
-            if (window.pageYOffset > sticky) {
-                header.classList.add("sticky");
-            } else {
-                header.classList.remove("sticky");
-            }
-        }
-    </script>
 </body>
 
 </html>

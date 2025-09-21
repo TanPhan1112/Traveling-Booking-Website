@@ -110,14 +110,6 @@
     width: 4rem;
 }
 
-/* CSS BANNER */
-
-.banner {
-    width: 100%;
-    object-fit: cover;
-    height: 35rem;
-}
-
 /* CSS MAIN */
 
 main {
@@ -132,21 +124,22 @@ main {
     padding: 3rem 0;
 }
 
-.listtournn {
+.tournn-grid {
     display: grid;
-    grid-template-columns: 1.5fr 1.5fr;
+    grid-template-columns: 2fr 4fr;
     gap: 1rem;
 }
 
 .tournn-card {
     display: grid;
-    grid-template-columns: 0.6fr 1fr;
+    grid-template-columns: 0.4fr 1fr;
     border: var(--dark-accent) solid 1px;
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
         0 8px 16px rgba(0, 0, 0, 0.2);
     background-color: var(--primary-color);
+    margin-bottom: 1rem;
 }
 
 .tournn-card img {
@@ -167,46 +160,18 @@ main {
     color: var(--dark-shades);
 }
 
-/* CSS TOUR TN */
-
-.tourtn>h1 {
-    color: var(--dark-shades);
-    padding: 3rem 0;
+.detail {
+    display: flex;
+    justify-content: space-between;
 }
 
-.listtourtn {
-    display: grid;
-    grid-template-columns: 1.5fr 1.5fr;
-    gap: 1rem;
-}
-
-.tourtn-card {
-    display: grid;
-    grid-template-columns: 0.6fr 1fr;
+.detail>button {
+    padding: 0.3rem;
+    border-radius: 5px;
     border: var(--dark-accent) solid 1px;
-    padding: 1rem;
-    border-radius: 10px;
+    background-color: var(--light-shades);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
         0 8px 16px rgba(0, 0, 0, 0.2);
-    background-color: var(--primary-color);
-}
-
-.tourtn-card img {
-    width: 10rem;
-}
-
-.tourtn-card h2 {
-    color: var(--dark-shades);
-    padding-bottom: 0.5rem;
-}
-
-.tourtn-card h3 {
-    color: var(--dark-shades);
-    padding-bottom: 0.5rem;
-}
-
-.tourtn-card p {
-    color: var(--dark-shades);
 }
 
 /* CSS FOOTER */
