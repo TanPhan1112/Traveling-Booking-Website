@@ -23,7 +23,7 @@
       "location": "Hà Giang",
       "description": "Cung đường hùng vĩ, văn hóa vùng cao",
       "images": [
-        "hagiang1.jpg"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/feature/tourlist/front-end/images/Hagiang.png"
       ],
       "available_slots": 20
     },
@@ -38,7 +38,7 @@
       "location": "Huế",
       "description": "Tham quan cố đô, lăng tẩm",
       "images": [
-        "hue1.jpg"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/feature/tourlist/front-end/images/Hue.png"
       ],
       "available_slots": 18
     },
@@ -53,7 +53,7 @@
       "location": "Đà Nẵng, Hội An",
       "description": "Biển Mỹ Khê, phố cổ Hội An",
       "images": [
-        "danang1.jpg"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/feature/tourlist/front-end/images/Hoian.png"
       ],
       "available_slots": 25
     },
@@ -68,7 +68,7 @@
       "location": "Phú Quốc",
       "description": "Resort 5 sao, vé máy bay khứ hồi",
       "images": [
-        "phuquoc1.jpg"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/feature/tourlist/front-end/images/Phuquoc.png"
       ],
       "available_slots": 12
     },
@@ -83,7 +83,7 @@
       "location": "Lào Cai",
       "description": "Chinh phục nóc nhà Đông Dương",
       "images": [
-        "fansipan1.jpg"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/feature/tourlist/front-end/images/Laocai.png"
       ],
       "available_slots": 20
     },
@@ -98,7 +98,7 @@
       "location": "Nha Trang",
       "description": "Tắm biển, lặn ngắm san hô",
       "images": [
-        "nhatrang1.jpg"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/feature/tourlist/front-end/images/Nhatrang.png"
       ],
       "available_slots": 22
     },
@@ -113,7 +113,7 @@
       "location": "Cần Thơ",
       "description": "Chợ nổi Cái Răng, vườn trái cây",
       "images": [
-        "mientay1.jpg"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/feature/tourlist/front-end/images/Cantho.png"
       ],
       "available_slots": 28
     },
@@ -128,7 +128,7 @@
       "location": "Quảng Bình",
       "description": "Động Phong Nha, hang Sơn Đoòng",
       "images": [
-        "phongnha1.jpg"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/feature/tourlist/front-end/images/Phongnha.png"
       ],
       "available_slots": 16
     },
