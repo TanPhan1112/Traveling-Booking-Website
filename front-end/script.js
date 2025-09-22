@@ -14,19 +14,6 @@
 //     }
 // }
 
-window.onscroll = function () { myFunction() };
-
-var header = document.getElementById("mysecondmenu");
-var sticky = header.offsetTop;
-
-function myFunction() {
-    if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-    } else {
-        header.classList.remove("sticky");
-    }
-}
-
 async function fetchTours() {
     try {
         const response = await fetch('http://localhost:3000/tours');

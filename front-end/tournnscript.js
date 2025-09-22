@@ -1,32 +1,3 @@
-// async function fetchCategories() {
-//     try {
-//         const response = await fetch('http://localhost:3000/categories');
-//         if (!response.ok) {
-//             throw new Error(`HTTP error! status: ${response.status}`);
-//         }
-//         const categories = await response.json();
-//         return categories;
-//     } catch (error) {
-//         const errorMsg = document.querySelector("#errorFetchCategories");
-//         errorMsg.textContent = "Lỗi Fetch API:" + error;
-//         console.error("Lỗi Fetch API:", error);
-//         return null;
-//     }
-// }
-
-window.onscroll = function () { myFunction() };
-
-var header = document.getElementById("mysecondmenu");
-var sticky = header.offsetTop;
-
-function myFunction() {
-    if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-    } else {
-        header.classList.remove("sticky");
-    }
-}
-
 var slider = document.getElementById("price");
 var output = document.getElementById("value");
 output.innerHTML = slider.value;
@@ -52,19 +23,19 @@ async function fetchTours() {
 }
 
 function displayTours(tours) {
-    const tourListNn = document.querySelector(".listtournn");
-    tourListNn.textContent = "";
+    const tourList = document.querySelector(".tourlist");
+    tourList.textContent = "";
 
     if (tours === null) {
-        tourListNn.textContent = "Không có dữ liệu tour.";
+        tourList.textContent = "Không có dữ liệu tour.";
     } else if (tours.length === 0) {
-        tourListNn.textContent = "Không có dữ liệu tour.";
+        tourList.textContent = "Không có dữ liệu tour.";
     } else {
         tours.forEach(({ title, price, duration, start_date, end_date, location, description, available_slots, category_id, images }) => {
             if (category_id === 2) {
-                const tourNnCard = document.createElement("div");
-                tourNnCard.classList.add("tournn-card");
-                tourNnCard.innerHTML = `
+                const tourCard = document.createElement("div");
+                tourCard.classList.add("tour-card");
+                tourCard.innerHTML = `
                     <img src="${images}" alt="${location}">
                     <div>
                         <h2>${title}</h2>
@@ -74,11 +45,11 @@ function displayTours(tours) {
                         <p>Giá: <span style="color:red;font-weight:bolder;">${price}đ</span></p>
                         <div class="detail">
                             <p>Số chỗ còn nhận: <strong>${available_slots}</strong></p>
-                            <button style="color:red;font-weight:bolder;">XEM CHI TIẾT</button>
+                            <button style="font-weight:bolder;">XEM CHI TIẾT</button>
                         </div>
                     </div>
             `;
-                tourListNn.appendChild(tourNnCard);
+                tourList.appendChild(tourCard);
             }
         });
     }
