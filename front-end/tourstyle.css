@@ -1,0 +1,144 @@
+/* CSS TOUR */
+
+.tour>h1 {
+    color: var(--dark-shades);
+    padding: 3rem 0;
+}
+
+.tour-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 4.5fr;
+    gap: 1rem;
+}
+
+.tour-card {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    border: var(--dark-accent) solid 1px;
+    padding: 1.3rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+        0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+}
+
+.tour-card img {
+    width: 10rem;
+}
+
+.tour-card h2 {
+    color: var(--dark-shades);
+    padding-bottom: 0.5rem;
+}
+
+.tour-card h3 {
+    color: var(--dark-shades);
+    padding-bottom: 0.5rem;
+}
+
+.tour-card p {
+    color: var(--dark-shades);
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail>button {
+    padding: 0.3rem;
+    color: var(--light-shades);
+    border-radius: 5px;
+    border: var(--dark-accent) solid 1px;
+    background-color: var(--light-shades);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+        0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: var(--dark-accent);
+}
+
+/* CSS TOUR SIDE SEARCH */
+
+.searchtour {
+    padding: 1.3rem;
+    border-radius: 10px;
+    border: var(--dark-accent) solid 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+        0 8px 16px rgba(0, 0, 0, 0.2);
+    max-height: fit-content;
+}
+
+.searchtour p {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.btn button {
+    padding: 1rem;
+    border-radius: 10px;
+    border: var(--dark-accent) solid 1px;
+    font-weight: bolder;
+    background-color: white;
+}
+
+#price {
+    width: 100%;
+}
+
+input[type=range] {
+    color: var(--dark-accent);
+}
+
+#price+p {
+    text-align: center;
+}
+
+#value {
+    font-weight: bolder;
+}
+
+.searchtour select {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: var(--dark-accent) solid 1px;
+}
+
+input[type=text] {
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: var(--dark-accent) solid 1px;
+}
+
+.checkbox {
+    width: 100%;
+}
+
+input[type=checkbox] {
+    margin-right: 0.5rem;
+}
+
+input[type=submit] {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: var(--dark-accent) solid 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+        0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: var(--dark-shades);
+    color: var(--light-shades);
+    font-weight: bolder;
+    font-size: 1rem;
+}
