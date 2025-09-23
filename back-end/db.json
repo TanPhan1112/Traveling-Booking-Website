@@ -23,7 +23,7 @@
       "location": "Hà Giang",
       "description": "Cung đường hùng vĩ, văn hóa vùng cao",
       "images": [
-        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/develop/front-end/images/Hagiang.png"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
       ],
       "available_slots": 20
     },
@@ -38,7 +38,7 @@
       "location": "Huế",
       "description": "Tham quan cố đô, lăng tẩm",
       "images": [
-        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/develop/front-end/images/Hue.png"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hue.png"
       ],
       "available_slots": 18
     },
@@ -53,7 +53,7 @@
       "location": "Đà Nẵng, Hội An",
       "description": "Biển Mỹ Khê, phố cổ Hội An",
       "images": [
-        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/develop/front-end/images/Hoian.png"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hoian.png"
       ],
       "available_slots": 25
     },
@@ -68,7 +68,7 @@
       "location": "Phú Quốc",
       "description": "Resort 5 sao, vé máy bay khứ hồi",
       "images": [
-        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/develop/front-end/images/Phuquoc.png"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phuquoc.png"
       ],
       "available_slots": 12
     },
@@ -83,7 +83,7 @@
       "location": "Lào Cai",
       "description": "Chinh phục nóc nhà Đông Dương",
       "images": [
-        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/develop/front-end/images/Laocai.png"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Laocai.png"
       ],
       "available_slots": 20
     },
@@ -98,7 +98,7 @@
       "location": "Nha Trang",
       "description": "Tắm biển, lặn ngắm san hô",
       "images": [
-        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/develop/front-end/images/Nhatrang.png"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
       ],
       "available_slots": 22
     },
@@ -113,7 +113,7 @@
       "location": "Cần Thơ",
       "description": "Chợ nổi Cái Răng, vườn trái cây",
       "images": [
-        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/develop/front-end/images/Cantho.png"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Cantho.png"
       ],
       "available_slots": 28
     },
@@ -128,7 +128,7 @@
       "location": "Quảng Bình",
       "description": "Động Phong Nha, hang Sơn Đoòng",
       "images": [
-        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/develop/front-end/images/Phongnha.png"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
       ],
       "available_slots": 16
     },
@@ -143,7 +143,7 @@
       "location": "Bangkok, Pattaya",
       "description": "Văn hóa, ẩm thực, mua sắm",
       "images": [
-        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/develop/front-end/images/Pattaya.png"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
       ],
       "available_slots": 15
     },
@@ -158,7 +158,7 @@
       "location": "Siem Reap",
       "description": "Kỳ quan cổ đại Khmer",
       "images": [
-        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/develop/front-end/images/SiemReap.png"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/SiemReap.png"
       ],
       "available_slots": 20
     },
@@ -173,7 +173,7 @@
       "location": "Bali",
       "description": "Biển xanh, resort sang trọng",
       "images": [
-        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/develop/front-end/images/Bali.png"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
       ],
       "available_slots": 15
     },
@@ -188,7 +188,7 @@
       "location": "Singapore",
       "description": "Marina Bay, Sentosa",
       "images": [
-        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/develop/front-end/images/Singapore.png"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
       ],
       "available_slots": 18
     },
@@ -203,7 +203,7 @@
       "location": "Tokyo, Kyoto, Osaka",
       "description": "Ngắm lá đỏ, văn hóa Nhật",
       "images": [
-        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/develop/front-end/images/Kyoto.png"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Kyoto.png"
       ],
       "available_slots": 10
     },
@@ -218,7 +218,7 @@
       "location": "Seoul, Nami",
       "description": "Trượt tuyết, ẩm thực Hàn",
       "images": [
-        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/develop/front-end/images/Nami.png"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nami.png"
       ],
       "available_slots": 12
     },
@@ -233,7 +233,7 @@
       "location": "Paris",
       "description": "Tháp Eiffel, bảo tàng Louvre",
       "images": [
-        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/develop/front-end/images/Paris.png"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Paris.png"
       ],
       "available_slots": 8
     },
@@ -248,7 +248,7 @@
       "location": "Sydney, Melbourne",
       "description": "Nhà hát con sò, bãi biển Bondi",
       "images": [
-        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/develop/front-end/images/Melbourne.png"
+        "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
       ],
       "available_slots": 9
     }
