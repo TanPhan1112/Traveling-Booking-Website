@@ -1,22 +1,10 @@
-// async function fetchCategories() {
-//     try {
-//         const response = await fetch('http://localhost:3000/categories');
-//         if (!response.ok) {
-//             throw new Error(`HTTP error! status: ${response.status}`);
-//         }
-//         const categories = await response.json();
-//         return categories;
-//     } catch (error) {
-//         const errorMsg = document.querySelector("#errorFetchCategories");
-//         errorMsg.textContent = "Lỗi Fetch API:" + error;
-//         console.error("Lỗi Fetch API:", error);
-//         return null;
-//     }
-// }
+const url = new URL(window.location.href);
+const searchParams = url.searchParams;
+const id = searchParams.get('id');
 
 async function fetchTours() {
     try {
-        const response = await fetch(`http://localhost:3000/tours`);
+        const response = await fetch(`http://localhost:3000/tours?id=${id}`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -30,12 +18,9 @@ async function fetchTours() {
     }
 }
 
-function displayTours(tours) {
-    const tourListNn = document.querySelector(".listtournn");
+function displayDetail(tours) {
+    const tourListNn = document.querySelector(".detail");
     tourListNn.textContent = "";
-
-    const tourListTn = document.querySelector(".listtourtn");
-    tourListTn.textContent = "";
 
     if (tours === null) {
         tourListNn.textContent = "Không có dữ liệu tour.";
@@ -88,5 +73,3 @@ function displayTours(tours) {
         });
     }
 }
-
-fetchTours().then((data) => displayTours(data));
