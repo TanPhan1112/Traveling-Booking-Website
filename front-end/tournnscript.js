@@ -8,7 +8,7 @@ slider.oninput = function () {
 
 async function fetchTours() {
     try {
-        const response = await fetch('http://localhost:3000/tours');
+        const response = await fetch('http://localhost:3000/tours?category_id=2');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -31,28 +31,33 @@ function displayTours(tours) {
     } else if (tours.length === 0) {
         tourList.textContent = "Không có dữ liệu tour.";
     } else {
-        tours.forEach(({ title, price, duration, start_date, end_date, location, description, available_slots, category_id, images }) => {
-            if (category_id === 2) {
-                const tourCard = document.createElement("div");
-                tourCard.classList.add("tour-card");
-                tourCard.innerHTML = `
-                    <img src="${images}" alt="${location}">
-                    <div>
-                        <h2>${title}</h2>
-                        <h3>Điểm đến: ${location} (${description})</h3>
-                        <p>Ngày đi: <strong>${start_date}</strong></p>
-                        <p>Ngày về: <strong>${end_date}</strong> <span style="color:red;font-weight:bolder;">(${duration})</span></p>
-                        <p>Giá: <span style="color:red;font-weight:bolder;">${price}đ</span></p>
-                        <div class="detail">
-                            <p>Số chỗ còn nhận: <strong>${available_slots}</strong></p>
-                            <button style="font-weight:bolder;">XEM CHI TIẾT</button>
-                        </div>
+        tours.forEach(({ id, title, price, duration, start_date, end_date, location, description, available_slots, images }) => {
+            const tourCard = document.createElement("div");
+            tourCard.classList.add("tour-card");
+            tourCard.innerHTML = `
+                <div><img src="${images}" alt="${location}"></div>
+                <div>
+                    <a style="text-decoration:none;" href="detail.html?id=${id}"><h2>${title}</h2></a>
+                    <h3>Điểm đến: ${location} (${description})</h3>
+                    <p>Ngày đi: <strong>${start_date}</strong></p>
+                    <p>Ngày về: <strong>${end_date}</strong> <span style="color:red;font-weight:bolder;">(${duration})</span></p>
+                    <p>Giá: <span style="color:red;font-weight:bolder;">${price.toLocaleString('vi-VN', {
+                style: 'currency',
+                currency: 'VND',
+            })}</span></p>
+                    <div class="detail">
+                        <p>Số chỗ còn nhận: <strong>${available_slots}</strong></p>
+                        <button onclick="tourDetail(${id})" style="font-weight:bolder;">XEM CHI TIẾT</button>
                     </div>
+                </div>
             `;
-                tourList.appendChild(tourCard);
-            }
+            tourList.appendChild(tourCard);
         });
     }
 }
 
 fetchTours().then((data) => displayTours(data));
+
+function tourDetail(id) {
+    window.location.href = `detail.html?id=${id}`;
+}

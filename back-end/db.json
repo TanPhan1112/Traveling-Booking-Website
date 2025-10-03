@@ -456,5 +456,52 @@
       "email": "tan@gmail.com",
       "password": "87654321"
     }
+  ],
+  "featured_tours": [
+    {
+      "id": "FT001",
+      "tour_id": 201,
+      "title": "Khám phá Hà Giang",
+      "price": 4500000,
+      "duration": "4N3Đ",
+      "location": "Hà Giang",
+      "image": "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+    },
+    {
+      "id": "FT002",
+      "tour_id": 204,
+      "title": "Phú Quốc nghỉ dưỡng",
+      "price": 6900000,
+      "duration": "3N2Đ",
+      "location": "Phú Quốc",
+      "image": "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phuquoc.png"
+    },
+    {
+      "id": "FT003",
+      "tour_id": 209,
+      "title": "Du lịch Thái Lan – Bangkok & Pattaya",
+      "price": 8500000,
+      "duration": "5N4Đ",
+      "location": "Bangkok, Pattaya",
+      "image": "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+    },
+    {
+      "id": "FT004",
+      "tour_id": 213,
+      "title": "Nhật Bản mùa lá đỏ",
+      "price": 18500000,
+      "duration": "7N6Đ",
+      "location": "Tokyo, Kyoto, Osaka",
+      "image": "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Kyoto.png"
+    },
+    {
+      "id": "FT005",
+      "tour_id": 211,
+      "title": "Bali thiên đường nghỉ dưỡng",
+      "price": 9200000,
+      "duration": "6N5Đ",
+      "location": "Bali",
+      "image": "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
+    }
   ]
 }

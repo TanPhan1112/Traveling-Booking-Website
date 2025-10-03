@@ -1,19 +1,3 @@
-// async function fetchCategories() {
-//     try {
-//         const response = await fetch('http://localhost:3000/categories');
-//         if (!response.ok) {
-//             throw new Error(`HTTP error! status: ${response.status}`);
-//         }
-//         const categories = await response.json();
-//         return categories;
-//     } catch (error) {
-//         const errorMsg = document.querySelector("#errorFetchCategories");
-//         errorMsg.textContent = "Lỗi Fetch API:" + error;
-//         console.error("Lỗi Fetch API:", error);
-//         return null;
-//     }
-// }
-
 async function fetchTours() {
     try {
         const response = await fetch(`http://localhost:3000/tours`);
@@ -49,9 +33,9 @@ function displayTours(tours) {
                 const tourNnCard = document.createElement("div");
                 tourNnCard.classList.add("tournn-card");
                 tourNnCard.innerHTML = `
-                    <img src="${images}" alt="${location}">
+                    <div><img src="${images}" alt="${location}"></div>
                     <div>
-                        <a href="detail.html?id=${id}"<h2>${title}</h2></a>
+                        <a style="text-decoration:none;" href="detail.html?id=${id}"><h2>${title}</h2></a>
                         <h3>Điểm đến: ${location} (${description})</h3>
                         <p>Ngày đi: <strong>${start_date}</strong></p>
                         <p>Ngày về: <strong>${end_date}</strong> <span style="color:red;font-weight:bolder;">(${duration})</span></p>
@@ -67,9 +51,9 @@ function displayTours(tours) {
                 const tourTnCard = document.createElement("div");
                 tourTnCard.classList.add("tourtn-card");
                 tourTnCard.innerHTML = `
-                    <img src="${images}" alt="${location}">
+                    <div><img src="${images}" alt="${location}"></div>
                     <div>
-                        <h2>${title}</h2>
+                        <a style="text-decoration:none;" href="detail.html?id=${id}"><h2>${title}</h2></a>
                         <h3>Điểm đến: ${location} (${description})</h3>
                         <p>Ngày đi: <strong>${start_date}</strong></p>
                         <p>Ngày về: <strong>${end_date}</strong> <span style="color:red;font-weight:bolder;">(${duration})</span></p>

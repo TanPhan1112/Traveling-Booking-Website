@@ -22,8 +22,21 @@
     margin-bottom: 1rem;
 }
 
+.tour-card>div:first-child {
+    overflow: hidden;
+    max-width: fit-content;
+}
+
 .tour-card img {
     width: 10rem;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(80%);
+}
+
+.tour-card:hover img {
+    filter: brightness(100%);
+    transform: scale(1.5);
 }
 
 .tour-card h2 {

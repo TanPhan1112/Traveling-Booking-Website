@@ -29,8 +29,22 @@
         0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+.tournn-card>div {
+    overflow: hidden;
+    max-width: fit-content;
+}
+
 .tournn-card img {
     width: 10rem;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(80%);
+
+}
+
+.tournn-card:hover img {
+    filter: brightness(100%);
+    transform: scale(1.5);
 }
 
 .tournn-card h2 {
@@ -70,8 +84,21 @@
         0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+.tourtn-card>div {
+    overflow: hidden;
+    max-width: fit-content;
+}
+
 .tourtn-card img {
     width: 10rem;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(80%);
+}
+
+.tourtn-card:hover img {
+    filter: brightness(100%);
+    transform: scale(1.5);
 }
 
 .tourtn-card h2 {

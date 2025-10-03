@@ -31,8 +31,10 @@ logIn.addEventListener('submit', async (e) => {
     const checked = await checkAccount(inputEmail, inputPassword);
 
     if (checked.length !== 0) {
+        console.log(checked[0]);
         error.innerHTML = "Đăng nhập thành công!!!";
-        return;
+        localStorage.setItem("user", JSON.stringify(checked[0]));
+        window.location.href = "index.html";
     } else {
         error.innerHTML = "Sai email hoặc password!!!";
         return;

@@ -55,4 +55,5 @@ signUp.addEventListener('submit', async (e) => {
 
     const user = { full_name: inputFullName, email: inputEmail, password: inputPassword };
     postAccount(user);
+    window.location.href = "login.html";
 });
