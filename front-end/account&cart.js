@@ -23,5 +23,5 @@ if (cart.length !== 0) {
 
 function logOut() {
     localStorage.removeItem("user");
-    window.location.href = "logout.html";
+    window.location.href = "index.html";
 }
