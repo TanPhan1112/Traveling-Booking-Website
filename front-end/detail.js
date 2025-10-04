@@ -20,7 +20,7 @@ async function fetchTours() {
 }
 
 function displayDetail(tours) {
-    const tourDetail = document.querySelector(".tourdetail");
+    const tourDetail = document.querySelector(".tour-detail");
     tourDetail.textContent = "";
 
     if (tours === null) {

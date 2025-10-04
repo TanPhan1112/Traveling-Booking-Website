@@ -21,6 +21,8 @@
       "start_date": "2025-10-01",
       "end_date": "2025-10-04",
       "location": "Hà Giang",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Hà Giang",
       "description": "Cung đường hùng vĩ, văn hóa vùng cao",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
@@ -36,6 +38,8 @@
       "start_date": "2025-11-05",
       "end_date": "2025-11-07",
       "location": "Huế",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Huế",
       "description": "Tham quan cố đô, lăng tẩm",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hue.png"
@@ -51,6 +55,8 @@
       "start_date": "2025-10-15",
       "end_date": "2025-10-18",
       "location": "Đà Nẵng, Hội An",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Đà Nẵng",
       "description": "Biển Mỹ Khê, phố cổ Hội An",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hoian.png"
@@ -66,6 +72,8 @@
       "start_date": "2025-10-20",
       "end_date": "2025-10-22",
       "location": "Phú Quốc",
+      "departure_location": "TP. Hồ Chí Minh",
+      "arrival_location": "Phú Quốc",
       "description": "Resort 5 sao, vé máy bay khứ hồi",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phuquoc.png"
@@ -81,6 +89,8 @@
       "start_date": "2025-10-30",
       "end_date": "2025-11-01",
       "location": "Lào Cai",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Sa Pa",
       "description": "Chinh phục nóc nhà Đông Dương",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Laocai.png"
@@ -96,6 +106,8 @@
       "start_date": "2025-11-12",
       "end_date": "2025-11-14",
       "location": "Nha Trang",
+      "departure_location": "TP. Hồ Chí Minh",
+      "arrival_location": "Nha Trang",
       "description": "Tắm biển, lặn ngắm san hô",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
@@ -111,6 +123,8 @@
       "start_date": "2025-11-25",
       "end_date": "2025-11-26",
       "location": "Cần Thơ",
+      "departure_location": "TP. Hồ Chí Minh",
+      "arrival_location": "Cần Thơ",
       "description": "Chợ nổi Cái Răng, vườn trái cây",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Cantho.png"
@@ -126,6 +140,8 @@
       "start_date": "2025-12-05",
       "end_date": "2025-12-07",
       "location": "Quảng Bình",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Quảng Bình",
       "description": "Động Phong Nha, hang Sơn Đoòng",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
@@ -141,6 +157,8 @@
       "start_date": "2025-11-10",
       "end_date": "2025-11-14",
       "location": "Bangkok, Pattaya",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Bangkok",
       "description": "Văn hóa, ẩm thực, mua sắm",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
@@ -156,6 +174,8 @@
       "start_date": "2025-12-01",
       "end_date": "2025-12-05",
       "location": "Siem Reap",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Siem Reap",
       "description": "Kỳ quan cổ đại Khmer",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/SiemReap.png"
@@ -171,6 +191,8 @@
       "start_date": "2025-12-15",
       "end_date": "2025-12-20",
       "location": "Bali",
+      "departure_location": "TP. Hồ Chí Minh",
+      "arrival_location": "Bali",
       "description": "Biển xanh, resort sang trọng",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
@@ -186,6 +208,8 @@
       "start_date": "2025-11-18",
       "end_date": "2025-11-21",
       "location": "Singapore",
+      "departure_location": "TP. Hồ Chí Minh",
+      "arrival_location": "Singapore",
       "description": "Marina Bay, Sentosa",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
@@ -201,6 +225,8 @@
       "start_date": "2025-11-02",
       "end_date": "2025-11-08",
       "location": "Tokyo, Kyoto, Osaka",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Tokyo",
       "description": "Ngắm lá đỏ, văn hóa Nhật",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Kyoto.png"
@@ -216,6 +242,8 @@
       "start_date": "2025-12-10",
       "end_date": "2025-12-15",
       "location": "Seoul, Nami",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Seoul",
       "description": "Trượt tuyết, ẩm thực Hàn",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nami.png"
@@ -231,6 +259,8 @@
       "start_date": "2025-12-20",
       "end_date": "2025-12-27",
       "location": "Paris",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Paris",
       "description": "Tháp Eiffel, bảo tàng Louvre",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Paris.png"
@@ -246,6 +276,8 @@
       "start_date": "2025-12-05",
       "end_date": "2025-12-11",
       "location": "Sydney, Melbourne",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Sydney",
       "description": "Nhà hát con sò, bãi biển Bondi",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
@@ -454,6 +486,12 @@
       "id": "05ba",
       "full_name": "Tan",
       "email": "tan@gmail.com",
+      "password": "87654321"
+    },
+    {
+      "id": "9533",
+      "full_name": "Tan",
+      "email": "minhtan111294@gmail.com",
       "password": "87654321"
     }
   ],

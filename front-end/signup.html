@@ -5,19 +5,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="menustyle.css">
+    <link rel="stylesheet" href="login&signup.css">
+    <script src="signup.js" defer></script>
+    <script src="account&cart.js" defer></script>
 </head>
 
 <body>
-    <h1>Đăng Ký</h1>
-    <form id="signup">
-        Họ và tên: <input type="text" id="fullName">
-        Email: <input type="email" id="email">
-        Password: <input type="password" id="password">
-        Nhập lại Password: <input type="password" id="passwordMatch">
-        <button type="submit">Đăng Ký</button>
-    </form>
-    <p style="color: red;" id="error"></p>
-    <script src="signup.js"></script>
+    <header>
+        <div class="firstmenucolor">
+            <div class="firstmenu margin2sides">
+                <p class="hotline" for="Hotline">&#9742; Hotline: <strong>1900xxxx</strong></p>
+                <ul>
+                    <li><a href="#">Tin Tức</a></li>
+                    <li><a href="#">Giới Thiệu</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                    <li id="loggedin">
+                        <a href="login.html">Đăng nhập</a>
+                    </li>
+                    <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <p style="color: white;display: inline;" id="numbertour"></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="secondmenucolor" id="mysecondmenu">
+            <div class="secondmenu margin2sides">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <ul id="categories">
+                    <li><a href="tournn.html">TOUR NƯỚC NGOÀI</a></li>
+                    <li><a href="tourtn.html">TOUR TRONG NƯỚC</a></li>
+                    <li><a href="#">UPCOMING SERVICES...</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="login-container margin2sides">
+            <h1>Đăng Ký</h1>
+            <form id="signup">
+                <p>Họ và tên</p>
+                <input type="text" id="fullName">
+                <p>Email</p>
+                <input type="email" id="email">
+                <p>Password</p>
+                <input type="password" id="password">
+                <p>Nhập lại Password</p>
+                <input type="password" id="passwordMatch">
+                <div id="btn">
+                    <button type="submit">Đăng Ký</button>
+                </div>
+            </form>
+            <p style="color: red;" id="error"></p>
+        </div>
+    </main>
+    <footer>
+        <div class="footercolor">
+            <div class="footer-area margin2sides">
+                <p>© 2025 Phan Đức Minh Tân</p>
+                <nav>
+                    <a href="#">Điều khoản sử dụng</a>
+                    <a href="#">Chính sách bảo mật</a>
+                    <a href="#">Images được tạo bởi AI</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

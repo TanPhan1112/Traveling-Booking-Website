@@ -1,10 +1,13 @@
-var slider = document.getElementById("price");
-var output = document.getElementById("value");
-output.innerHTML = slider.value;
+const rangeInput = document.getElementById('myRange');
+const rangeValueSpan = document.getElementById('rangeValue');
 
-slider.oninput = function () {
-    output.innerHTML = this.value;
-}
+// Initial display
+rangeValueSpan.textContent = parseInt(rangeInput.value).toLocaleString('vi-VN', { style: 'currency', currency: 'VND', });
+
+// Update display when the range input changes
+rangeInput.addEventListener('input', () => {
+    rangeValueSpan.textContent = parseInt(rangeInput.value).toLocaleString('vi-VN', { style: 'currency', currency: 'VND', });
+});
 
 async function fetchTours() {
     try {

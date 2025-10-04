@@ -5,9 +5,9 @@ if (Object.keys(user).length !== 0) {
     loggedIn.innerHTML = `
         <a href="profile.html">${user.full_name}</a>
         <div class="dropdown-content">
-            <a href="#">Profile</a>
-            <a href="cart.html">My cart</a>
-            <a href="logout.html">Đăng xuất</a>
+            <a href="#">Hồ sơ</a>
+            <a href="cart.html">Giỏ hàng</a>
+            <button onclick="logOut()">Đăng xuất</button>
         </div>
     `;
 }
@@ -19,4 +19,9 @@ if (cart.length !== 0) {
     numberTour.innerHTML = `
         ${cart.length}
     `;
+}
+
+function logOut() {
+    localStorage.removeItem("user");
+    window.location.href = "logout.html";
 }

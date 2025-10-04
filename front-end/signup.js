@@ -44,16 +44,17 @@ signUp.addEventListener('submit', async (e) => {
         error.innerHTML = "Password không khớp!!!";
     } else if (inputPassword.length < 8) {
         error.innerHTML = "Password không đủ 8 ký tự!!!";
+    } else {
+        const checked = await checkEmail(inputEmail);
+
+        if (checked.length !== 0) {
+            error.innerHTML = "Email đã được đăng ký!!!";
+            return;
+        }
+
+        const user = { full_name: inputFullName, email: inputEmail, password: inputPassword };
+
+        postAccount(user);
+        window.location.href = "login.html";
     }
-
-    const checked = await checkEmail(inputEmail);
-
-    if (checked.length !== 0) {
-        error.innerHTML = "Email đã được đăng ký!!!";
-        return;
-    }
-
-    const user = { full_name: inputFullName, email: inputEmail, password: inputPassword };
-    postAccount(user);
-    window.location.href = "login.html";
 });

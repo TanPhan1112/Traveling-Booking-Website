@@ -85,30 +85,16 @@
     padding-bottom: 2rem;
 }
 
-.btn {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding-bottom: 1rem;
-}
-
-.btn button {
-    padding: 1rem;
-    border-radius: 10px;
-    border: var(--dark-accent) solid 1px;
-    font-weight: bolder;
-    background-color: white;
-}
-
 #price {
     width: 100%;
 }
 
 input[type=range] {
+    width: 100%;
     color: var(--dark-accent);
 }
 
-#price+p {
+#price {
     text-align: center;
 }
 

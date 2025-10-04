@@ -27,11 +27,6 @@
                         <li><a href="#">Liên hệ</a></li>
                         <li id="loggedin">
                             <a href="login.html">Đăng nhập</a>
-                            <div class="dropdown-content">
-                                <a href="#">Profile</a>
-                                <a href="cart.html">My cart</a>
-                                <a href="logout.html">Đăng xuất</a>
-                            </div>
                         </li>
                         <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
                             <p style="color: white;display: inline;" id="numbertour"></p>
@@ -58,13 +53,9 @@
                     <div class="tour-grid">
                         <div class="searchtour">
                             <p>Tìm chuyến đi phù hợp với bạn tại đây!</p>
-                            <div class="btn">
-                                <button>Trong nước</button>
-                                <button>Nước ngoài</button>
-                            </div>
                             <p>Ngân sách bạn có</p>
-                            <input type="range" id="price" name="price" min="0" max="200000000">
-                            <p><span id="value"></span>VNĐ</p>
+                            <input type="range" id="myRange" min="0" max="200000000" value="5000000">
+                            <p id="price"><span id="rangeValue"></span></p>
                             <select name="departure">
                                 <option value="">Chọn điểm đi</option>
                                 <option value="TP. Hồ Chí Minh">TP. Hồ Chí Minh</option>

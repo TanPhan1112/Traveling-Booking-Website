@@ -25,18 +25,18 @@ logIn.addEventListener('submit', async (e) => {
     const inputPassword = password.value;
 
     if (!inputEmail || !inputPassword) {
-        error.innerHTML = "Vui lòng không bỏ trống!!!";
-    }
-
-    const checked = await checkAccount(inputEmail, inputPassword);
-
-    if (checked.length !== 0) {
-        console.log(checked[0]);
-        error.innerHTML = "Đăng nhập thành công!!!";
-        localStorage.setItem("user", JSON.stringify(checked[0]));
-        window.location.href = "index.html";
+        error.innerHTML = "Vui lòng không bỏ trống Email hoặc Password!!!";
     } else {
-        error.innerHTML = "Sai email hoặc password!!!";
-        return;
+        const checked = await checkAccount(inputEmail, inputPassword);
+
+        if (checked.length !== 0) {
+            console.log(checked[0]);
+            error.innerHTML = "Đăng nhập thành công!!!";
+            localStorage.setItem("user", JSON.stringify(checked[0]));
+            window.location.href = "index.html";
+        } else {
+            error.innerHTML = "Sai email hoặc password!!!";
+            return;
+        }
     }
 });
