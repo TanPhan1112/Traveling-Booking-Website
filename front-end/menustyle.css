@@ -66,6 +66,44 @@
     color: var(--light-shades);
 }
 
+/* CSS DROPDOWN MENU */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--dark-shades);
+    min-width: 5rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: var(--light-shades);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content button {
+    color: var(--light-shades);
+    padding: 12px 16px;
+    background-color: var(--dark-shades);
+    border: none;
+    font-size: 1.1rem;
+}
+
+.dropdown-content button:hover {
+    background-color: var(--dark-accent);
+}
+
+.dropdown-content a:hover {
+    background-color: var(--dark-accent);
+}
+
+#loggedin:hover .dropdown-content {
+    display: block;
+}
+
 /* CSS SECOND MENU */
 
 .sticky {
@@ -113,7 +151,7 @@
 /* CSS MAIN */
 
 main {
-    background-color: var(--light-shades);
+    background-color: white;
     padding-bottom: 3rem;
 }
 

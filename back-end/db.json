@@ -1,19 +1,19 @@
 {
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Du lịch trong nước",
       "description": "Các tour khám phá Việt Nam từ Bắc tới Nam"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Du lịch nước ngoài",
       "description": "Các tour quốc tế đến các điểm đến nổi tiếng"
     }
   ],
   "tours": [
     {
-      "id": 201,
+      "id": "201",
       "title": "Khám phá Hà Giang",
       "category_id": 1,
       "price": 4500000,
@@ -21,6 +21,8 @@
       "start_date": "2025-10-01",
       "end_date": "2025-10-04",
       "location": "Hà Giang",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Hà Giang",
       "description": "Cung đường hùng vĩ, văn hóa vùng cao",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
@@ -28,7 +30,7 @@
       "available_slots": 20
     },
     {
-      "id": 202,
+      "id": "202",
       "title": "Du lịch Huế cổ kính",
       "category_id": 1,
       "price": 4700000,
@@ -36,6 +38,8 @@
       "start_date": "2025-11-05",
       "end_date": "2025-11-07",
       "location": "Huế",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Huế",
       "description": "Tham quan cố đô, lăng tẩm",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hue.png"
@@ -43,7 +47,7 @@
       "available_slots": 18
     },
     {
-      "id": 203,
+      "id": "203",
       "title": "Đà Nẵng – Hội An",
       "category_id": 1,
       "price": 5200000,
@@ -51,6 +55,8 @@
       "start_date": "2025-10-15",
       "end_date": "2025-10-18",
       "location": "Đà Nẵng, Hội An",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Đà Nẵng",
       "description": "Biển Mỹ Khê, phố cổ Hội An",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hoian.png"
@@ -58,7 +64,7 @@
       "available_slots": 25
     },
     {
-      "id": 204,
+      "id": "204",
       "title": "Phú Quốc nghỉ dưỡng",
       "category_id": 1,
       "price": 6900000,
@@ -66,6 +72,8 @@
       "start_date": "2025-10-20",
       "end_date": "2025-10-22",
       "location": "Phú Quốc",
+      "departure_location": "TP. Hồ Chí Minh",
+      "arrival_location": "Phú Quốc",
       "description": "Resort 5 sao, vé máy bay khứ hồi",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phuquoc.png"
@@ -73,7 +81,7 @@
       "available_slots": 12
     },
     {
-      "id": 205,
+      "id": "205",
       "title": "Sa Pa – Fansipan",
       "category_id": 1,
       "price": 5600000,
@@ -81,6 +89,8 @@
       "start_date": "2025-10-30",
       "end_date": "2025-11-01",
       "location": "Lào Cai",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Sa Pa",
       "description": "Chinh phục nóc nhà Đông Dương",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Laocai.png"
@@ -88,7 +98,7 @@
       "available_slots": 20
     },
     {
-      "id": 206,
+      "id": "206",
       "title": "Nha Trang biển xanh",
       "category_id": 1,
       "price": 4800000,
@@ -96,6 +106,8 @@
       "start_date": "2025-11-12",
       "end_date": "2025-11-14",
       "location": "Nha Trang",
+      "departure_location": "TP. Hồ Chí Minh",
+      "arrival_location": "Nha Trang",
       "description": "Tắm biển, lặn ngắm san hô",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
@@ -103,7 +115,7 @@
       "available_slots": 22
     },
     {
-      "id": 207,
+      "id": "207",
       "title": "Miền Tây sông nước",
       "category_id": 1,
       "price": 3500000,
@@ -111,6 +123,8 @@
       "start_date": "2025-11-25",
       "end_date": "2025-11-26",
       "location": "Cần Thơ",
+      "departure_location": "TP. Hồ Chí Minh",
+      "arrival_location": "Cần Thơ",
       "description": "Chợ nổi Cái Răng, vườn trái cây",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Cantho.png"
@@ -118,7 +132,7 @@
       "available_slots": 28
     },
     {
-      "id": 208,
+      "id": "208",
       "title": "Quảng Bình – Phong Nha",
       "category_id": 1,
       "price": 5000000,
@@ -126,6 +140,8 @@
       "start_date": "2025-12-05",
       "end_date": "2025-12-07",
       "location": "Quảng Bình",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Quảng Bình",
       "description": "Động Phong Nha, hang Sơn Đoòng",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
@@ -133,7 +149,7 @@
       "available_slots": 16
     },
     {
-      "id": 209,
+      "id": "209",
       "title": "Du lịch Thái Lan",
       "category_id": 2,
       "price": 8500000,
@@ -141,6 +157,8 @@
       "start_date": "2025-11-10",
       "end_date": "2025-11-14",
       "location": "Bangkok, Pattaya",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Bangkok",
       "description": "Văn hóa, ẩm thực, mua sắm",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
@@ -148,7 +166,7 @@
       "available_slots": 15
     },
     {
-      "id": 210,
+      "id": "210",
       "title": "Khám phá Angkor Wat",
       "category_id": 2,
       "price": 7800000,
@@ -156,6 +174,8 @@
       "start_date": "2025-12-01",
       "end_date": "2025-12-05",
       "location": "Siem Reap",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Siem Reap",
       "description": "Kỳ quan cổ đại Khmer",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/SiemReap.png"
@@ -163,7 +183,7 @@
       "available_slots": 20
     },
     {
-      "id": 211,
+      "id": "211",
       "title": "Bali thiên đường nghỉ dưỡng",
       "category_id": 2,
       "price": 9200000,
@@ -171,6 +191,8 @@
       "start_date": "2025-12-15",
       "end_date": "2025-12-20",
       "location": "Bali",
+      "departure_location": "TP. Hồ Chí Minh",
+      "arrival_location": "Bali",
       "description": "Biển xanh, resort sang trọng",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
@@ -178,7 +200,7 @@
       "available_slots": 15
     },
     {
-      "id": 212,
+      "id": "212",
       "title": "Singapore hiện đại",
       "category_id": 2,
       "price": 8900000,
@@ -186,6 +208,8 @@
       "start_date": "2025-11-18",
       "end_date": "2025-11-21",
       "location": "Singapore",
+      "departure_location": "TP. Hồ Chí Minh",
+      "arrival_location": "Singapore",
       "description": "Marina Bay, Sentosa",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
@@ -193,7 +217,7 @@
       "available_slots": 18
     },
     {
-      "id": 213,
+      "id": "213",
       "title": "Nhật Bản mùa lá đỏ",
       "category_id": 2,
       "price": 18500000,
@@ -201,6 +225,8 @@
       "start_date": "2025-11-02",
       "end_date": "2025-11-08",
       "location": "Tokyo, Kyoto, Osaka",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Tokyo",
       "description": "Ngắm lá đỏ, văn hóa Nhật",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Kyoto.png"
@@ -208,7 +234,7 @@
       "available_slots": 10
     },
     {
-      "id": 214,
+      "id": "214",
       "title": "Hàn Quốc mùa đông",
       "category_id": 2,
       "price": 15000000,
@@ -216,6 +242,8 @@
       "start_date": "2025-12-10",
       "end_date": "2025-12-15",
       "location": "Seoul, Nami",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Seoul",
       "description": "Trượt tuyết, ẩm thực Hàn",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nami.png"
@@ -223,7 +251,7 @@
       "available_slots": 12
     },
     {
-      "id": 215,
+      "id": "215",
       "title": "Paris – Kinh đô ánh sáng",
       "category_id": 2,
       "price": 32000000,
@@ -231,6 +259,8 @@
       "start_date": "2025-12-20",
       "end_date": "2025-12-27",
       "location": "Paris",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Paris",
       "description": "Tháp Eiffel, bảo tàng Louvre",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Paris.png"
@@ -238,7 +268,7 @@
       "available_slots": 8
     },
     {
-      "id": 216,
+      "id": "216",
       "title": "Úc – Sydney & Melbourne",
       "category_id": 2,
       "price": 29500000,
@@ -246,6 +276,8 @@
       "start_date": "2025-12-05",
       "end_date": "2025-12-11",
       "location": "Sydney, Melbourne",
+      "departure_location": "Hà Nội",
+      "arrival_location": "Sydney",
       "description": "Nhà hát con sò, bãi biển Bondi",
       "images": [
         "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
@@ -255,7 +287,7 @@
   ],
   "customers": [
     {
-      "id": 301,
+      "id": "301",
       "full_name": "Nguyễn Văn A",
       "email": "vana@example.com",
       "phone": "0901111111",
@@ -264,7 +296,7 @@
       ]
     },
     {
-      "id": 302,
+      "id": "302",
       "full_name": "Trần Thị B",
       "email": "thib@example.com",
       "phone": "0902222222",
@@ -273,7 +305,7 @@
       ]
     },
     {
-      "id": 303,
+      "id": "303",
       "full_name": "Lê Minh Cường",
       "email": "cuonglm@example.com",
       "phone": "0903333333",
@@ -283,7 +315,7 @@
       ]
     },
     {
-      "id": 304,
+      "id": "304",
       "full_name": "Phạm Thảo Vy",
       "email": "thaovy@example.com",
       "phone": "0904444444",
@@ -293,7 +325,7 @@
       ]
     },
     {
-      "id": 305,
+      "id": "305",
       "full_name": "Ngô Thanh Tùng",
       "email": "tungnt@example.com",
       "phone": "0905555555",
@@ -302,7 +334,7 @@
       ]
     },
     {
-      "id": 306,
+      "id": "306",
       "full_name": "Vũ Thị Mai",
       "email": "maivu@example.com",
       "phone": "0906666666",
@@ -312,7 +344,7 @@
       ]
     },
     {
-      "id": 307,
+      "id": "307",
       "full_name": "Đặng Quốc Huy",
       "email": "huydq@example.com",
       "phone": "0907777777",
@@ -321,7 +353,7 @@
       ]
     },
     {
-      "id": 308,
+      "id": "308",
       "full_name": "Lý Kim Ngân",
       "email": "nganlk@example.com",
       "phone": "0908888888",
@@ -331,7 +363,7 @@
       ]
     },
     {
-      "id": 309,
+      "id": "309",
       "full_name": "Phan Văn Dũng",
       "email": "dungpv@example.com",
       "phone": "0909999999",
@@ -340,7 +372,7 @@
       ]
     },
     {
-      "id": 310,
+      "id": "310",
       "full_name": "Trương Minh Nhật",
       "email": "nhattm@example.com",
       "phone": "0910000000",
@@ -350,7 +382,7 @@
       ]
     },
     {
-      "id": 311,
+      "id": "311",
       "full_name": "Nguyễn Thị Lan",
       "email": "lannt@example.com",
       "phone": "0911111111",
@@ -359,7 +391,7 @@
       ]
     },
     {
-      "id": 312,
+      "id": "312",
       "full_name": "Bùi Văn Khánh",
       "email": "khanhbv@example.com",
       "phone": "0912222222",
@@ -369,7 +401,7 @@
       ]
     },
     {
-      "id": 313,
+      "id": "313",
       "full_name": "Hoàng Thị Hạnh",
       "email": "hanhht@example.com",
       "phone": "0913333333",
@@ -378,7 +410,7 @@
       ]
     },
     {
-      "id": 314,
+      "id": "314",
       "full_name": "Đỗ Minh Tuấn",
       "email": "tuandm@example.com",
       "phone": "0914444444",
@@ -388,7 +420,7 @@
       ]
     },
     {
-      "id": 315,
+      "id": "315",
       "full_name": "Nguyễn Hoài Nam",
       "email": "namnh@example.com",
       "phone": "0915555555",
@@ -397,7 +429,7 @@
       ]
     },
     {
-      "id": 316,
+      "id": "316",
       "full_name": "Trần Thị Thu",
       "email": "thutt@example.com",
       "phone": "0916666666",
@@ -407,7 +439,7 @@
       ]
     },
     {
-      "id": 317,
+      "id": "317",
       "full_name": "Phạm Văn Phúc",
       "email": "phucpv@example.com",
       "phone": "0917777777",
@@ -416,7 +448,7 @@
       ]
     },
     {
-      "id": 318,
+      "id": "318",
       "full_name": "Nguyễn Thị Hồng",
       "email": "hongnth@example.com",
       "phone": "0918888888",
@@ -426,7 +458,7 @@
       ]
     },
     {
-      "id": 319,
+      "id": "319",
       "full_name": "Lê Quốc Bảo",
       "email": "baolq@example.com",
       "phone": "0919999999",
@@ -435,7 +467,7 @@
       ]
     },
     {
-      "id": 320,
+      "id": "320",
       "full_name": "Võ Thị Yến",
       "email": "yenvt@example.com",
       "phone": "0920000000",
@@ -443,6 +475,71 @@
         213,
         214
       ]
+    },
+    {
+      "id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "05ba",
+      "full_name": "Tan",
+      "email": "tan@gmail.com",
+      "password": "87654321"
+    },
+    {
+      "id": "9533",
+      "full_name": "Tan",
+      "email": "minhtan111294@gmail.com",
+      "password": "87654321"
+    }
+  ],
+  "featured_tours": [
+    {
+      "id": "FT001",
+      "tour_id": 201,
+      "title": "Khám phá Hà Giang",
+      "price": 4500000,
+      "duration": "4N3Đ",
+      "location": "Hà Giang",
+      "image": "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+    },
+    {
+      "id": "FT002",
+      "tour_id": 204,
+      "title": "Phú Quốc nghỉ dưỡng",
+      "price": 6900000,
+      "duration": "3N2Đ",
+      "location": "Phú Quốc",
+      "image": "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phuquoc.png"
+    },
+    {
+      "id": "FT003",
+      "tour_id": 209,
+      "title": "Du lịch Thái Lan – Bangkok & Pattaya",
+      "price": 8500000,
+      "duration": "5N4Đ",
+      "location": "Bangkok, Pattaya",
+      "image": "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+    },
+    {
+      "id": "FT004",
+      "tour_id": 213,
+      "title": "Nhật Bản mùa lá đỏ",
+      "price": 18500000,
+      "duration": "7N6Đ",
+      "location": "Tokyo, Kyoto, Osaka",
+      "image": "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Kyoto.png"
+    },
+    {
+      "id": "FT005",
+      "tour_id": 211,
+      "title": "Bali thiên đường nghỉ dưỡng",
+      "price": 9200000,
+      "duration": "6N5Đ",
+      "location": "Bali",
+      "image": "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
     }
   ]
 }

@@ -1,0 +1,63 @@
+.login-container {
+    position: relative;
+    margin-top: 2rem;
+    text-align: center;
+    width: 35%;
+    padding: 1.3rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+        0 8px 16px rgba(0, 0, 0, 0.2);
+    max-height: fit-content;
+}
+
+.login-container>h1 {
+    color: var(--dark-shades);
+    padding: 1rem 0;
+}
+
+.login-container p {
+    color: var(--dark-shades);
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+.login-container #login {
+    text-align: left;
+}
+
+.login-container #signup {
+    text-align: left;
+}
+
+.login-container input {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.login-container input:focus {
+    outline: none;
+}
+
+.login-container #btn {
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.login-container button {
+    width: 60%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: var(--dark-accent) solid 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: var(--dark-shades);
+    color: var(--light-shades);
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.g-recaptcha>div:first-child {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}

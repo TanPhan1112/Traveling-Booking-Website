@@ -1,22 +1,33 @@
-// async function fetchCategories() {
-//     try {
-//         const response = await fetch('http://localhost:3000/categories');
-//         if (!response.ok) {
-//             throw new Error(`HTTP error! status: ${response.status}`);
-//         }
-//         const categories = await response.json();
-//         return categories;
-//     } catch (error) {
-//         const errorMsg = document.querySelector("#errorFetchCategories");
-//         errorMsg.textContent = "Lỗi Fetch API:" + error;
-//         console.error("Lỗi Fetch API:", error);
-//         return null;
-//     }
-// }
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+}
 
 async function fetchTours() {
     try {
-        const response = await fetch('http://localhost:3000/tours');
+        const response = await fetch(`http://localhost:3000/tours`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -44,18 +55,21 @@ function displayTours(tours) {
         tourListNn.textContent = "Không có dữ liệu tour.";
         tourListTn.textContent = "Không có dữ liệu tour.";
     } else {
-        tours.forEach(({ title, price, duration, start_date, end_date, location, description, available_slots, category_id, images }) => {
+        tours.forEach(({ id, title, price, duration, start_date, end_date, location, description, available_slots, category_id, images }) => {
             if (category_id === 2) {
                 const tourNnCard = document.createElement("div");
                 tourNnCard.classList.add("tournn-card");
                 tourNnCard.innerHTML = `
-                    <img src="${images}" alt="${location}">
+                    <div><img src="${images}" alt="${location}"></div>
                     <div>
-                        <h2>${title}</h2>
+                        <a style="text-decoration:none;" href="detail.html?id=${id}"><h2>${title}</h2></a>
                         <h3>Điểm đến: ${location} (${description})</h3>
                         <p>Ngày đi: <strong>${start_date}</strong></p>
                         <p>Ngày về: <strong>${end_date}</strong> <span style="color:red;font-weight:bolder;">(${duration})</span></p>
-                        <p>Giá: <span style="color:red;font-weight:bolder;">${price}đ</span></p>
+                        <p>Giá: <span style="color:red;font-weight:bolder;">${price.toLocaleString('vi-VN', {
+                    style: 'currency',
+                    currency: 'VND',
+                })}</span></p>
                         <p>Số chỗ còn nhận: <strong>${available_slots}</strong></p>
                     </div>
             `;
@@ -64,13 +78,16 @@ function displayTours(tours) {
                 const tourTnCard = document.createElement("div");
                 tourTnCard.classList.add("tourtn-card");
                 tourTnCard.innerHTML = `
-                    <img src="${images}" alt="${location}">
+                    <div><img src="${images}" alt="${location}"></div>
                     <div>
-                        <h2>${title}</h2>
+                        <a style="text-decoration:none;" href="detail.html?id=${id}"><h2>${title}</h2></a>
                         <h3>Điểm đến: ${location} (${description})</h3>
                         <p>Ngày đi: <strong>${start_date}</strong></p>
                         <p>Ngày về: <strong>${end_date}</strong> <span style="color:red;font-weight:bolder;">(${duration})</span></p>
-                        <p>Giá: <span style="color:red;font-weight:bolder;">${price}đ</span></p>
+                        <p>Giá: <span style="color:red;font-weight:bolder;">${price.toLocaleString('vi-VN', {
+                    style: 'currency',
+                    currency: 'VND',
+                })}</span></p>
                         <p>Số chỗ còn nhận: <strong>${available_slots}</strong></p>
                     </div>
             `;
