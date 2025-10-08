@@ -16,6 +16,12 @@
 </head>
 
 <body>
+    <div id="popup-container">
+        <div id="popup-content">
+            <img src="images/popup.png" alt="popup">
+            <button id="close-popup">Đóng</button>
+        </div>
+    </div>
     <div class="container">
         <header>
             <div class="firstmenucolor">
@@ -70,6 +76,11 @@
             </div>
             <!-- <img class="banner" src="images/banner.png" alt="banner"> -->
             <div class="main-area">
+                <div class="tournb margin2sides">
+                    <h1>Tour nổi bật</h1>
+                    <p id="errorTour"></p>
+                    <div class="listtournb"></div>
+                </div>
                 <div class="tournn margin2sides">
                     <h1>Tour nước ngoài</h1>
                     <p id="errorTour"></p>
@@ -79,6 +90,11 @@
                     <h1>Tour trong nước</h1>
                     <p id="errorTour"></p>
                     <div class="listtourtn"></div>
+                </div>
+                <div class="tourfav margin2sides">
+                    <h1>Điểm đến yêu thích</h1>
+                    <p id="errorTour"></p>
+                    <div class="listtourfav"></div>
                 </div>
             </div>
         </main>
