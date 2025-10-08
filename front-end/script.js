@@ -1,3 +1,29 @@
+document.addEventListener('DOMContentLoaded', function () {
+    if (localStorage.getItem('popupShown')) {
+        const popupContainer = document.getElementById('popup-container');
+        popupContainer.style.display = 'none';
+    } else {
+        const popupContainer = document.getElementById('popup-container');
+        const closeButton = document.getElementById('close-popup');
+
+        // Show the popup when the page loads
+        popupContainer.style.display = 'flex'; // Or 'block', depending on centering method
+        localStorage.setItem('popupShown', 'true');
+
+        // Hide the popup when the close button is clicked
+        closeButton.addEventListener('click', function () {
+            popupContainer.style.display = 'none';
+        });
+
+        // Optional: Hide the popup when clicking outside the content
+        window.addEventListener('click', function (event) {
+            if (event.target === popupContainer) {
+                popupContainer.style.display = 'none';
+            }
+        });
+    }
+});
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -23,6 +49,52 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
+}
+
+async function fetchFeaturedTours() {
+    try {
+        const response = await fetch(`http://localhost:3000/featured_tours`);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const ft_tours = await response.json();
+        const randomFt_tours = ft_tours.sort(() => 0.5 - Math.random()).slice(0, 4);
+        return randomFt_tours;
+    } catch (error) {
+        const errorMsg = document.querySelector("#errorTour");
+        errorMsg.textContent = "Lỗi Fetch API:" + error;
+        console.error("Lỗi Fetch API:", error);
+        return null;
+    }
+}
+
+function displayFeaturedTours(ft_tours) {
+    const tourListNb = document.querySelector(".listtournb");
+    tourListNb.textContent = "";
+
+    if (ft_tours === null) {
+        tourListNb.textContent = "Không có dữ liệu tour.";
+    } else if (ft_tours.length === 0) {
+        tourListNb.textContent = "Không có dữ liệu tour.";
+    } else {
+        ft_tours.forEach(({ id, title, price, duration, location, departure_location, arrival_location, image }) => {
+            const tourNbCard = document.createElement("div");
+            tourNbCard.classList.add("tournb-card");
+            tourNbCard.innerHTML = `
+                <div><img src="${image}" alt="${location}"></div>
+                <div>
+                    <a style="text-decoration:none;" href="detail.html?id=${id}"><h2>${title}</h2></a>
+                    <p>Điểm đi: <strong>${departure_location}</strong></p>
+                    <p>Điểm đến: <strong>${arrival_location}</strong> <span style="color:red;font-weight:bolder;">(${duration})</span></p>
+                    <p>Giá: <span style="color:red;font-weight:bolder;">${price.toLocaleString('vi-VN', {
+                style: 'currency',
+                currency: 'VND',
+            })}</span></p>
+                </div>
+            `;
+            tourListNb.appendChild(tourNbCard);
+        });
+    }
 }
 
 async function fetchTours() {
@@ -100,4 +172,28 @@ function displayTours(tours) {
     }
 }
 
+function displayFavourTours(fav_tours) {
+    const tourListFav = document.querySelector(".listtourfav");
+    tourListFav.textContent = "";
+
+    if (fav_tours === null) {
+        tourListFav.textContent = "Không có dữ liệu tour.";
+    } else if (fav_tours.length === 0) {
+        tourListFav.textContent = "Không có dữ liệu tour.";
+    } else {
+        let i = 0;
+
+        fav_tours.forEach(({ images, location }) => {
+            const tourFavCard = document.createElement("div");
+            tourFavCard.classList.add(`item${i++}`);
+            tourFavCard.innerHTML = `
+                <img src="${images}" alt="${location}">
+            `;
+            tourListFav.appendChild(tourFavCard);
+        });
+    }
+}
+
+fetchFeaturedTours().then((data) => displayFeaturedTours(data));
 fetchTours().then((data) => displayTours(data));
+fetchTours().then((data) => displayFavourTours(data));
