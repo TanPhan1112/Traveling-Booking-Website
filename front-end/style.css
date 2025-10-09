@@ -124,7 +124,7 @@ img {
     /* Enable scroll if needed */
     background-color: rgba(0, 0, 0, 0.6);
     /* Black w/ opacity */
-    display: flex;
+    /* display: flex; */
     /* For centering the content */
     justify-content: center;
     align-items: center;
@@ -134,6 +134,7 @@ img {
 #popup-content {
     background-color: #fefefe;
     margin: auto;
+    margin-top: 15rem;
     /* Centered */
     padding: 20px;
     border: 1px solid #888;

@@ -13,13 +13,11 @@ if (Object.keys(user).length !== 0) {
 }
 
 const cart = JSON.parse(localStorage.getItem("cart")) || [];
-const numberTour = document.querySelector("#numbertour");
+numberTour = document.querySelector("#numbertour");
 
-if (cart.length !== 0) {
-    numberTour.innerHTML = `
-        ${cart.length}
-    `;
-}
+numberTour.innerHTML = `
+    ${cart.length}
+`;
 
 function logOut() {
     localStorage.removeItem("user");

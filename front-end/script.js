@@ -1,27 +1,27 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
+    const popupContainer = document.getElementById('popup-container');
+    const closeButton = document.getElementById('close-popup');
+
+    // Kiểm tra xem popup đã hiển thị chưa
     if (localStorage.getItem('popupShown')) {
-        const popupContainer = document.getElementById('popup-container');
         popupContainer.style.display = 'none';
     } else {
-        const popupContainer = document.getElementById('popup-container');
-        const closeButton = document.getElementById('close-popup');
-
-        // Show the popup when the page loads
-        popupContainer.style.display = 'flex'; // Or 'block', depending on centering method
+        // Hiển thị popup lần đầu
+        popupContainer.style.display = 'block';
         localStorage.setItem('popupShown', 'true');
-
-        // Hide the popup when the close button is clicked
-        closeButton.addEventListener('click', function () {
-            popupContainer.style.display = 'none';
-        });
-
-        // Optional: Hide the popup when clicking outside the content
-        window.addEventListener('click', function (event) {
-            if (event.target === popupContainer) {
-                popupContainer.style.display = 'none';
-            }
-        });
     }
+
+    // Đóng popup khi nhấn nút close
+    closeButton.addEventListener('click', () => {
+        popupContainer.style.display = 'none';
+    });
+
+    // Đóng popup khi click ra ngoài
+    window.addEventListener('click', (event) => {
+        if (event.target === popupContainer) {
+            popupContainer.style.display = 'none';
+        }
+    });
 });
 
 let slideIndex = 1;

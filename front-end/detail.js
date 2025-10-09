@@ -2,6 +2,8 @@ const url = new URL(window.location.href);
 const searchParams = url.searchParams;
 const id = searchParams.get('id');
 
+let tour = null;
+
 async function fetchTours() {
     try {
         const response = await fetch(`http://localhost:3000/tours?id=${id}`);
@@ -52,13 +54,17 @@ function displayDetail(tours) {
     }
 }
 
-let tour = null;
-
 fetchTours().then((data) => displayDetail(data));
 
 const bookBtn = document.querySelector("#book");
+
 function bookTour() {
-    cart.push(tour);
-    localStorage.setItem("cart", JSON.stringify(cart));
-    window.location.href = `detail.html?id=${id}`;
+    const foundItem = cart.find((item) => item.id === tour.id);
+    if (foundItem) {
+        alert("trùng");
+    } else {
+        cart.push(tour);
+        localStorage.setItem("cart", JSON.stringify(cart));
+        window.location.href = `detail.html?id=${id}`;
+    }
 } 
