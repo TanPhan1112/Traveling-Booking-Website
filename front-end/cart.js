@@ -55,30 +55,8 @@ function showCartLits() {
     }
 }
 
-// const mastercard = document.querySelector("#mastercard");
-// const visa = document.querySelector("#visa");
-// const amex = document.querySelector("#amex");
-// const paypal = document.querySelector("paypal");
-
-/*
-<form id="checkout">
-    <p>Tên thẻ</p>
-    <input type="text" id="fullName">
-    <p>Số thẻ</p>
-    <input type="text" id="number">
-    <p>Ngày hết hạn</p>
-    <input type="date" id="date">
-    <p>CVV</p>
-    <input type="text" id="number">
-    <div id="checkoutbtn">
-        <button type="submit">Thanh toán</button>
-    </div>
-</form>
-*/
-
 function deleteTour(id) {
     const newCart = cartStorage.filter((item) => +item.id !== id);
-    // console.log(newCart);
     localStorage.setItem("cart", JSON.stringify(newCart));
     cartList.innerHTML = "";
     showCartLits();
