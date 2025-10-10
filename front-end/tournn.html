@@ -54,35 +54,37 @@
                         <div class="searchtour">
                             <p>Tìm chuyến đi phù hợp với bạn tại đây!</p>
                             <p>Ngân sách bạn có</p>
-                            <input type="range" id="myRange" min="0" max="200000000" value="5000000">
-                            <p id="price"><span id="rangeValue"></span></p>
-                            <select name="departure">
-                                <option value="">Chọn điểm đi</option>
-                                <option value="TP. Hồ Chí Minh">TP. Hồ Chí Minh</option>
-                                <option value="Hà Nội">Hà Nội</option>
-                                <option value="Đà Nẵng">Đà Nẵng</option>
-                                <option value="Cần Thơ">Cần Thơ</option>
-                                <option value="Hải Phòng">Hải Phòng</option>
-                                <option value="Nha Trang">Nha Trang</option>
-                            </select>
-                            <select name="arrival">
-                                <option value="">Chọn điểm đến</option>
-                                <option value="Hà Giang">Hà Giang</option>
-                                <option value="Huế">Huế</option>
-                                <option value="Đà Nẵng">Đà Nẵng</option>
-                                <option value="Hội An">Hội An</option>
-                                <option value="Phú Quốc">Phú Quốc</option>
-                                <option value="Sa Pa">Sa Pa</option>
-                            </select>
-                            <p>Ngày khởi hành</p>
-                            <input type="text" id="startdate" placeholder="Từ ngày">
-                            <input type="text" id="enddate" placeholder="Đến ngày">
-                            <div class="checkbox">
-                                <label class="bestprice"><input type="checkbox" name="checkbox">Tour giá tốt</label>
-                                <label class="lasthour"><input type="checkbox" name="checkbox">Tour giờ chót</label>
-                            </div>
-                            <br><br>
-                            <input type="submit" value="TÌM TOUR">
+                            <form id="filterSearch">
+                                <input type="range" id="myRange" min="0" max="200000000" value="5000000">
+                                <p id="price"><span id="rangeValue"></span></p>
+                                <select id="departure">
+                                    <option value="">Chọn điểm đi</option>
+                                    <option value="TP. Hồ Chí Minh">TP. Hồ Chí Minh</option>
+                                    <option value="Hà Nội">Hà Nội</option>
+                                    <option value="Đà Nẵng">Đà Nẵng</option>
+                                    <option value="Cần Thơ">Cần Thơ</option>
+                                    <option value="Hải Phòng">Hải Phòng</option>
+                                    <option value="Nha Trang">Nha Trang</option>
+                                </select>
+                                <select id="arrival">
+                                    <option value="">Chọn điểm đến</option>
+                                    <option value="Hà Giang">Hà Giang</option>
+                                    <option value="Huế">Huế</option>
+                                    <option value="Đà Nẵng">Đà Nẵng</option>
+                                    <option value="Hội An">Hội An</option>
+                                    <option value="Phú Quốc">Phú Quốc</option>
+                                    <option value="Sa Pa">Sa Pa</option>
+                                </select>
+                                <p>Ngày khởi hành</p>
+                                <input type="date" id="startdate" placeholder="Từ ngày">
+                                <input type="date" id="enddate" placeholder="Đến ngày">
+                                <div class="checkbox">
+                                    <label class="bestprice"><input type="checkbox" name="checkbox">Tour giá tốt</label>
+                                    <label class="lasthour"><input type="checkbox" name="checkbox">Tour giờ chót</label>
+                                </div>
+                                <br><br>
+                                <input type="submit" value="TÌM TOUR">
+                            </form>
                         </div>
                         <div class="tourlist"></div>
                     </div>

@@ -112,7 +112,7 @@ input[type=range] {
     border: var(--dark-accent) solid 1px;
 }
 
-input[type=text] {
+input[type=date] {
     display: block;
     width: 100%;
     margin-bottom: 2rem;
