@@ -46,13 +46,13 @@
 }
 
 .tour-card h3 {
-    color: var(--dark-shades);
+    /* color: var(--dark-shades); */
     padding-bottom: 0.5rem;
 }
 
-.tour-card p {
+/* .tour-card p {
     color: var(--dark-shades);
-}
+} */
 
 .detail {
     display: flex;
@@ -134,7 +134,7 @@ input[type=submit] {
     width: 100%;
     padding: 1rem;
     border-radius: 10px;
-    border: var(--dark-accent) solid 1px;
+    border: var(--dark-shades) solid 1px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
         0 8px 16px rgba(0, 0, 0, 0.2);
     background-color: var(--dark-shades);

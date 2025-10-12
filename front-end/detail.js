@@ -61,7 +61,7 @@ const bookBtn = document.querySelector("#book");
 function bookTour() {
     const foundItem = cart.find((item) => item.id === tour.id);
     if (foundItem) {
-        alert("trùng");
+        alert("Tour đã đặt trùng, xin vui lòng chọn tour khác!");
     } else {
         cart.push(tour);
         localStorage.setItem("cart", JSON.stringify(cart));

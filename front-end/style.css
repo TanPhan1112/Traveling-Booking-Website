@@ -211,12 +211,12 @@ img {
 }
 
 .tournb-card h3 {
-    color: var(--dark-shades);
+    /* color: var(--dark-shades); */
     padding: 1rem 0.5rem;
 }
 
 .tournb-card p {
-    color: var(--dark-shades);
+    /* color: var(--dark-shades); */
     padding: 0.5rem 0.5rem;
 }
 
@@ -266,13 +266,13 @@ img {
 }
 
 .tournn-card h3 {
-    color: var(--dark-shades);
+    /* color: var(--dark-shades); */
     padding-bottom: 0.5rem;
 }
 
-.tournn-card p {
+/* .tournn-card p {
     color: var(--dark-shades);
-}
+} */
 
 /* CSS TOUR TN */
 
@@ -320,13 +320,13 @@ img {
 }
 
 .tourtn-card h3 {
-    color: var(--dark-shades);
+    /* color: var(--dark-shades); */
     padding-bottom: 0.5rem;
 }
 
-.tourtn-card p {
+/* .tourtn-card p {
     color: var(--dark-shades);
-}
+} */
 
 /* CSS TOUR FAVOR */
 

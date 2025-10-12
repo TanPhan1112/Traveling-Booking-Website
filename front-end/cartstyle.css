@@ -58,7 +58,7 @@
     padding: 0.3rem;
     color: var(--light-shades);
     border-radius: 5px;
-    border: var(--dark-accent) solid 1px;
+    border: var(--dark-shades) solid 1px;
     background-color: var(--dark-shades);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
         0 8px 16px rgba(0, 0, 0, 0.2);
@@ -69,55 +69,16 @@
 .payment {
     max-height: fit-content;
     border-radius: 10px;
-    border: var(--dark-accent) solid 1px;
+    border: var(--dark-shades) solid 1px;
     background-color: var(--dark-shades);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
         0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.paymentList {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-}
-
-.paymentList img {
-    width: 5rem;
-    height: 3.5rem;
-    object-fit: cover;
-}
-
-.paymentList img:hover {
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3),
-        0 0 20px rgba(255, 255, 255, 0.4);
-}
-
-.payment>h1 {
+.checkout h1 {
+    padding: 2rem;
+    text-align: center;
     color: var(--light-shades);
-    padding: 2rem 2rem;
-}
-
-#checkout p {
-    color: var(--light-shades);
-    padding: 3rem 0rem 0rem 2rem;
-    font-weight: bold;
-}
-
-#checkout input {
-    min-width: 70%;
-    color: var(--light-shades);
-    background-color: var(--dark-shades);
-    border: var(--dark-accent) solid 2px;
-    padding: 0.5rem 0;
-    margin-left: 2rem;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-}
-
-#checkout input:focus {
-    outline: none;
 }
 
 #checkoutbtn {
@@ -129,7 +90,7 @@
     width: 60%;
     padding: 1rem;
     border-radius: 10px;
-    border: var(--dark-accent) solid 1px;
+    border: var(--light-shades) solid 1px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2);
     background-color: var(--light-shades);
     color: var(--dark-shades);

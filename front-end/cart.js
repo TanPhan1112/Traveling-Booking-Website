@@ -1,10 +1,11 @@
 let cartStorage = JSON.parse(localStorage.getItem("cart")) || [];
 const cartList = document.querySelector("#cartList");
 const checkout = document.querySelector(".checkout");
+let errorMsg = document.querySelector("#tourCart");
 let numberTour = document.querySelector("#numbertour");
 let sum = 0;
 
-function showCartLits() {
+function showCartList() {
     cartStorage = JSON.parse(localStorage.getItem("cart")) || [];
     if (cartStorage.length !== 0) {
         numberTour.innerHTML = `
@@ -28,11 +29,11 @@ function showCartLits() {
             return total + item.price;
         }, 0);
         checkout.innerHTML = `
-            <p style="text-align: center; color: white;">Tổng tiền: ${sum.toLocaleString('vi-VN', {
+            <h1>Tổng tiền: ${sum.toLocaleString('vi-VN', {
             style: 'currency', currency: 'VND',
-        })}</p>
+        })}</h1>
             <div id="checkoutbtn">
-                <button type="submit">Thanh toán</button>
+                <button onclick="checkOut()">Thanh toán</button>
             </div>
         `;
     } else {
@@ -40,17 +41,17 @@ function showCartLits() {
             return total + item.price;
         }, 0);
         checkout.innerHTML = `
-            <p style="text-align: center; color: white;">Tổng tiền: ${sum.toLocaleString('vi-VN', {
+            <h1>Tổng tiền: ${sum.toLocaleString('vi-VN', {
             style: 'currency', currency: 'VND',
-        })}</p>
+        })}</h1>
             <div id="checkoutbtn">
-                <button type="submit">Thanh toán</button>
+                <button onclick="checkOut()">Thanh toán</button>
             </div>
         `;
         numberTour.innerHTML = `
             ${cartStorage.length}
         `;
-        const errorMsg = document.querySelector("#tourCart");
+        errorMsg = document.querySelector("#tourCart");
         errorMsg.textContent = "Giỏ hàng trống";
     }
 }
@@ -59,7 +60,18 @@ function deleteTour(id) {
     const newCart = cartStorage.filter((item) => +item.id !== id);
     localStorage.setItem("cart", JSON.stringify(newCart));
     cartList.innerHTML = "";
-    showCartLits();
+    showCartList();
 }
 
-showCartLits();
+function checkOut() {
+    if (Object.keys(user).length !== 0 && cartStorage.length !== 0) {
+        window.location.href = "checkout.html";
+    } else if (Object.keys(user).length !== 0 && cartStorage.length === 0) {
+        errorMsg = document.querySelector("#tourCart");
+        errorMsg.textContent = "Giỏ hàng trống, không thể thanh toán!";
+    } else {
+        window.location.href = "login.html";
+    }
+}
+
+showCartList();
