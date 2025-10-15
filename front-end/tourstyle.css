@@ -1,8 +1,22 @@
 /* CSS TOUR */
+.sort {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-.tour>h1 {
+.sort>h1 {
     color: var(--dark-shades);
     padding: 3rem 0;
+}
+
+.sort button {
+    padding: 0.3rem;
+    color: var(--light-shades);
+    border-radius: 5px;
+    border: var(--dark-accent) solid 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: var(--dark-accent);
 }
 
 .tour-grid {
@@ -64,9 +78,7 @@
     color: var(--light-shades);
     border-radius: 5px;
     border: var(--dark-accent) solid 1px;
-    background-color: var(--light-shades);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
-        0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2);
     background-color: var(--dark-accent);
 }
 

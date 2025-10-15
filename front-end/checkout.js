@@ -29,9 +29,7 @@ function showCartList_checkOut() {
         total.classList.add("total");
 
         total.innerHTML = `
-            <h1 class="total">Tổng tiền: ${sum.toLocaleString('vi-VN', {
-            style: 'currency', currency: 'VND',
-        })}</h1>
+            <h1 class="total">Tổng tiền: <span style="color:red;font-weight:bolder;">${sum.toLocaleString('vi-VN', { style: 'currency', currency: 'VND', })}</span></h1>
         `;
         cartList.appendChild(total);
     }
@@ -85,7 +83,7 @@ function showCuxInfo_checkOut(user) {
                 <option value="momo">MoMo</option>
                 <option value="zalopay">ZaloPay</option>
             </select>
-            <button type="submit">Đặt tour</button>
+            <button type="submit">Đặt tour bây giờ</button>
         </form>
     `;
 
@@ -110,7 +108,7 @@ function showCuxInfo_checkOut(user) {
         const formattedDate = currentDate.toLocaleDateString('vi-VN', options);
 
         const order = { user_id: user.id, full_name: fullName.value, email: email.value, phone: phone.value, payment_type: paymentType.value, total: sum, date: formattedDate, items: cartStorage };
-        const customer = { user_id: user.id, full_name: fullName.value, email: email.value, password: user.password, phone: phone.value };
+        const customer = { full_name: fullName.value, email: email.value, password: user.password, phone: phone.value };
 
         try {
             const response = await fetch(`http://localhost:3000/customers/${user.id}`, {

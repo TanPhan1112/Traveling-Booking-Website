@@ -41,7 +41,6 @@
 }
 
 .cart-card h4 {
-    color: var(--dark-shades);
     align-content: center;
 }
 
@@ -79,6 +78,7 @@
     padding: 2rem;
     text-align: center;
     color: var(--light-shades);
+    border-bottom: var(--light-shades) dashed 1px;
 }
 
 #checkoutbtn {
