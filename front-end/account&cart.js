@@ -5,7 +5,7 @@ if (Object.keys(user).length !== 0) {
     loggedIn.innerHTML = `
         <a href="profile.html">${user.full_name}</a>
         <div class="dropdown-content">
-            <a href="#">Hồ sơ</a>
+            <a href="profile.html">Hồ sơ</a>
             <button onclick="logOut()">Đăng xuất</button>
         </div>
     `;

@@ -93,14 +93,59 @@ function showCuxInfo_checkOut(user) {
 
     const bookNow = document.querySelector("#bookNow");
 
-    bookNow.addEventListener("submit", (e) => {
+    bookNow.addEventListener("submit", async (e) => {
         e.preventDefault();
 
         const fullName = document.querySelector("#fullName");
         const email = document.querySelector("#email");
         const phone = document.querySelector("#phone");
         const paymentType = document.querySelector("#paymentType");
-        console.log(fullName.value, email.value, phone.value, paymentType.value);
+
+        const currentDate = new Date();
+        const options = {
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric'
+        };
+        const formattedDate = currentDate.toLocaleDateString('vi-VN', options);
+
+        const order = { user_id: user.id, full_name: fullName.value, email: email.value, phone: phone.value, payment_type: paymentType.value, total: sum, date: formattedDate, items: cartStorage };
+        const customer = { user_id: user.id, full_name: fullName.value, email: email.value, password: user.password, phone: phone.value };
+
+        try {
+            const response = await fetch(`http://localhost:3000/customers/${user.id}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(customer)
+            });
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const data = await response.json();
+            localStorage.setItem("user", JSON.stringify(data));
+        } catch (error) {
+            alert("Thêm thông tin thất bại!");
+            console.error("Lỗi Fetch API:", error);
+        }
+
+        try {
+            const response = await fetch(`http://localhost:3000/order`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(order)
+            });
+
+            const data = await response.json();
+            localStorage.setItem("id_order", data.id);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            window.location.href = "confirm.html";
+        } catch (error) {
+            alert("Đặt tour thất bại!");
+            console.error("Lỗi Fetch API:", error);
+        }
     });
 }
 

@@ -1,0 +1,57 @@
+.profile h1 {
+    text-align: center;
+    color: var(--dark-shades);
+    padding: 2rem;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    gap: 2rem;
+}
+
+/* CSS CHECKOUT LIST */
+
+.total h1 {
+    text-align: left;
+    padding: 1rem 0;
+}
+
+.cart-card {
+    display: grid;
+    grid-template-columns: 3fr 4fr 3fr;
+    gap: 1rem;
+    border: var(--dark-accent) solid 1px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+        0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+}
+
+.cart-card div {
+    overflow: hidden;
+    max-width: fit-content;
+    height: 5rem;
+}
+
+.cart-card img {
+    width: 5rem;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(80%);
+}
+
+.cart-card img:hover {
+    filter: brightness(100%);
+    transform: scale(1.5);
+}
+
+.cart-card h4 {
+    color: var(--dark-shades);
+    align-content: center;
+}
+
+.cart-card p {
+    align-content: center;
+}

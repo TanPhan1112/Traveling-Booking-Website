@@ -477,22 +477,28 @@
       ]
     },
     {
-      "id": "2423",
+      "user_id": "2423",
       "full_name": "Duc Minh Tan Phan",
       "email": "minhtan111293@gmail.com",
-      "password": "12345678"
+      "password": "12345678",
+      "phone": "2405",
+      "id": "2423"
     },
     {
-      "id": "05ba",
+      "user_id": "05ba",
       "full_name": "Tan",
       "email": "tan@gmail.com",
-      "password": "87654321"
+      "password": "87654321",
+      "phone": "2222",
+      "id": "05ba"
     },
     {
-      "id": "9533",
+      "user_id": "9533",
       "full_name": "Tan",
       "email": "minhtan111294@gmail.com",
-      "password": "87654321"
+      "password": "87654321",
+      "phone": "777",
+      "id": "9533"
     },
     {
       "id": "82b8",
@@ -563,6 +569,2108 @@
       "departure_location": "TP. Hồ Chí Minh",
       "arrival_location": "Bali",
       "image": "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
+    }
+  ],
+  "order": [
+    {
+      "id": "0a1e",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "090",
+      "payment_type": "zalopay",
+      "total": 65400000,
+      "date": "14/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "211",
+          "title": "Bali thiên đường nghỉ dưỡng",
+          "category_id": 2,
+          "price": 9200000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-15",
+          "end_date": "2025-12-20",
+          "location": "Bali",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Bali",
+          "description": "Biển xanh, resort sang trọng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        }
+      ]
+    },
+    {
+      "id": "1119",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "080",
+      "payment_type": "cash",
+      "total": 65400000,
+      "date": "14/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "211",
+          "title": "Bali thiên đường nghỉ dưỡng",
+          "category_id": 2,
+          "price": 9200000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-15",
+          "end_date": "2025-12-20",
+          "location": "Bali",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Bali",
+          "description": "Biển xanh, resort sang trọng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        }
+      ]
+    },
+    {
+      "id": "140f",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "070",
+      "payment_type": "crypto",
+      "total": 65400000,
+      "date": "14/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "211",
+          "title": "Bali thiên đường nghỉ dưỡng",
+          "category_id": 2,
+          "price": 9200000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-15",
+          "end_date": "2025-12-20",
+          "location": "Bali",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Bali",
+          "description": "Biển xanh, resort sang trọng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        }
+      ]
+    },
+    {
+      "id": "cb36",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "000",
+      "payment_type": "applepay",
+      "total": 65400000,
+      "date": "14/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "211",
+          "title": "Bali thiên đường nghỉ dưỡng",
+          "category_id": 2,
+          "price": 9200000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-15",
+          "end_date": "2025-12-20",
+          "location": "Bali",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Bali",
+          "description": "Biển xanh, resort sang trọng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        }
+      ]
+    },
+    {
+      "id": "daea",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "Thêm số điện thoại...",
+      "payment_type": "credit",
+      "total": 65400000,
+      "date": "14/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "211",
+          "title": "Bali thiên đường nghỉ dưỡng",
+          "category_id": 2,
+          "price": 9200000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-15",
+          "end_date": "2025-12-20",
+          "location": "Bali",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Bali",
+          "description": "Biển xanh, resort sang trọng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        }
+      ]
+    },
+    {
+      "id": "d840",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "Thêm số điện thoại...",
+      "payment_type": "credit",
+      "total": 65400000,
+      "date": "14/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "211",
+          "title": "Bali thiên đường nghỉ dưỡng",
+          "category_id": 2,
+          "price": 9200000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-15",
+          "end_date": "2025-12-20",
+          "location": "Bali",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Bali",
+          "description": "Biển xanh, resort sang trọng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        }
+      ]
+    },
+    {
+      "id": "2082",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "050",
+      "payment_type": "paypal",
+      "total": 65400000,
+      "date": "14/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "211",
+          "title": "Bali thiên đường nghỉ dưỡng",
+          "category_id": 2,
+          "price": 9200000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-15",
+          "end_date": "2025-12-20",
+          "location": "Bali",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Bali",
+          "description": "Biển xanh, resort sang trọng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        }
+      ]
+    },
+    {
+      "id": "1c9a",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "Thêm số điện thoại...",
+      "payment_type": "paypal",
+      "total": 65400000,
+      "date": "14/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "211",
+          "title": "Bali thiên đường nghỉ dưỡng",
+          "category_id": 2,
+          "price": 9200000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-15",
+          "end_date": "2025-12-20",
+          "location": "Bali",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Bali",
+          "description": "Biển xanh, resort sang trọng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        }
+      ]
+    },
+    {
+      "id": "c790",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "Thêm số điện thoại...",
+      "payment_type": "credit",
+      "total": 65400000,
+      "date": "14/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "211",
+          "title": "Bali thiên đường nghỉ dưỡng",
+          "category_id": 2,
+          "price": 9200000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-15",
+          "end_date": "2025-12-20",
+          "location": "Bali",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Bali",
+          "description": "Biển xanh, resort sang trọng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        }
+      ]
+    },
+    {
+      "id": "ea5b",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "Thêm số điện thoại...",
+      "payment_type": "credit",
+      "total": 65400000,
+      "date": "14/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "211",
+          "title": "Bali thiên đường nghỉ dưỡng",
+          "category_id": 2,
+          "price": 9200000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-15",
+          "end_date": "2025-12-20",
+          "location": "Bali",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Bali",
+          "description": "Biển xanh, resort sang trọng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        }
+      ]
+    },
+    {
+      "id": "b881",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "Thêm số điện thoại...",
+      "payment_type": "credit",
+      "total": 65400000,
+      "date": "14/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "211",
+          "title": "Bali thiên đường nghỉ dưỡng",
+          "category_id": 2,
+          "price": 9200000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-15",
+          "end_date": "2025-12-20",
+          "location": "Bali",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Bali",
+          "description": "Biển xanh, resort sang trọng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        }
+      ]
+    },
+    {
+      "id": "998a",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "Thêm số điện thoại...",
+      "payment_type": "credit",
+      "total": 65400000,
+      "date": "14/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "211",
+          "title": "Bali thiên đường nghỉ dưỡng",
+          "category_id": 2,
+          "price": 9200000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-15",
+          "end_date": "2025-12-20",
+          "location": "Bali",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Bali",
+          "description": "Biển xanh, resort sang trọng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        }
+      ]
+    },
+    {
+      "id": "160a",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "Thêm số điện thoại...",
+      "payment_type": "credit",
+      "total": 65400000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "211",
+          "title": "Bali thiên đường nghỉ dưỡng",
+          "category_id": 2,
+          "price": 9200000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-15",
+          "end_date": "2025-12-20",
+          "location": "Bali",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Bali",
+          "description": "Biển xanh, resort sang trọng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Bali.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        }
+      ]
+    },
+    {
+      "id": "b935",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "Thêm số điện thoại...",
+      "payment_type": "googlepay",
+      "total": 38000000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        }
+      ]
+    },
+    {
+      "id": "3155",
+      "user_id": "05ba",
+      "full_name": "Tan",
+      "email": "tan@gmail.com",
+      "phone": "089",
+      "payment_type": "paypal",
+      "total": 38000000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        }
+      ]
+    },
+    {
+      "id": "f813",
+      "user_id": "05ba",
+      "full_name": "Tan",
+      "email": "tan@gmail.com",
+      "phone": "079",
+      "payment_type": "bank",
+      "total": 57700000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        },
+        {
+          "id": "202",
+          "title": "Du lịch Huế cổ kính",
+          "category_id": 1,
+          "price": 4700000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-05",
+          "end_date": "2025-11-07",
+          "location": "Huế",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Huế",
+          "description": "Tham quan cố đô, lăng tẩm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hue.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "214",
+          "title": "Hàn Quốc mùa đông",
+          "category_id": 2,
+          "price": 15000000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-10",
+          "end_date": "2025-12-15",
+          "location": "Seoul, Nami",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Seoul",
+          "description": "Trượt tuyết, ẩm thực Hàn",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nami.png"
+          ],
+          "available_slots": 12
+        }
+      ]
+    },
+    {
+      "id": "1b95",
+      "user_id": "05ba",
+      "full_name": "Tan",
+      "email": "tan@gmail.com",
+      "phone": "999",
+      "payment_type": "bank",
+      "total": 57700000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        },
+        {
+          "id": "202",
+          "title": "Du lịch Huế cổ kính",
+          "category_id": 1,
+          "price": 4700000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-05",
+          "end_date": "2025-11-07",
+          "location": "Huế",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Huế",
+          "description": "Tham quan cố đô, lăng tẩm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hue.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "214",
+          "title": "Hàn Quốc mùa đông",
+          "category_id": 2,
+          "price": 15000000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-10",
+          "end_date": "2025-12-15",
+          "location": "Seoul, Nami",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Seoul",
+          "description": "Trượt tuyết, ẩm thực Hàn",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nami.png"
+          ],
+          "available_slots": 12
+        }
+      ]
+    },
+    {
+      "id": "5dfc",
+      "user_id": "05ba",
+      "full_name": "Tan",
+      "email": "tan@gmail.com",
+      "phone": "2222",
+      "payment_type": "crypto",
+      "total": 57700000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        },
+        {
+          "id": "202",
+          "title": "Du lịch Huế cổ kính",
+          "category_id": 1,
+          "price": 4700000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-05",
+          "end_date": "2025-11-07",
+          "location": "Huế",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Huế",
+          "description": "Tham quan cố đô, lăng tẩm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hue.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "214",
+          "title": "Hàn Quốc mùa đông",
+          "category_id": 2,
+          "price": 15000000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-10",
+          "end_date": "2025-12-15",
+          "location": "Seoul, Nami",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Seoul",
+          "description": "Trượt tuyết, ẩm thực Hàn",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nami.png"
+          ],
+          "available_slots": 12
+        }
+      ]
+    },
+    {
+      "id": "21c1",
+      "user_id": "05ba",
+      "full_name": "Tan",
+      "email": "tan@gmail.com",
+      "phone": "2222",
+      "payment_type": "crypto",
+      "total": 96600000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        },
+        {
+          "id": "202",
+          "title": "Du lịch Huế cổ kính",
+          "category_id": 1,
+          "price": 4700000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-05",
+          "end_date": "2025-11-07",
+          "location": "Huế",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Huế",
+          "description": "Tham quan cố đô, lăng tẩm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hue.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "214",
+          "title": "Hàn Quốc mùa đông",
+          "category_id": 2,
+          "price": 15000000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-10",
+          "end_date": "2025-12-15",
+          "location": "Seoul, Nami",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Seoul",
+          "description": "Trượt tuyết, ẩm thực Hàn",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nami.png"
+          ],
+          "available_slots": 12
+        },
+        {
+          "id": "204",
+          "title": "Phú Quốc nghỉ dưỡng",
+          "category_id": 1,
+          "price": 6900000,
+          "duration": "3N2Đ",
+          "start_date": "2025-10-20",
+          "end_date": "2025-10-22",
+          "location": "Phú Quốc",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Phú Quốc",
+          "description": "Resort 5 sao, vé máy bay khứ hồi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phuquoc.png"
+          ],
+          "available_slots": 12
+        },
+        {
+          "id": "215",
+          "title": "Paris – Kinh đô ánh sáng",
+          "category_id": 2,
+          "price": 32000000,
+          "duration": "8N7Đ",
+          "start_date": "2025-12-20",
+          "end_date": "2025-12-27",
+          "location": "Paris",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Paris",
+          "description": "Tháp Eiffel, bảo tàng Louvre",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Paris.png"
+          ],
+          "available_slots": 8
+        }
+      ]
+    },
+    {
+      "id": "aaba",
+      "user_id": "9533",
+      "full_name": "Tan",
+      "email": "minhtan111294@gmail.com",
+      "phone": "777",
+      "payment_type": "cash",
+      "total": 96600000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "209",
+          "title": "Du lịch Thái Lan",
+          "category_id": 2,
+          "price": 8500000,
+          "duration": "5N4Đ",
+          "start_date": "2025-11-10",
+          "end_date": "2025-11-14",
+          "location": "Bangkok, Pattaya",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Bangkok",
+          "description": "Văn hóa, ẩm thực, mua sắm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Pattaya.png"
+          ],
+          "available_slots": 15
+        },
+        {
+          "id": "216",
+          "title": "Úc – Sydney & Melbourne",
+          "category_id": 2,
+          "price": 29500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-11",
+          "location": "Sydney, Melbourne",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sydney",
+          "description": "Nhà hát con sò, bãi biển Bondi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Melbourne.png"
+          ],
+          "available_slots": 9
+        },
+        {
+          "id": "202",
+          "title": "Du lịch Huế cổ kính",
+          "category_id": 1,
+          "price": 4700000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-05",
+          "end_date": "2025-11-07",
+          "location": "Huế",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Huế",
+          "description": "Tham quan cố đô, lăng tẩm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hue.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "214",
+          "title": "Hàn Quốc mùa đông",
+          "category_id": 2,
+          "price": 15000000,
+          "duration": "6N5Đ",
+          "start_date": "2025-12-10",
+          "end_date": "2025-12-15",
+          "location": "Seoul, Nami",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Seoul",
+          "description": "Trượt tuyết, ẩm thực Hàn",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nami.png"
+          ],
+          "available_slots": 12
+        },
+        {
+          "id": "204",
+          "title": "Phú Quốc nghỉ dưỡng",
+          "category_id": 1,
+          "price": 6900000,
+          "duration": "3N2Đ",
+          "start_date": "2025-10-20",
+          "end_date": "2025-10-22",
+          "location": "Phú Quốc",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Phú Quốc",
+          "description": "Resort 5 sao, vé máy bay khứ hồi",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phuquoc.png"
+          ],
+          "available_slots": 12
+        },
+        {
+          "id": "215",
+          "title": "Paris – Kinh đô ánh sáng",
+          "category_id": 2,
+          "price": 32000000,
+          "duration": "8N7Đ",
+          "start_date": "2025-12-20",
+          "end_date": "2025-12-27",
+          "location": "Paris",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Paris",
+          "description": "Tháp Eiffel, bảo tàng Louvre",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Paris.png"
+          ],
+          "available_slots": 8
+        }
+      ]
+    },
+    {
+      "id": "86ca",
+      "user_id": "9533",
+      "full_name": "Tan",
+      "email": "minhtan111294@gmail.com",
+      "phone": "777",
+      "payment_type": "crypto",
+      "total": 32000000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "215",
+          "title": "Paris – Kinh đô ánh sáng",
+          "category_id": 2,
+          "price": 32000000,
+          "duration": "8N7Đ",
+          "start_date": "2025-12-20",
+          "end_date": "2025-12-27",
+          "location": "Paris",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Paris",
+          "description": "Tháp Eiffel, bảo tàng Louvre",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Paris.png"
+          ],
+          "available_slots": 8
+        }
+      ]
+    },
+    {
+      "id": "b056",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "2405",
+      "payment_type": "debit",
+      "total": 32000000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "215",
+          "title": "Paris – Kinh đô ánh sáng",
+          "category_id": 2,
+          "price": 32000000,
+          "duration": "8N7Đ",
+          "start_date": "2025-12-20",
+          "end_date": "2025-12-27",
+          "location": "Paris",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Paris",
+          "description": "Tháp Eiffel, bảo tàng Louvre",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Paris.png"
+          ],
+          "available_slots": 8
+        }
+      ]
     }
   ]
 }

@@ -382,3 +382,129 @@ img {
     grid-column: 2 / span 2;
     grid-row: 5 / span 2;
 }
+
+/* CSS SEARCH BAR */
+
+.search {
+    padding: 2rem 0;
+}
+
+#search {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.search-icon-button {
+    border: none;
+}
+
+.search-icon-button img {
+    background-color: white;
+    width: 5rem;
+}
+
+.search #departure {
+    padding: 1rem;
+    border: none;
+    border-right: var(--dark-accent) solid 1px;
+    font-weight: bold;
+}
+
+.search #departure:focus {
+    outline: none;
+}
+
+.search #arrival {
+    padding: 1rem;
+    border: none;
+    border-right: var(--dark-accent) solid 1px;
+    font-weight: bold;
+}
+
+.search #arrival:focus {
+    outline: none;
+}
+
+.search #startdate {
+    padding: 1rem;
+    border: none;
+    border-right: var(--dark-accent) solid 1px;
+}
+
+.search #startdate:focus,
+#enddate:focus {
+    outline: none;
+}
+
+.search #enddate {
+    padding: 1rem;
+    border: none;
+    border-right: var(--dark-accent) solid 1px;
+}
+
+.search p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+/* CSS SEARCH RESULT */
+
+.result {
+    display: none;
+}
+
+.result>h1 {
+    color: var(--dark-shades);
+    padding: 3rem 0;
+}
+
+.listresult {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.3rem;
+}
+
+.result-card {
+    max-width: min-content;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+        0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.result-card>div:first-child {
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    max-width: min-content;
+}
+
+.result-card img {
+    width: 16rem;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(80%);
+}
+
+.result-card:hover img {
+    filter: brightness(100%);
+    transform: scale(1.5);
+}
+
+.result-card h2 {
+    color: var(--dark-shades);
+    padding: 1rem 0.5rem;
+}
+
+.result-card h3 {
+    /* color: var(--dark-shades); */
+    padding: 1rem 0.5rem;
+}
+
+.result-card p {
+    /* color: var(--dark-shades); */
+    padding: 0.5rem 0.5rem;
+}
