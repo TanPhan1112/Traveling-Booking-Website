@@ -2671,6 +2671,35 @@
           "available_slots": 8
         }
       ]
+    },
+    {
+      "id": "c7b5",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "2405",
+      "payment_type": "credit",
+      "total": 32000000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "215",
+          "title": "Paris – Kinh đô ánh sáng",
+          "category_id": 2,
+          "price": 32000000,
+          "duration": "8N7Đ",
+          "start_date": "2025-12-20",
+          "end_date": "2025-12-27",
+          "location": "Paris",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Paris",
+          "description": "Tháp Eiffel, bảo tàng Louvre",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Paris.png"
+          ],
+          "available_slots": 8
+        }
+      ]
     }
   ]
 }
