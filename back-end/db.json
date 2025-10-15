@@ -477,19 +477,17 @@
       ]
     },
     {
-      "user_id": "2423",
       "full_name": "Duc Minh Tan Phan",
       "email": "minhtan111293@gmail.com",
       "password": "12345678",
-      "phone": "2405",
+      "phone": "052405",
       "id": "2423"
     },
     {
-      "user_id": "05ba",
-      "full_name": "Tan",
+      "full_name": " Tan Phan",
       "email": "tan@gmail.com",
       "password": "87654321",
-      "phone": "2222",
+      "phone": "6044413896",
       "id": "05ba"
     },
     {
@@ -2698,6 +2696,1269 @@
             "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Paris.png"
           ],
           "available_slots": 8
+        }
+      ]
+    },
+    {
+      "id": "628e",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "0524",
+      "payment_type": "paypal",
+      "total": 45400000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "215",
+          "title": "Paris – Kinh đô ánh sáng",
+          "category_id": 2,
+          "price": 32000000,
+          "duration": "8N7Đ",
+          "start_date": "2025-12-20",
+          "end_date": "2025-12-27",
+          "location": "Paris",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Paris",
+          "description": "Tháp Eiffel, bảo tàng Louvre",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Paris.png"
+          ],
+          "available_slots": 8
+        },
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        }
+      ]
+    },
+    {
+      "id": "634d",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "0524",
+      "payment_type": "googlepay",
+      "total": 13400000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        }
+      ]
+    },
+    {
+      "id": "6cf5",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "0524",
+      "payment_type": "credit",
+      "total": 42200000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "202",
+          "title": "Du lịch Huế cổ kính",
+          "category_id": 1,
+          "price": 4700000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-05",
+          "end_date": "2025-11-07",
+          "location": "Huế",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Huế",
+          "description": "Tham quan cố đô, lăng tẩm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hue.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "203",
+          "title": "Đà Nẵng – Hội An",
+          "category_id": 1,
+          "price": 5200000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-15",
+          "end_date": "2025-10-18",
+          "location": "Đà Nẵng, Hội An",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Đà Nẵng",
+          "description": "Biển Mỹ Khê, phố cổ Hội An",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hoian.png"
+          ],
+          "available_slots": 25
+        },
+        {
+          "id": "205",
+          "title": "Sa Pa – Fansipan",
+          "category_id": 1,
+          "price": 5600000,
+          "duration": "3N2Đ",
+          "start_date": "2025-10-30",
+          "end_date": "2025-11-01",
+          "location": "Lào Cai",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sa Pa",
+          "description": "Chinh phục nóc nhà Đông Dương",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Laocai.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "207",
+          "title": "Miền Tây sông nước",
+          "category_id": 1,
+          "price": 3500000,
+          "duration": "2N1Đ",
+          "start_date": "2025-11-25",
+          "end_date": "2025-11-26",
+          "location": "Cần Thơ",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Cần Thơ",
+          "description": "Chợ nổi Cái Răng, vườn trái cây",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Cantho.png"
+          ],
+          "available_slots": 28
+        },
+        {
+          "id": "208",
+          "title": "Quảng Bình – Phong Nha",
+          "category_id": 1,
+          "price": 5000000,
+          "duration": "3N2Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-07",
+          "location": "Quảng Bình",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Quảng Bình",
+          "description": "Động Phong Nha, hang Sơn Đoòng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
+          ],
+          "available_slots": 16
+        },
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        }
+      ]
+    },
+    {
+      "id": "fd24",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "0524",
+      "payment_type": "credit",
+      "total": 42200000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "202",
+          "title": "Du lịch Huế cổ kính",
+          "category_id": 1,
+          "price": 4700000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-05",
+          "end_date": "2025-11-07",
+          "location": "Huế",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Huế",
+          "description": "Tham quan cố đô, lăng tẩm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hue.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "203",
+          "title": "Đà Nẵng – Hội An",
+          "category_id": 1,
+          "price": 5200000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-15",
+          "end_date": "2025-10-18",
+          "location": "Đà Nẵng, Hội An",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Đà Nẵng",
+          "description": "Biển Mỹ Khê, phố cổ Hội An",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hoian.png"
+          ],
+          "available_slots": 25
+        },
+        {
+          "id": "205",
+          "title": "Sa Pa – Fansipan",
+          "category_id": 1,
+          "price": 5600000,
+          "duration": "3N2Đ",
+          "start_date": "2025-10-30",
+          "end_date": "2025-11-01",
+          "location": "Lào Cai",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sa Pa",
+          "description": "Chinh phục nóc nhà Đông Dương",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Laocai.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "207",
+          "title": "Miền Tây sông nước",
+          "category_id": 1,
+          "price": 3500000,
+          "duration": "2N1Đ",
+          "start_date": "2025-11-25",
+          "end_date": "2025-11-26",
+          "location": "Cần Thơ",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Cần Thơ",
+          "description": "Chợ nổi Cái Răng, vườn trái cây",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Cantho.png"
+          ],
+          "available_slots": 28
+        },
+        {
+          "id": "208",
+          "title": "Quảng Bình – Phong Nha",
+          "category_id": 1,
+          "price": 5000000,
+          "duration": "3N2Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-07",
+          "location": "Quảng Bình",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Quảng Bình",
+          "description": "Động Phong Nha, hang Sơn Đoòng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
+          ],
+          "available_slots": 16
+        },
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        }
+      ]
+    },
+    {
+      "id": "03e2",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "0524",
+      "payment_type": "momo",
+      "total": 38700000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "202",
+          "title": "Du lịch Huế cổ kính",
+          "category_id": 1,
+          "price": 4700000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-05",
+          "end_date": "2025-11-07",
+          "location": "Huế",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Huế",
+          "description": "Tham quan cố đô, lăng tẩm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hue.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "203",
+          "title": "Đà Nẵng – Hội An",
+          "category_id": 1,
+          "price": 5200000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-15",
+          "end_date": "2025-10-18",
+          "location": "Đà Nẵng, Hội An",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Đà Nẵng",
+          "description": "Biển Mỹ Khê, phố cổ Hội An",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hoian.png"
+          ],
+          "available_slots": 25
+        },
+        {
+          "id": "205",
+          "title": "Sa Pa – Fansipan",
+          "category_id": 1,
+          "price": 5600000,
+          "duration": "3N2Đ",
+          "start_date": "2025-10-30",
+          "end_date": "2025-11-01",
+          "location": "Lào Cai",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sa Pa",
+          "description": "Chinh phục nóc nhà Đông Dương",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Laocai.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "208",
+          "title": "Quảng Bình – Phong Nha",
+          "category_id": 1,
+          "price": 5000000,
+          "duration": "3N2Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-07",
+          "location": "Quảng Bình",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Quảng Bình",
+          "description": "Động Phong Nha, hang Sơn Đoòng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
+          ],
+          "available_slots": 16
+        },
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        }
+      ]
+    },
+    {
+      "id": "dc47",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "0524",
+      "payment_type": "applepay",
+      "total": 29800000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "202",
+          "title": "Du lịch Huế cổ kính",
+          "category_id": 1,
+          "price": 4700000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-05",
+          "end_date": "2025-11-07",
+          "location": "Huế",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Huế",
+          "description": "Tham quan cố đô, lăng tẩm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hue.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "203",
+          "title": "Đà Nẵng – Hội An",
+          "category_id": 1,
+          "price": 5200000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-15",
+          "end_date": "2025-10-18",
+          "location": "Đà Nẵng, Hội An",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Đà Nẵng",
+          "description": "Biển Mỹ Khê, phố cổ Hội An",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hoian.png"
+          ],
+          "available_slots": 25
+        },
+        {
+          "id": "205",
+          "title": "Sa Pa – Fansipan",
+          "category_id": 1,
+          "price": 5600000,
+          "duration": "3N2Đ",
+          "start_date": "2025-10-30",
+          "end_date": "2025-11-01",
+          "location": "Lào Cai",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sa Pa",
+          "description": "Chinh phục nóc nhà Đông Dương",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Laocai.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "208",
+          "title": "Quảng Bình – Phong Nha",
+          "category_id": 1,
+          "price": 5000000,
+          "duration": "3N2Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-07",
+          "location": "Quảng Bình",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Quảng Bình",
+          "description": "Động Phong Nha, hang Sơn Đoòng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
+          ],
+          "available_slots": 16
+        },
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        }
+      ]
+    },
+    {
+      "id": "b3b1",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "0524",
+      "payment_type": "credit",
+      "total": 29800000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "202",
+          "title": "Du lịch Huế cổ kính",
+          "category_id": 1,
+          "price": 4700000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-05",
+          "end_date": "2025-11-07",
+          "location": "Huế",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Huế",
+          "description": "Tham quan cố đô, lăng tẩm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hue.png"
+          ],
+          "available_slots": 18
+        },
+        {
+          "id": "203",
+          "title": "Đà Nẵng – Hội An",
+          "category_id": 1,
+          "price": 5200000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-15",
+          "end_date": "2025-10-18",
+          "location": "Đà Nẵng, Hội An",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Đà Nẵng",
+          "description": "Biển Mỹ Khê, phố cổ Hội An",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hoian.png"
+          ],
+          "available_slots": 25
+        },
+        {
+          "id": "205",
+          "title": "Sa Pa – Fansipan",
+          "category_id": 1,
+          "price": 5600000,
+          "duration": "3N2Đ",
+          "start_date": "2025-10-30",
+          "end_date": "2025-11-01",
+          "location": "Lào Cai",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sa Pa",
+          "description": "Chinh phục nóc nhà Đông Dương",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Laocai.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "208",
+          "title": "Quảng Bình – Phong Nha",
+          "category_id": 1,
+          "price": 5000000,
+          "duration": "3N2Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-07",
+          "location": "Quảng Bình",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Quảng Bình",
+          "description": "Động Phong Nha, hang Sơn Đoòng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
+          ],
+          "available_slots": 16
+        },
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        }
+      ]
+    },
+    {
+      "id": "c5d0",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "0524",
+      "payment_type": "credit",
+      "total": 25100000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "203",
+          "title": "Đà Nẵng – Hội An",
+          "category_id": 1,
+          "price": 5200000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-15",
+          "end_date": "2025-10-18",
+          "location": "Đà Nẵng, Hội An",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Đà Nẵng",
+          "description": "Biển Mỹ Khê, phố cổ Hội An",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hoian.png"
+          ],
+          "available_slots": 25
+        },
+        {
+          "id": "205",
+          "title": "Sa Pa – Fansipan",
+          "category_id": 1,
+          "price": 5600000,
+          "duration": "3N2Đ",
+          "start_date": "2025-10-30",
+          "end_date": "2025-11-01",
+          "location": "Lào Cai",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sa Pa",
+          "description": "Chinh phục nóc nhà Đông Dương",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Laocai.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "208",
+          "title": "Quảng Bình – Phong Nha",
+          "category_id": 1,
+          "price": 5000000,
+          "duration": "3N2Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-07",
+          "location": "Quảng Bình",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Quảng Bình",
+          "description": "Động Phong Nha, hang Sơn Đoòng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
+          ],
+          "available_slots": 16
+        },
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        }
+      ]
+    },
+    {
+      "id": "1ff3",
+      "user_id": "05ba",
+      "full_name": "Tan",
+      "email": "tan@gmail.com",
+      "phone": "696969",
+      "payment_type": "zalopay",
+      "total": 15000000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "203",
+          "title": "Đà Nẵng – Hội An",
+          "category_id": 1,
+          "price": 5200000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-15",
+          "end_date": "2025-10-18",
+          "location": "Đà Nẵng, Hội An",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Đà Nẵng",
+          "description": "Biển Mỹ Khê, phố cổ Hội An",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hoian.png"
+          ],
+          "available_slots": 25
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "208",
+          "title": "Quảng Bình – Phong Nha",
+          "category_id": 1,
+          "price": 5000000,
+          "duration": "3N2Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-07",
+          "location": "Quảng Bình",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Quảng Bình",
+          "description": "Động Phong Nha, hang Sơn Đoòng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
+          ],
+          "available_slots": 16
+        }
+      ]
+    },
+    {
+      "id": "aa12",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "0524",
+      "payment_type": "paypal",
+      "total": 15000000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "203",
+          "title": "Đà Nẵng – Hội An",
+          "category_id": 1,
+          "price": 5200000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-15",
+          "end_date": "2025-10-18",
+          "location": "Đà Nẵng, Hội An",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Đà Nẵng",
+          "description": "Biển Mỹ Khê, phố cổ Hội An",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hoian.png"
+          ],
+          "available_slots": 25
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "208",
+          "title": "Quảng Bình – Phong Nha",
+          "category_id": 1,
+          "price": 5000000,
+          "duration": "3N2Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-07",
+          "location": "Quảng Bình",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Quảng Bình",
+          "description": "Động Phong Nha, hang Sơn Đoòng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
+          ],
+          "available_slots": 16
+        }
+      ]
+    },
+    {
+      "id": "8d2d",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "0524",
+      "payment_type": "credit",
+      "total": 15000000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "203",
+          "title": "Đà Nẵng – Hội An",
+          "category_id": 1,
+          "price": 5200000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-15",
+          "end_date": "2025-10-18",
+          "location": "Đà Nẵng, Hội An",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Đà Nẵng",
+          "description": "Biển Mỹ Khê, phố cổ Hội An",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hoian.png"
+          ],
+          "available_slots": 25
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        },
+        {
+          "id": "208",
+          "title": "Quảng Bình – Phong Nha",
+          "category_id": 1,
+          "price": 5000000,
+          "duration": "3N2Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-07",
+          "location": "Quảng Bình",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Quảng Bình",
+          "description": "Động Phong Nha, hang Sơn Đoòng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
+          ],
+          "available_slots": 16
+        }
+      ]
+    },
+    {
+      "id": "1482",
+      "user_id": "05ba",
+      "full_name": " Tan Phan",
+      "email": "tan@gmail.com",
+      "phone": "6044413896",
+      "payment_type": "crypto",
+      "total": 10000000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "203",
+          "title": "Đà Nẵng – Hội An",
+          "category_id": 1,
+          "price": 5200000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-15",
+          "end_date": "2025-10-18",
+          "location": "Đà Nẵng, Hội An",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Đà Nẵng",
+          "description": "Biển Mỹ Khê, phố cổ Hội An",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hoian.png"
+          ],
+          "available_slots": 25
+        },
+        {
+          "id": "206",
+          "title": "Nha Trang biển xanh",
+          "category_id": 1,
+          "price": 4800000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-12",
+          "end_date": "2025-11-14",
+          "location": "Nha Trang",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Nha Trang",
+          "description": "Tắm biển, lặn ngắm san hô",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Nhatrang.png"
+          ],
+          "available_slots": 22
+        }
+      ]
+    },
+    {
+      "id": "d94b",
+      "user_id": "05ba",
+      "full_name": " Tan Phan",
+      "email": "tan@gmail.com",
+      "phone": "6044413896",
+      "payment_type": "zalopay",
+      "total": 5200000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "203",
+          "title": "Đà Nẵng – Hội An",
+          "category_id": 1,
+          "price": 5200000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-15",
+          "end_date": "2025-10-18",
+          "location": "Đà Nẵng, Hội An",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Đà Nẵng",
+          "description": "Biển Mỹ Khê, phố cổ Hội An",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hoian.png"
+          ],
+          "available_slots": 25
+        }
+      ]
+    },
+    {
+      "id": "426d",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "052405",
+      "payment_type": "crypto",
+      "total": 10600000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "205",
+          "title": "Sa Pa – Fansipan",
+          "category_id": 1,
+          "price": 5600000,
+          "duration": "3N2Đ",
+          "start_date": "2025-10-30",
+          "end_date": "2025-11-01",
+          "location": "Lào Cai",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sa Pa",
+          "description": "Chinh phục nóc nhà Đông Dương",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Laocai.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "208",
+          "title": "Quảng Bình – Phong Nha",
+          "category_id": 1,
+          "price": 5000000,
+          "duration": "3N2Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-07",
+          "location": "Quảng Bình",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Quảng Bình",
+          "description": "Động Phong Nha, hang Sơn Đoòng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
+          ],
+          "available_slots": 16
+        }
+      ]
+    },
+    {
+      "id": "9a3f",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "052405",
+      "payment_type": "credit",
+      "total": 10600000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "205",
+          "title": "Sa Pa – Fansipan",
+          "category_id": 1,
+          "price": 5600000,
+          "duration": "3N2Đ",
+          "start_date": "2025-10-30",
+          "end_date": "2025-11-01",
+          "location": "Lào Cai",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sa Pa",
+          "description": "Chinh phục nóc nhà Đông Dương",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Laocai.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "208",
+          "title": "Quảng Bình – Phong Nha",
+          "category_id": 1,
+          "price": 5000000,
+          "duration": "3N2Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-07",
+          "location": "Quảng Bình",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Quảng Bình",
+          "description": "Động Phong Nha, hang Sơn Đoòng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
+          ],
+          "available_slots": 16
+        }
+      ]
+    },
+    {
+      "id": "7206",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "052405",
+      "payment_type": "credit",
+      "total": 10600000,
+      "date": "15/10/2025",
+      "items": [
+        {
+          "id": "205",
+          "title": "Sa Pa – Fansipan",
+          "category_id": 1,
+          "price": 5600000,
+          "duration": "3N2Đ",
+          "start_date": "2025-10-30",
+          "end_date": "2025-11-01",
+          "location": "Lào Cai",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sa Pa",
+          "description": "Chinh phục nóc nhà Đông Dương",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Laocai.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "208",
+          "title": "Quảng Bình – Phong Nha",
+          "category_id": 1,
+          "price": 5000000,
+          "duration": "3N2Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-07",
+          "location": "Quảng Bình",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Quảng Bình",
+          "description": "Động Phong Nha, hang Sơn Đoòng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
+          ],
+          "available_slots": 16
         }
       ]
     }

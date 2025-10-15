@@ -9,7 +9,6 @@ async function getOrderInfo(orderId) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         const data = await response.json();
-        console.log(data);
         return data;
     } catch (error) {
         console.error("Lỗi Fetch API:", error);
@@ -21,6 +20,7 @@ function show_order_history(order) {
     const allItems = order.reduce((items, booked) => {
         items.push({
             id: booked.id,
+            date: booked.date,
             orders: booked.items,
             total: booked.total,
             payment: booked.payment_type
@@ -33,18 +33,16 @@ function show_order_history(order) {
         cartCard.classList.add("cart-card");
 
         cartCard.innerHTML = `
-            <p>Mã đơn hàng <strong>${items.id}</strong></p>
-            <p style="color:red;font-weight:bolder;">Tổng tiền: ${items.total.toLocaleString('vi-VN', {
-            style: 'currency', currency: 'VND',
-        })}</p>
-            <p>Thanh toán: <strong>${items.payment}</strong></p>
+            <p class="grid-header">Mã đơn hàng: <strong>${items.id}</strong> (${items.date})</p>
+            <p class="grid-header">Tổng tiền: <span style="color:red;font-weight:bolder;">${items.total.toLocaleString('vi-VN', { style: 'currency', currency: 'VND', })}</span></p>
+            <p class="grid-header">Thanh toán: <strong>${items.payment}</strong></p>
         `;
 
         items.orders.forEach(item => {
             cartCard.innerHTML += `
                 <div><img src="${item.images}" alt="${item.location}"></div>
                     <h4>${item.title}</h4>
-                    <p style="color:red;font-weight:bolder;">${item.price.toLocaleString('vi-VN', {
+                    <p style="color:red;font-weight:bolder;text-align:right;">${item.price.toLocaleString('vi-VN', {
                 style: 'currency', currency: 'VND',
             })}</p>
             `;
@@ -57,11 +55,11 @@ function show_order_history(order) {
     let medal = "";
 
     if (Object.keys(order).length > 10) {
-        medal = `Thành viên&nbsp;<i>Vàng</i>&nbsp;<img id="gold" width="16" height="16" fill="white" src="images/gold.svg" alt="gold">`;
+        medal = `Thành viên&nbsp;<i>Vàng</i>&nbsp;&nbsp;<img id="gold" width="24" height="24" src="images/gold.svg" alt="gold">`;
     } else if (Object.keys(order).length < 10 && Object.keys(order).length > 3) {
-        medal = `Thành viên&nbsp;<i>Bạc</i>&nbsp;<img id="silver" width="16" height="16" fill="white" src="images/silver.svg" alt="silver">`;
+        medal = `Thành viên&nbsp;<i>Bạc</i>&nbsp;&nbsp;<img id="silver" width="24" height="24" src="images/silver.svg" alt="silver">`;
     } else {
-        medal = `Thành viên&nbsp;<i>Đồng</i>&nbsp;<img id="bronze" width="16" height="16" fill="white" src="images/bronze.svg" alt="bronze">`;
+        medal = `Thành viên&nbsp;<i>Đồng</i>&nbsp;&nbsp;<img id="bronze" width="24" height="24" src="images/bronze.svg" alt="bronze">`;
     }
 
     let phone = "";
@@ -76,10 +74,9 @@ function show_order_history(order) {
         <p>Họ tên: ${user.full_name}</p>
         <p>Email: ${user.email}</p>
         <p>Số điện thoại: ${phone}</p>
-        <p>Số lượng tour đã đặt: <strong>${Object.keys(order).length}</strong></p>
+        <p>Số lượng đơn đã đặt: <strong>${Object.keys(order).length}</strong></p>
         <p style="display: flex;flex-direction: row;align-items: center;">Cấp bậc: ${medal}</p>
-
-        <h3>Cập nhật hồ sơ</h3>
+        <h2>Cập nhật thông tin cá nhân</h2>
         <p>Họ tên</p>
         <input id="fullName">
         <p>Email</p>

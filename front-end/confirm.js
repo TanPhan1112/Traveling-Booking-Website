@@ -11,7 +11,6 @@ async function getOrderInfo(orderId) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         const data = await response.json();
-        console.log(data[0]);
         return data[0];
     } catch (error) {
         console.error("Lỗi Fetch API:", error);
@@ -39,9 +38,7 @@ function show_confirm(order) {
         total.classList.add("total");
 
         total.innerHTML = `
-            <h1 class="total">Tổng tiền: ${sum.toLocaleString('vi-VN', {
-            style: 'currency', currency: 'VND',
-        })}</h1>
+            <h1 class="total">Tổng tiền: <span style="color:red;font-weight:bolder;">${sum.toLocaleString('vi-VN', { style: 'currency', currency: 'VND', })}</span></h1>
         `;
         cartList.appendChild(total);
 
@@ -49,13 +46,16 @@ function show_confirm(order) {
         cuxCard.classList.add("cux-card");
 
         cuxCard.innerHTML = `
-            <p>Mã đơn hàng ${order.id}</p>
-            <p>Họ tên ${order.full_name}</p>
-            <p>Email ${order.email}</p>
-            <p>Số điện thoại ${order.phone}</p>
-            <p>Hình thức thanh toán ${order.payment_type}</p>
-            <p>Ngày đặt ${order.date}</p>
-            <p>Tổng tiền ${order.total}</p>
+            <p>Mã đơn hàng: ${order.id}</p>
+            <p>Họ tên: ${order.full_name}</p>
+            <p>Email: ${order.email}</p>
+            <p>Số điện thoại: ${order.phone}</p>
+            <p>Hình thức thanh toán: ${order.payment_type}</p>
+            <p>Ngày đặt: ${order.date}</p>
+            <p>Tổng tiền: ${order.total.toLocaleString('vi-VN', {
+            style: 'currency', currency: 'VND',
+        })}</p>
+            <a href="index.html">Tiếp tục xem tour</a>
         `;
 
         cuxInfo.appendChild(cuxCard);

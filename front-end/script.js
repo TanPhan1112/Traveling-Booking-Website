@@ -82,6 +82,9 @@ search.addEventListener('submit', async (e) => {
     if (Object.keys(searched).length > 4) {
         const resultList = document.querySelector(".listresult");
         resultList.setAttribute("style", "overflow-x: auto;");
+    } else {
+        const resultList = document.querySelector(".listresult");
+        resultList.setAttribute("style", "overflow-x: clip;");
     }
 
     displayResult(searched);

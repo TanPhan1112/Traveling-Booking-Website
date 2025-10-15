@@ -1,19 +1,25 @@
-.checkout h1 {
+.checkout>h1 {
     text-align: center;
     color: var(--dark-shades);
     padding: 2rem;
+    border-bottom: 1px solid;
 }
 
 .checkout-grid {
     display: grid;
-    grid-template-columns: 4fr 3fr;
+    grid-template-columns: 4fr 4fr;
     gap: 2rem;
 }
 
 /* CSS CHECKOUT LIST */
 
-.total h1 {
+.total>h1 {
     text-align: left;
+    padding: 1rem 0;
+    border-top: var(--dark-shades) solid 1px;
+}
+
+#cartList>h3 {
     padding: 1rem 0;
 }
 
@@ -47,10 +53,70 @@
 }
 
 .cart-card h4 {
-    color: var(--dark-shades);
     align-content: center;
 }
 
 .cart-card p {
     align-content: center;
+}
+
+/* CSS CUX INFO */
+
+#cuxInfo>h3 {
+    padding: 1rem 0;
+}
+
+.cux-card {
+    max-height: fit-content;
+    border-radius: 10px;
+    border: var(--dark-shades) solid 1px;
+    background-color: var(--dark-shades);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cux-card #bookNow {
+    padding: 1.5rem;
+}
+
+.cux-card p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--light-shades);
+    padding: 1rem 0;
+}
+
+.cux-card input {
+    background-color: var(--light-shades);
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 60%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.cux-card select {
+    display: block;
+    width: 60%;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--light-shades);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cux-card button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    border: var(--dark-shades) solid 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: var(--light-shades);
+    color: var(--dark-shades);
+    font-weight: bolder;
+    font-size: 1rem;
 }
