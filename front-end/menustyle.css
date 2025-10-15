@@ -6,7 +6,7 @@
     --primary-color: #75E6DA;
     --light-shades: #D4F1F4;
     --dark-accent: #189AB4;
-    --dark-shades: #05445E;
+    --dark-shades: #ef2061;
 }
 
 .container {
@@ -156,29 +156,75 @@ main {
 }
 
 /* CSS FOOTER */
-
 .footercolor {
     background-color: var(--dark-shades);
+    padding-top: 2rem;
 }
 
 .footer-area {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.footer-area>p {
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.footer-col h4 {
+    color: var(--light-shades);
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col ul li,
+.footer-col p {
+    color: var(--light-shades);
+    font-size: 0.9rem;
+    margin: 0.3rem 0;
+}
+
+.payments span {
+    display: inline-block;
+    background: var(--light-shades);
+    color: var(--dark-shades);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-right: 0.3rem;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-bottom>p {
     color: var(--light-shades);
     padding: 1rem 0;
     font-size: 1rem;
 }
 
-.footer-area>nav {
+.footer-bottom>nav {
     padding: 1rem 0;
 }
 
-.footer-area>nav a {
+.footer-bottom>nav a {
     text-decoration: none;
     color: var(--light-shades);
-    padding-left: 5rem;
+    margin-left: 2rem;
     font-size: 1rem;
 }

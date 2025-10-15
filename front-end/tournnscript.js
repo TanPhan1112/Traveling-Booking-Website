@@ -1,3 +1,33 @@
+const filterSearch = document.querySelector("#filterSearch");
+
+async function filtering(myRange, departure, arrival, startDate, endDate) {
+    try {
+        const response = await fetch(`http://localhost:3000/tours?category_id=2&price_lt=${myRange}&departure_location=${departure}&arrival_location=${arrival}&start_date=${startDate}&end_date=${endDate}`);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error("Lỗi Fetch API:", error);
+        return null;
+    }
+}
+
+filterSearch.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const myRange = document.querySelector("#myRange");
+    const departure = document.querySelector("#departure");
+    const arrival = document.querySelector("#arrival");
+    const startDate = document.querySelector("#startdate");
+    const endDate = document.querySelector("#enddate");
+
+    const filtered = await filtering(myRange.value, departure.value, arrival.value, startDate.value, endDate.value);
+
+    displayTours(filtered);
+});
+
 const rangeInput = document.getElementById('myRange');
 const rangeValueSpan = document.getElementById('rangeValue');
 

@@ -5,21 +5,18 @@ if (Object.keys(user).length !== 0) {
     loggedIn.innerHTML = `
         <a href="profile.html">${user.full_name}</a>
         <div class="dropdown-content">
-            <a href="#">Hồ sơ</a>
-            <a href="cart.html">Giỏ hàng</a>
+            <a href="profile.html">Hồ sơ</a>
             <button onclick="logOut()">Đăng xuất</button>
         </div>
     `;
 }
 
 const cart = JSON.parse(localStorage.getItem("cart")) || [];
-const numberTour = document.querySelector("#numbertour");
+numberTour = document.querySelector("#numbertour");
 
-if (cart.length !== 0) {
-    numberTour.innerHTML = `
-        ${cart.length}
-    `;
-}
+numberTour.innerHTML = `
+    ${cart.length}
+`;
 
 function logOut() {
     localStorage.removeItem("user");
