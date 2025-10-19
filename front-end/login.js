@@ -1,5 +1,17 @@
 const logIn = document.querySelector("#login");
 
+function simpleHash(str) {
+    let hash = 0;
+
+    for (let i = 0; i < str.length; i++) {
+        const char = str.charCodeAt(i);
+        hash = (hash << 5) - hash + char;
+        hash |= 0; // Convert to 32-bit integer
+    }
+
+    return hash.toString(16); // Return as hex string
+}
+
 async function checkAccount(email, password) {
     try {
         const response = await fetch(`http://localhost:3000/customers?email=${email}&password=${password}`);
@@ -22,10 +34,10 @@ logIn.addEventListener('submit', async (e) => {
     const error = document.querySelector("#error");
 
     const inputEmail = email.value;
-    const inputPassword = password.value;
+    const inputPassword = simpleHash(password.value);
 
     if (!inputEmail || !inputPassword) {
-        error.innerHTML = "Vui lòng không bỏ trống Email hoặc Password!!!";
+        error.innerHTML = "Vui lòng không bỏ trống Email và Password!!!";
     } else {
         const checked = await checkAccount(inputEmail, inputPassword);
 

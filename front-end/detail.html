@@ -55,33 +55,103 @@
                         <div class="tourinfo">
                             <div id="banner"></div>
                             <h2 class="title"></h2>
-                            <ul class="submenu">
-                                <li><a href="">Điểm nổi bật</a></li>
-                                <li><a href="">Lịch trình</a></li>
-                                <li><a href="">Bảng giá</a></li>
-                                <li><a href="">Dịch vụ bao gồm</a></li>
-                                <li><a href="">Hình ảnh</a></li>
-                            </ul>
-                            <p>Điểm nổi bật</p>
-                            <ul style="list-style: none;">
-                                <li>✅ Bay thẳng với hãng hàng không quốc tế đến Bangkok – Thái Lan</li>
-                                <li>✅ Khám phá những ngôi chùa nổi tiếng ở Bangkok: Wat Arun, Wat Pho, và Grand Palace
-                                </li>
-                                <li>✅ Dạo thuyền trên sông Chao Phraya và trải nghiệm chợ nổi Damnoen Saduak</li>
-                                <li>✅ Thỏa sức mua sắm tại các trung tâm nổi tiếng: MBK, Siam Paragon, Central World
-                                </li>
-                                <li>✅ Trải nghiệm ẩm thực đường phố Bangkok – Pad Thai, Tom Yum, Som Tum, Mango Sticky
-                                    Rice</li>
-                                <li>✅ Khám phá phố Khao San Road sôi động về đêm</li>
-                                <li>✅ Khởi hành đến Pattaya – thành phố biển nổi tiếng gần Bangkok</li>
-                                <li>✅ Tắm biển Pattaya và tham gia các hoạt động thể thao dưới nước</li>
-                                <li>✅ Chiêm ngưỡng Sanctuary of Truth – công trình kiến trúc gỗ độc đáo</li>
-                                <li>✅ Thưởng thức Tiffany Show hoặc Alcazar Show hoành tráng</li>
-                                <li>✅ Khám phá đảo Coral (Koh Larn) với bãi biển cát trắng và nước biển xanh ngọc</li>
-                                <li>✅ Thưởng thức hải sản tươi sống tại các nhà hàng ven biển</li>
-                                <li>✅ Tự do mua sắm và trải nghiệm chợ đêm Pattaya sôi động</li>
-                            </ul>
-
+                            <div class="tab">
+                                <button class="tablinks" onclick="openTab(event, 'noibat')">Điểm nổi bật</button>
+                                <button class="tablinks" onclick="openTab(event, 'lichtrinh')">Lịch trình</button>
+                                <button class="tablinks" onclick="openTab(event, 'banggia')">Bảng giá</button>
+                                <button class="tablinks" onclick="openTab(event, 'dichvu')">Dịch vụ bao gồm</button>
+                                <button class="tablinks" onclick="openTab(event, 'hinhanh')">Hình ảnh</button>
+                            </div>
+                            <div id="noibat" class="tabcontent">
+                                <h3>🗺️ Điểm nổi bật</h3>
+                                <p>- Hành trình cân bằng giữa thư giãn và khám phá, giúp du khách vừa tận hưởng không
+                                    gian yên bình vừa trải nghiệm những điều mới mẻ.</p>
+                                <p>- Khám phá bản sắc văn hóa qua các hoạt động truyền thống, lễ hội địa phương, và
+                                    giao lưu với người dân bản địa.</p>
+                                <p>- Thưởng thức ẩm thực đặc trưng, từ món ăn đường phố đến bữa tiệc tại nhà hàng cao
+                                    cấp, mang đậm hương vị vùng miền.</p>
+                                <p>- Hoạt động ngoài trời đa dạng như đi bộ xuyên rừng, chèo thuyền, đạp xe, hoặc ngắm
+                                    cảnh bằng xe điện.</p>
+                                <p>- Thời gian linh hoạt, không quá dày đặc, phù hợp với mọi độ tuổi và thể trạng.</p>
+                                <p>- Hướng dẫn viên chuyên nghiệp, am hiểu địa phương, luôn hỗ trợ tận tình và tạo
+                                    không khí vui vẻ suốt chuyến đi.</p>
+                            </div>
+                            <div id="lichtrinh" class="tabcontent">
+                                <h3>📅 Lịch trình</h3>
+                                <h4>Ngày 1 – Khởi động nhẹ nhàng</h4>
+                                <p>– Đón khách tại điểm hẹn, giới thiệu chương trình và làm quen đoàn</p>
+                                <p>– Di chuyển đến điểm tham quan đầu tiên, chụp ảnh lưu niệm</p>
+                                <p>– Ăn trưa tại nhà hàng địa phương</p>
+                                <p>– Nhận phòng khách sạn, nghỉ ngơi</p>
+                                <p>– Buổi chiều tham gia hoạt động nhẹ như tham quan bảo tàng, công viên hoặc khu phố cổ
+                                </p>
+                                <p>– Tối: Ăn tối và tham gia chương trình giao lưu nhóm</p>
+                                <h4>Ngày 2 – Trải nghiệm sâu sắc</h4>
+                                <p>– Ăn sáng tại khách sạn</p>
+                                <p>– Tham quan các điểm nổi bật trong khu vực: thiên nhiên, văn hóa, hoặc kiến trúc</p>
+                                <p>– Tham gia workshop hoặc hoạt động tương tác (làm bánh, vẽ tranh, học nhảy dân
+                                    gian...)</p>
+                                <p>– Tự do mua sắm hoặc nghỉ ngơi</p>
+                                <p>– Tối: Ăn tối tự chọn hoặc theo nhóm, chia sẻ cảm nhận về hành trình</p>
+                                <h4>Ngày 3 – Kết thúc ấn tượng</h4>
+                                <p>– Ăn sáng, làm thủ tục trả phòng</p>
+                                <p>– Tham quan điểm cuối cùng hoặc ghé thăm chợ địa phương</p>
+                                <p>– Di chuyển về điểm xuất phát, kết thúc tour và chia tay đoàn</p>
+                            </div>
+                            <div id="banggia" class="tabcontent">
+                                <h3>💰 Bảng giá</h3>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Đối tượng</th>
+                                            <th>Giá tour</th>
+                                            <th>Ghi chú</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Người lớn</td>
+                                            <td>2.200.000₫</td>
+                                            <td>Bao gồm toàn bộ dịch vụ</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Trẻ em (6–11)</td>
+                                            <td>1.500.000₫</td>
+                                            <td>Ngủ chung với người lớn</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Trẻ dưới 6 tuổi</td>
+                                            <td>Miễn phí</td>
+                                            <td>Không có suất ăn riêng, không có giường riêng</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p>Giá tour đã bao gồm:</p>
+                                <p>✔️ Thuế VAT</p>
+                                <p>✔️ Bảo hiểm du lịch</p>
+                                <p>✔️ Quà tặng lưu niệm</p>
+                                <p>Không bao gồm:</p>
+                                <p>❌ Chi phí cá nhân (mua sắm, giặt ủi, điện thoại...)</p>
+                                <p>❌ Các dịch vụ phát sinh ngoài chương trình</p>
+                            </div>
+                            <div id="dichvu" class="tabcontent">
+                                <h3>🧳 Dịch vụ bao gồm</h3>
+                                <p>- Phương tiện di chuyển: Xe du lịch đời mới, máy lạnh, đưa đón theo lịch trình</p>
+                                <p>- Lưu trú: Khách sạn tiêu chuẩn 2–3 sao, phòng đôi hoặc phòng ba</p>
+                                <p>- Ăn uống: Các bữa ăn theo chương trình, thực đơn đa dạng và phù hợp khẩu vị</p>
+                                <p>- Vé tham quan: Vé vào cửa các điểm du lịch theo lịch trình</p>
+                                <p>- Hướng dẫn viên: Nhiệt tình, chuyên nghiệp, hỗ trợ suốt tuyến</p>
+                                <p>- Bảo hiểm du lịch: Mức bồi thường tối đa 100 triệu đồng/trường hợp</p>
+                                <p>- Quà tặng: Nón du lịch, nước suối, và ảnh đoàn kỷ niệm</p>
+                            </div>
+                            <div id="hinhanh" class="tabcontent">
+                                <h3>📸 Hình ảnh</h3>
+                                <p>- Hình ảnh đoàn khách trong các hoạt động chung: tham quan, ăn uống, giao lưu</p>
+                                <p>- Khoảnh khắc vui vẻ khi thưởng thức món ăn đặc trưng hoặc tham gia trò chơi dân gian
+                                </p>
+                                <p>- Cảnh đẹp thiên nhiên, không gian văn hóa đặc sắc, hoặc kiến trúc độc đáo</p>
+                                <p>- Ảnh kỷ niệm nhóm tại điểm kết thúc tour, cùng lời cảm ơn từ hướng dẫn viên</p>
+                            </div>
                         </div>
                         <div class="tour-detail"></div>
                     </div>
