@@ -50,6 +50,7 @@ function show_confirm(order) {
             <p>Họ tên: ${order.full_name}</p>
             <p>Email: ${order.email}</p>
             <p>Số điện thoại: ${order.phone}</p>
+            <p>Số người: ${order.people}</p>
             <p>Hình thức thanh toán: ${order.payment_type}</p>
             <p>Ngày đặt: ${order.date}</p>
             <p>Tổng tiền: ${order.total.toLocaleString('vi-VN', {

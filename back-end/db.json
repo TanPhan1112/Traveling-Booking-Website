@@ -477,10 +477,11 @@
       ]
     },
     {
-      "full_name": "Duc Minh Tan Phan",
+      "full_name": "Phan Đức Minh Tân",
       "email": "minhtan111293@gmail.com",
       "password": "12345678",
-      "phone": "052405",
+      "phone": "0867052405",
+      "address": "8 Nguyễn Huy Tưởng, Phường Gia Định, Bình Thạnh, HCM",
       "id": "2423"
     },
     {
@@ -491,11 +492,10 @@
       "id": "05ba"
     },
     {
-      "user_id": "9533",
       "full_name": "Tan",
       "email": "minhtan111294@gmail.com",
       "password": "87654321",
-      "phone": "777",
+      "phone": "7778888999",
       "id": "9533"
     },
     {
@@ -515,6 +515,13 @@
       "full_name": "Minh",
       "email": "minh1112@gmail.com",
       "password": "35510699"
+    },
+    {
+      "full_name": "Đức Minh Tân Phan",
+      "email": "minhtan111291@gmail.com",
+      "password": "-6ef1ff7c",
+      "phone": "6044413896",
+      "id": "91f0"
     }
   ],
   "featured_tours": [
@@ -3959,6 +3966,362 @@
             "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
           ],
           "available_slots": 16
+        }
+      ]
+    },
+    {
+      "id": "3690",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "0867",
+      "payment_type": "zalopay",
+      "total": 10600000,
+      "date": "16/10/2025",
+      "items": [
+        {
+          "id": "205",
+          "title": "Sa Pa – Fansipan",
+          "category_id": 1,
+          "price": 5600000,
+          "duration": "3N2Đ",
+          "start_date": "2025-10-30",
+          "end_date": "2025-11-01",
+          "location": "Lào Cai",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Sa Pa",
+          "description": "Chinh phục nóc nhà Đông Dương",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Laocai.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "208",
+          "title": "Quảng Bình – Phong Nha",
+          "category_id": 1,
+          "price": 5000000,
+          "duration": "3N2Đ",
+          "start_date": "2025-12-05",
+          "end_date": "2025-12-07",
+          "location": "Quảng Bình",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Quảng Bình",
+          "description": "Động Phong Nha, hang Sơn Đoòng",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Phongnha.png"
+          ],
+          "available_slots": 16
+        }
+      ]
+    },
+    {
+      "id": "ccc7",
+      "user_id": "9533",
+      "full_name": "Tan",
+      "email": "minhtan111294@gmail.com",
+      "phone": "7778888999",
+      "payment_type": "cash",
+      "total": 7800000,
+      "date": "16/10/2025",
+      "items": [
+        {
+          "id": "210",
+          "title": "Khám phá Angkor Wat",
+          "category_id": 2,
+          "price": 7800000,
+          "duration": "5N4Đ",
+          "start_date": "2025-12-01",
+          "end_date": "2025-12-05",
+          "location": "Siem Reap",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Siem Reap",
+          "description": "Kỳ quan cổ đại Khmer",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/SiemReap.png"
+          ],
+          "available_slots": 20
+        }
+      ]
+    },
+    {
+      "id": "af0d",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "999888777",
+      "payment_type": "paypal",
+      "total": 35500000,
+      "date": "18/10/2025",
+      "items": [
+        {
+          "id": "210",
+          "title": "Khám phá Angkor Wat",
+          "category_id": 2,
+          "price": 7800000,
+          "duration": "5N4Đ",
+          "start_date": "2025-12-01",
+          "end_date": "2025-12-05",
+          "location": "Siem Reap",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Siem Reap",
+          "description": "Kỳ quan cổ đại Khmer",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/SiemReap.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "213",
+          "title": "Nhật Bản mùa lá đỏ",
+          "category_id": 2,
+          "price": 18500000,
+          "duration": "7N6Đ",
+          "start_date": "2025-11-02",
+          "end_date": "2025-11-08",
+          "location": "Tokyo, Kyoto, Osaka",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Tokyo",
+          "description": "Ngắm lá đỏ, văn hóa Nhật",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Kyoto.png"
+          ],
+          "available_slots": 10
+        },
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "202",
+          "title": "Du lịch Huế cổ kính",
+          "category_id": 1,
+          "price": 4700000,
+          "duration": "3N2Đ",
+          "start_date": "2025-11-05",
+          "end_date": "2025-11-07",
+          "location": "Huế",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Huế",
+          "description": "Tham quan cố đô, lăng tẩm",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hue.png"
+          ],
+          "available_slots": 18
+        }
+      ]
+    },
+    {
+      "id": "357e",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "999888777",
+      "people": "10",
+      "payment_type": "credit",
+      "total": 4500000,
+      "date": "19/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        }
+      ]
+    },
+    {
+      "id": "50b4",
+      "user_id": "2423",
+      "full_name": "Duc Minh Tan Phan",
+      "email": "minhtan111293@gmail.com",
+      "phone": "999888777",
+      "people": "5",
+      "payment_type": "credit",
+      "total": 4500000,
+      "date": "19/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        }
+      ]
+    },
+    {
+      "id": "d873",
+      "user_id": "91f0",
+      "full_name": "Đức Minh Tân Phan",
+      "email": "minhtan111292@gmail.com",
+      "phone": "6044413896",
+      "people": "10",
+      "payment_type": "credit",
+      "total": 4500000,
+      "date": "19/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        }
+      ]
+    },
+    {
+      "id": "eb4e",
+      "user_id": "91f0",
+      "full_name": "Đức Minh Tân Phan",
+      "email": "minhtan111291@gmail.com",
+      "phone": "6044413896",
+      "people": "5",
+      "payment_type": "credit",
+      "total": 21200000,
+      "date": "19/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "210",
+          "title": "Khám phá Angkor Wat",
+          "category_id": 2,
+          "price": 7800000,
+          "duration": "5N4Đ",
+          "start_date": "2025-12-01",
+          "end_date": "2025-12-05",
+          "location": "Siem Reap",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Siem Reap",
+          "description": "Kỳ quan cổ đại Khmer",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/SiemReap.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
+        }
+      ]
+    },
+    {
+      "id": "b99f",
+      "user_id": "91f0",
+      "full_name": "Đức Minh Tân Phan",
+      "email": "minhtan111291@gmail.com",
+      "phone": "6044413896",
+      "people": "10",
+      "payment_type": "momo",
+      "total": 13400000,
+      "date": "19/10/2025",
+      "items": [
+        {
+          "id": "201",
+          "title": "Khám phá Hà Giang",
+          "category_id": 1,
+          "price": 4500000,
+          "duration": "4N3Đ",
+          "start_date": "2025-10-01",
+          "end_date": "2025-10-04",
+          "location": "Hà Giang",
+          "departure_location": "Hà Nội",
+          "arrival_location": "Hà Giang",
+          "description": "Cung đường hùng vĩ, văn hóa vùng cao",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Hagiang.png"
+          ],
+          "available_slots": 20
+        },
+        {
+          "id": "212",
+          "title": "Singapore hiện đại",
+          "category_id": 2,
+          "price": 8900000,
+          "duration": "4N3Đ",
+          "start_date": "2025-11-18",
+          "end_date": "2025-11-21",
+          "location": "Singapore",
+          "departure_location": "TP. Hồ Chí Minh",
+          "arrival_location": "Singapore",
+          "description": "Marina Bay, Sentosa",
+          "images": [
+            "https://raw.githubusercontent.com/qaletdiv/25022-p1-BookTours-MinhTan/refs/heads/main/front-end/images/Singapore.png"
+          ],
+          "available_slots": 18
         }
       ]
     }

@@ -1,5 +1,17 @@
 const signUp = document.querySelector("#signup");
 
+function simpleHash(str) {
+    let hash = 0;
+
+    for (let i = 0; i < str.length; i++) {
+        const char = str.charCodeAt(i);
+        hash = (hash << 5) - hash + char;
+        hash |= 0; // Convert to 32-bit integer
+    }
+
+    return hash.toString(16); // Return as hex string
+}
+
 async function checkEmail(email) {
     try {
         const response = await fetch(`http://localhost:3000/customers?email=${email}`);
@@ -52,7 +64,9 @@ signUp.addEventListener('submit', async (e) => {
             return;
         }
 
-        const user = { full_name: inputFullName, email: inputEmail, password: inputPassword };
+        let hashed = simpleHash(inputPassword);
+
+        const user = { full_name: inputFullName, email: inputEmail, password: hashed };
 
         postAccount(user);
         window.location.href = "login.html";

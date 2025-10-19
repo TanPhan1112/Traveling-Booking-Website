@@ -399,11 +399,12 @@ img {
 
 .search-icon-button {
     border: none;
+    background-color: white;
 }
 
 .search-icon-button img {
     background-color: white;
-    width: 5rem;
+    width: 2rem;
 }
 
 .search #departure {

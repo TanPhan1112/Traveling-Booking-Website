@@ -34,29 +34,17 @@
 
 .tourinfo h3 {
     color: var(--dark-shades);
-    padding-bottom: 0.5rem;
+    padding: 2rem 0;
+}
+
+.tourinfo h4 {
+    color: var(--dark-shades);
+    padding: 1rem 0;
 }
 
 .tourinfo p {
     color: var(--dark-shades);
-}
-
-.tourinfo>.submenu {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px dashed var(--dark-accent);
-    padding: 2rem 0;
-}
-
-.tourinfo>.submenu li {
-    list-style-type: none;
-}
-
-.tourinfo>.submenu a {
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--dark-shades);
+    padding: 1rem 0;
 }
 
 /* CSS TOUR BOOK */
@@ -92,4 +80,63 @@
     grid-area: tour-detail;
     position: sticky;
     top: 6rem;
+}
+
+/* CSS TOUR TAB */
+
+.tab {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+#noibat {
+    display: block;
 }
