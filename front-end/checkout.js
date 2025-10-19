@@ -66,14 +66,22 @@ async function getUserInfo(user) {
 }
 
 function showCuxInfo_checkOut(user) {
-    let phoneInput = "";
     const cuxCard = document.createElement("div");
     cuxCard.classList.add("cux-card");
 
+    let phone = "";
+    let address = "";
+
     if (user.phone === undefined) {
-        phoneInput = "Thêm số điện thoại..."
+        phone = "";
     } else {
-        phoneInput = user.phone;
+        phone = user.phone;
+    }
+
+    if (user.address === undefined) {
+        address = "";
+    } else {
+        address = user.address;
     }
 
     cuxCard.innerHTML = `
@@ -83,7 +91,9 @@ function showCuxInfo_checkOut(user) {
             <p>Email</p>
             <input id="email" value="${user.email}">
             <p>Số điện thoại</p>
-            <input id="phone" value="${phoneInput}">
+            <input id="phone" value="${phone}">
+            <p>Địa chỉ</p>
+            <input id="address" value="${address}">
             <p>Số lượng người</p>
             <input id="people" value="">
             <p>Hình thức thanh toán</p>
@@ -113,10 +123,11 @@ function showCuxInfo_checkOut(user) {
         const fullName = document.querySelector("#fullName");
         const email = document.querySelector("#email");
         const phone = document.querySelector("#phone");
+        const address = document.querySelector("#address");
         const people = document.querySelector("#people");
         const paymentType = document.querySelector("#paymentType");
 
-        if (!fullName.value || !email.value || !phone.value || !people.value || !paymentType.value) {
+        if (!fullName.value || !email.value || !phone.value || !address.value || !people.value || !paymentType.value) {
             alert("Vui lòng không bỏ trống!!!");
         } else {
             const checked = await checkEmail(email.value);
@@ -134,7 +145,7 @@ function showCuxInfo_checkOut(user) {
                 const formattedDate = currentDate.toLocaleDateString('vi-VN', options);
 
                 const order = { user_id: user.id, full_name: fullName.value, email: email.value, phone: phone.value, people: people.value, payment_type: paymentType.value, total: sum, date: formattedDate, items: cartStorage };
-                const customer = { full_name: fullName.value, email: email.value, password: user.password, phone: phone.value };
+                const customer = { full_name: fullName.value, email: email.value, password: user.password, phone: phone.value, address: address.value };
 
                 try {
                     const response = await fetch(`http://localhost:3000/customers/${user.id}`, {
@@ -180,7 +191,7 @@ function showCuxInfo_checkOut(user) {
                 const formattedDate = currentDate.toLocaleDateString('vi-VN', options);
 
                 const order = { user_id: user.id, full_name: fullName.value, email: email.value, phone: phone.value, people: people.value, payment_type: paymentType.value, total: sum, date: formattedDate, items: cartStorage };
-                const customer = { full_name: fullName.value, email: email.value, password: user.password, phone: phone.value };
+                const customer = { full_name: fullName.value, email: email.value, password: user.password, phone: phone.value, address: address.value };
 
                 try {
                     const response = await fetch(`http://localhost:3000/customers/${user.id}`, {
