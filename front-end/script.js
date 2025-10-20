@@ -55,7 +55,7 @@ const search = document.querySelector("#search");
 
 async function searching(departure, arrival, startDate, endDate) {
     try {
-        const response = await fetch(`http://localhost:3000/tours?departure_location=${departure}&arrival_location=${arrival}&start_date=${startDate}&end_date=${endDate}`);
+        const response = await fetch(`http://localhost:10000/tours?departure_location=${departure}&arrival_location=${arrival}&start_date=${startDate}&end_date=${endDate}`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -121,7 +121,7 @@ function displayResult(searched_tours) {
 
 async function fetchFeaturedTours() {
     try {
-        const response = await fetch(`http://localhost:3000/featured_tours`);
+        const response = await fetch(`http://localhost:10000/featured_tours`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -167,7 +167,7 @@ function displayFeaturedTours(ft_tours) {
 
 async function fetchTours() {
     try {
-        const response = await fetch(`http://localhost:3000/tours`);
+        const response = await fetch(`http://localhost:10000/tours`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }

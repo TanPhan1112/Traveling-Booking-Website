@@ -7,7 +7,7 @@ let sum = 0;
 
 async function checkEmail(email) {
     try {
-        const response = await fetch(`http://localhost:3000/customers?email=${email}`);
+        const response = await fetch(`http://localhost:10000/customers?email=${email}`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -53,7 +53,7 @@ showCartList_checkOut();
 
 async function getUserInfo(user) {
     try {
-        const response = await fetch(`http://localhost:3000/customers?id=${user.id}`);
+        const response = await fetch(`http://localhost:10000/customers?id=${user.id}`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -148,7 +148,7 @@ function showCuxInfo_checkOut(user) {
                 const customer = { full_name: fullName.value, email: email.value, password: user.password, phone: phone.value, address: address.value };
 
                 try {
-                    const response = await fetch(`http://localhost:3000/customers/${user.id}`, {
+                    const response = await fetch(`http://localhost:10000/customers/${user.id}`, {
                         method: 'PUT',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(customer)
@@ -164,7 +164,7 @@ function showCuxInfo_checkOut(user) {
                 }
 
                 try {
-                    const response = await fetch(`http://localhost:3000/order`, {
+                    const response = await fetch(`http://localhost:10000/order`, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(order)
@@ -194,7 +194,7 @@ function showCuxInfo_checkOut(user) {
                 const customer = { full_name: fullName.value, email: email.value, password: user.password, phone: phone.value, address: address.value };
 
                 try {
-                    const response = await fetch(`http://localhost:3000/customers/${user.id}`, {
+                    const response = await fetch(`http://localhost:10000/customers/${user.id}`, {
                         method: 'PUT',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(customer)
@@ -210,7 +210,7 @@ function showCuxInfo_checkOut(user) {
                 }
 
                 try {
-                    const response = await fetch(`http://localhost:3000/order`, {
+                    const response = await fetch(`http://localhost:10000/order`, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(order)

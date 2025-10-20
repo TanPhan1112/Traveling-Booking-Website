@@ -4,7 +4,7 @@ const cuxInfo = document.querySelector("#cuxInfo");
 
 async function checkEmail(email) {
     try {
-        const response = await fetch(`http://localhost:3000/customers?email=${email}`);
+        const response = await fetch(`http://localhost:10000/customers?email=${email}`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -18,7 +18,7 @@ async function checkEmail(email) {
 
 async function getOrderInfo(orderId) {
     try {
-        const response = await fetch(`http://localhost:3000/order?user_id=${orderId}`);
+        const response = await fetch(`http://localhost:10000/order?user_id=${orderId}`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -136,7 +136,7 @@ function show_order_history(order) {
                 const customer = { full_name: fullName.value, email: email.value, password: user.password, phone: phone.value, address: address.value };
 
                 try {
-                    const response = await fetch(`http://localhost:3000/customers/${user.id}`, {
+                    const response = await fetch(`http://localhost:10000/customers/${user.id}`, {
                         method: 'PUT',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(customer)
@@ -155,7 +155,7 @@ function show_order_history(order) {
                 const customer = { full_name: fullName.value, email: email.value, password: user.password, phone: phone.value, address: address.value };
 
                 try {
-                    const response = await fetch(`http://localhost:3000/customers/${user.id}`, {
+                    const response = await fetch(`http://localhost:10000/customers/${user.id}`, {
                         method: 'PUT',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(customer)
