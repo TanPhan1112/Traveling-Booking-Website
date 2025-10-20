@@ -19,7 +19,7 @@ function openTab(evt, cityName) {
 
 async function fetchTours() {
     try {
-        const response = await fetch(`http://localhost:3000/tours?id=${id}`);
+        const response = await fetch(`http://localhost:10000/tours?id=${id}`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }

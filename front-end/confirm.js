@@ -6,7 +6,7 @@ let sum = 0;
 
 async function getOrderInfo(orderId) {
     try {
-        const response = await fetch(`http://localhost:3000/order?id=${orderId}`);
+        const response = await fetch(`http://localhost:10000/order?id=${orderId}`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }

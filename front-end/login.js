@@ -14,7 +14,7 @@ function simpleHash(str) {
 
 async function checkAccount(email, password) {
     try {
-        const response = await fetch(`http://localhost:3000/customers?email=${email}&password=${password}`);
+        const response = await fetch(`http://localhost:10000/customers?email=${email}&password=${password}`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
