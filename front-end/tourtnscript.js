@@ -2,7 +2,7 @@ const filterSearch = document.querySelector("#filterSearch");
 
 async function filtering(myRange, departure, arrival, startDate, endDate) {
     try {
-        const response = await fetch(`http://localhost:10000/tours?category_id=1&price_lte=${myRange}&departure_location=${departure}&arrival_location=${arrival}&start_date=${startDate}&end_date=${endDate}`);
+        const response = await fetch(`https://traveling-booking-website.onrender.com/tours?category_id=1&price_lte=${myRange}&departure_location=${departure}&arrival_location=${arrival}&start_date=${startDate}&end_date=${endDate}`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -41,7 +41,7 @@ rangeInput.addEventListener('input', () => {
 
 async function fetchTours() {
     try {
-        const response = await fetch('http://localhost:10000/tours?category_id=1');
+        const response = await fetch('https://traveling-booking-website.onrender.com/tours?category_id=1');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
