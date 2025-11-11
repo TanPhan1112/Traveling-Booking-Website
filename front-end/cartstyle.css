@@ -97,3 +97,55 @@
     font-weight: bolder;
     font-size: 1rem;
 }
+
+@media (max-width: 768px) {
+    .cart-grid {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        /* Add padding for better spacing */
+    }
+
+    .cart-card {
+        grid-template-columns: 1fr;
+        border: var(--light-shades) solid 2px;
+        /* Thicker border for emphasis */
+        transition: transform 0.3s;
+        /* Smooth transition for hover effect */
+    }
+
+    .cart-card:hover {
+        transform: scale(1.02);
+        /* Slightly scale up on hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        /* Enhanced shadow on hover */
+    }
+
+    .cart-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        /* Rounded corners for images */
+    }
+
+    #checkoutbtn {
+        margin-top: 1rem;
+        /* Add margin for spacing */
+    }
+
+    #checkoutbtn button {
+        width: 100%;
+        padding: 1.2rem;
+        /* Increased padding for a better button size */
+        font-size: 1.1rem;
+        /* Slightly larger font size */
+        transition: background-color 0.3s;
+        /* Smooth transition for background color */
+    }
+
+    #checkoutbtn button:hover {
+        background-color: var(--dark-accent);
+        /* Change background on hover */
+        color: var(--light-shades);
+        /* Change text color on hover */
+    }
+}

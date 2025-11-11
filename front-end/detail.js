@@ -17,6 +17,36 @@ function openTab(evt, cityName) {
     evt.currentTarget.className += " active";
 }
 
+async function fetchRelatedTours() {
+    try {
+        const response = await fetch(`http://localhost:3000/tours?category_id=2&id_ne=${id}&_limit=4`);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const relatedTours = await response.json();
+        return relatedTours;
+    } catch (error) {
+        console.error("Lỗi Fetch API:", error);
+    }
+}
+
+function displayRelatedTours(tours) {
+    const relatedTourList = document.querySelector(".relatedtourlist");
+    relatedTourList.textContent = "";
+
+    tours.forEach(tour => {
+        const tourItem = document.createElement("div");
+        tourItem.classList.add("related-tour-item");
+        tourItem.innerHTML = `
+            <h3>${tour.title}</h3>
+            <p>${tour.description}</p>
+            <p>Giá: ${tour.price.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' })}</p>
+            <a href="detail.html?id=${tour.id}">Xem chi tiết</a>
+        `;
+        relatedTourList.appendChild(tourItem);
+    });
+}
+
 async function fetchTours() {
     try {
         const response = await fetch(`http://localhost:3000/tours?id=${id}`);
@@ -68,6 +98,11 @@ function displayDetail(tours) {
 }
 
 fetchTours().then((data) => displayDetail(data));
+fetchTours().then(() => {
+    fetchRelatedTours().then((relatedTours) => {
+        displayRelatedTours(relatedTours);
+    });
+});
 
 const bookBtn = document.querySelector("#book");
 

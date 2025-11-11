@@ -120,3 +120,62 @@
     font-weight: bolder;
     font-size: 1rem;
 }
+
+@media (max-width: 768px) {
+    .checkout-grid {
+        grid-template-columns: 1fr;
+        /* Stack columns on smaller screens */
+    }
+
+    .cart-card {
+        padding: 1rem;
+        /* Increase padding for better touch targets */
+        border-radius: 15px;
+        /* Rounded corners for a softer look */
+        transition: transform 0.3s;
+        /* Smooth transition for hover effect */
+    }
+
+    .cart-card:hover {
+        transform: scale(1.02);
+        /* Slightly scale up on hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        /* Enhanced shadow on hover */
+    }
+
+    .cux-card input,
+    .cux-card select,
+    .cux-card button {
+        width: 100%;
+        /* Full width for inputs and buttons */
+        border-radius: 15px;
+        /* Rounded corners */
+        border: 1px solid var(--dark-accent);
+        /* Subtle border */
+        transition: border-color 0.3s;
+        /* Smooth border color transition */
+    }
+
+    .cux-card input:focus,
+    .cux-card select:focus,
+    .cux-card button:hover {
+        border-color: var(--light-accent);
+        /* Change border color on focus/hover */
+    }
+
+    .cart-card img {
+        width: 100%;
+        /* Responsive image */
+        height: auto;
+        /* Maintain aspect ratio */
+        border-radius: 10px;
+        /* Rounded corners for images */
+        transition: transform 0.3s;
+        /* Smooth transition for image scaling */
+    }
+
+    .cart-card img:hover {
+        transform: scale(1.1);
+        /* Slightly scale up image on hover */
+    }
+}
