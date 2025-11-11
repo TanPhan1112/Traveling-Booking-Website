@@ -115,6 +115,31 @@ function showCuxInfo_checkOut(user) {
 
     cuxInfo.appendChild(cuxCard);
 
+    const peopleCount = document.querySelector("#people");
+    const peopleInputsContainer = document.createElement("div");
+    peopleInputsContainer.id = "peopleInputsContainer";
+
+    peopleCount.addEventListener("change", (e) => {
+        peopleInputsContainer.innerHTML = "";
+        const count = parseInt(e.target.value);
+
+        if (count > 0) {
+            for (let i = 1; i <= count; i++) {
+                const label = document.createElement("label");
+                label.textContent = `Người ${i}`;
+                const input = document.createElement("input");
+                input.type = "text";
+                input.placeholder = `Tên người ${i}`;
+                input.className = "person-input";
+
+                peopleInputsContainer.appendChild(label);
+                peopleInputsContainer.appendChild(input);
+            }
+        }
+    });
+
+    cuxCard.appendChild(peopleInputsContainer);
+
     const bookNow = document.querySelector("#bookNow");
 
     bookNow.addEventListener("submit", async (e) => {
@@ -126,8 +151,14 @@ function showCuxInfo_checkOut(user) {
         const address = document.querySelector("#address");
         const people = document.querySelector("#people");
         const paymentType = document.querySelector("#paymentType");
+        const personInputs = document.querySelectorAll(".person-input");
 
-        if (!fullName.value || !email.value || !phone.value || !address.value || !people.value || !paymentType.value) {
+        const peopleNames = [];
+        personInputs.forEach((input) => {
+            peopleNames.push(input.value);
+        });
+
+        if (!fullName.value || !email.value || !phone.value || !address.value || !people.value || !paymentType.value || peopleNames.includes("")) {
             alert("Vui lòng không bỏ trống!!!");
         } else {
             const checked = await checkEmail(email.value);
@@ -144,7 +175,7 @@ function showCuxInfo_checkOut(user) {
                 };
                 const formattedDate = currentDate.toLocaleDateString('vi-VN', options);
 
-                const order = { user_id: user.id, full_name: fullName.value, email: email.value, phone: phone.value, people: people.value, payment_type: paymentType.value, total: sum, date: formattedDate, items: cartStorage };
+                const order = { user_id: user.id, full_name: fullName.value, email: email.value, phone: phone.value, people: people.value, payment_type: paymentType.value, total: sum, date: formattedDate, items: cartStorage, people_names: peopleNames };
                 const customer = { full_name: fullName.value, email: email.value, password: user.password, phone: phone.value, address: address.value };
 
                 try {
@@ -190,7 +221,7 @@ function showCuxInfo_checkOut(user) {
                 };
                 const formattedDate = currentDate.toLocaleDateString('vi-VN', options);
 
-                const order = { user_id: user.id, full_name: fullName.value, email: email.value, phone: phone.value, people: people.value, payment_type: paymentType.value, total: sum, date: formattedDate, items: cartStorage };
+                const order = { user_id: user.id, full_name: fullName.value, email: email.value, phone: phone.value, people: people.value, payment_type: paymentType.value, total: sum, date: formattedDate, items: cartStorage, people_names: peopleNames };
                 const customer = { full_name: fullName.value, email: email.value, password: user.password, phone: phone.value, address: address.value };
 
                 try {

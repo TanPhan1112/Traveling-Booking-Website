@@ -37,7 +37,8 @@ function show_order_history(order) {
             date: booked.date,
             orders: booked.items,
             total: booked.total,
-            payment: booked.payment_type
+            payment: booked.payment_type,
+            people_names: booked.people_names
         });
         return items;
     }, []);
@@ -50,6 +51,10 @@ function show_order_history(order) {
             <p class="grid-header">Mã đơn hàng: <strong>${items.id}</strong> (${items.date})</p>
             <p class="grid-header">Tổng tiền: <span style="color:red;font-weight:bolder;">${items.total.toLocaleString('vi-VN', { style: 'currency', currency: 'VND', })}</span></p>
             <p class="grid-header">Thanh toán: <strong>${items.payment}</strong></p>
+            <p class="grid-header">Tên khách tham gia:</p>
+            <ul>
+                ${items.people_names.map(name => `<li>${name}</li>`).join("")}
+            </ul>
         `;
 
         items.orders.forEach(item => {

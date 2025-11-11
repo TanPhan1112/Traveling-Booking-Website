@@ -66,6 +66,13 @@
     padding-bottom: 1rem;
 }
 
+.cart-card ul {
+    display: flex;
+    flex-wrap: nowrap;
+    grid-column: span 2;
+    justify-content: space-between;
+}
+
 /* CSS CUX INFO */
 
 #cuxInfo>h3 {
@@ -222,5 +229,29 @@
 
     .cux-card button:active {
         transform: translateY(-2px) scale(.995);
+    }
+
+    .cart-card ul {
+        flex-direction: column;
+        gap: 0.6rem;
+        align-items: flex-start;
+        list-style: none;
+        padding: 0;
+    }
+
+    .cart-card ul li {
+        font-size: 0.95rem;
+        color: var(--dark-shades);
+        padding: 0.4rem 0.8rem;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.02));
+        border-radius: 8px;
+        border-left: 3px solid var(--dark-accent);
+        transition: all 0.2s ease;
+    }
+
+    .cart-card ul li:hover {
+        transform: translateX(4px);
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.05));
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     }
 }
