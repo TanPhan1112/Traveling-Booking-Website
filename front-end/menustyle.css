@@ -228,3 +228,187 @@ main {
     margin-left: 2rem;
     font-size: 1rem;
 }
+
+/* Responsive: tablets and small desktops */
+@media (max-width: 900px) {
+    .container {
+        grid-template-areas:
+            "header"
+            "main"
+            "footer";
+        grid-template-columns: 1fr;
+    }
+
+    .margin2sides {
+        width: 92%;
+    }
+
+    .firstmenu,
+    .secondmenu {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.5rem;
+    }
+
+    .firstmenu ul,
+    .secondmenu ul {
+        flex-direction: column;
+        margin-top: 0.5rem;
+        padding: 0.5rem 0;
+    }
+
+    .firstmenu>ul li,
+    .secondmenu>ul li {
+        padding-left: 1rem;
+        transition: all 0.3s ease;
+    }
+
+    .firstmenu>ul li:hover,
+    .secondmenu>ul li:hover {
+        padding-left: 1.5rem;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 4px;
+    }
+
+    .firstmenu>.hotline,
+    .secondmenu img {
+        align-self: center;
+    }
+
+    .secondmenu img {
+        width: 3.2rem;
+        padding: 0.25rem 0;
+        transition: transform 0.3s ease;
+    }
+
+    .secondmenu img:hover {
+        transform: scale(1.1);
+    }
+
+    .dropdown-content {
+        position: relative;
+        min-width: 100%;
+        box-shadow: none;
+        border-radius: 4px;
+    }
+}
+
+/* Responsive: phones */
+@media (max-width: 600px) {
+    :root {
+        --primary-font-size: 16px;
+    }
+
+    * {
+        font-size: var(--primary-font-size);
+    }
+
+    .margin2sides {
+        width: 96%;
+    }
+
+    .firstmenu>ul li,
+    .secondmenu>ul li {
+        padding-left: 0.75rem;
+        padding: 0.5rem 0.75rem;
+        border-radius: 4px;
+        transition: all 0.2s ease;
+    }
+
+    .firstmenu>ul a,
+    .secondmenu>ul a,
+    .dropdown-content a,
+    .dropdown-content button {
+        font-size: 0.95rem;
+        transition: color 0.2s ease;
+    }
+
+    .secondmenu img {
+        width: 2.6rem;
+        transition: transform 0.2s ease;
+    }
+
+    .footer-columns {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+
+    .dropdown-content a,
+    .dropdown-content button {
+        padding: 0.8rem 1rem;
+        border-radius: 4px;
+        transition: all 0.2s ease;
+    }
+}
+
+/* Very small / narrow devices */
+@media (max-width: 400px) {
+    .margin2sides {
+        width: 100%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .firstmenu>.hotline {
+        font-size: 0.95rem;
+    }
+
+    .firstmenu ul,
+    .secondmenu ul {
+        gap: 0.25rem;
+    }
+
+    .firstmenu>ul li,
+    .secondmenu>ul li {
+        padding-left: 0.5rem;
+        border-radius: 3px;
+    }
+
+    .sticky+main {
+        padding-top: 4.5rem;
+    }
+}
+
+/* Utility: enable simple "collapsed" vertical menus if a toggle class is added */
+.menu-collapsed .firstmenu ul,
+.menu-collapsed .secondmenu ul {
+    display: none;
+    animation: slideOut 0.3s ease;
+}
+
+.menu-collapsed .menu-open .firstmenu ul,
+.menu-collapsed .menu-open .secondmenu ul {
+    display: flex;
+    flex-direction: column;
+    animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+}

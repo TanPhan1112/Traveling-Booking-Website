@@ -140,3 +140,192 @@ thead {
 #noibat {
     display: block;
 }
+
+.relatedtourlist {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.related-tour-item>h3 {
+    color: var(--dark-accent);
+    padding: 1rem 0;
+}
+
+.related-tour-item p {
+    color: var(--dark-accent);
+    padding: 0.5rem 0;
+}
+
+.related-tour-item a {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 10px;
+    border: var(--dark-shades) solid 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: var(--dark-shades);
+    color: var(--light-shades);
+    font-weight: bolder;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .tour-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .tourinfo img {
+        width: 100%;
+        border-radius: 12px;
+        object-fit: cover;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+        transition: transform 0.35s ease, box-shadow 0.35s ease;
+    }
+
+    .tourinfo img:hover {
+        transform: translateY(-6px) scale(1.02);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+    }
+
+    .tourinfo {
+        row-gap: 0.75rem;
+    }
+
+    .tour-detail {
+        padding: 1rem;
+        border-radius: 12px;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.02));
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .stickySide {
+        position: static;
+        top: auto;
+    }
+
+    #book {
+        font-size: 1rem;
+        padding: 0.9rem;
+        border-radius: 10px;
+        background: linear-gradient(90deg, var(--dark-shades, #444), #333);
+        color: var(--light-shades, #fff);
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+        transition: transform 0.18s ease, box-shadow 0.18s ease;
+    }
+
+    #book:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 16px 36px rgba(0, 0, 0, 0.22);
+    }
+
+    .tab {
+        padding: 0.35rem;
+        border-radius: 10px;
+        background: linear-gradient(180deg, #fafafa, #f2f2f2);
+        display: flex;
+        gap: 0.4rem;
+        overflow: auto;
+    }
+
+    .tab button {
+        flex: 1 1 auto;
+        padding: 10px 8px;
+        font-size: 15px;
+        border-radius: 8px;
+        background: transparent;
+        border: 1px solid transparent;
+        transition: all 0.22s cubic-bezier(.2, .9, .2, 1);
+        box-shadow: none;
+    }
+
+    .tab button:hover {
+        background: rgba(0, 0, 0, 0.04);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+    }
+
+    .tab button.active {
+        background: linear-gradient(90deg, var(--dark-accent, #6b8cff), var(--dark-shades, #333));
+        color: var(--light-shades, #fff);
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.14);
+        transform: translateY(-4px);
+    }
+
+    .tabcontent {
+        display: block;
+        padding: 10px;
+        border: none;
+        background: transparent;
+        border-radius: 8px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+        animation: fadeInUp 0.28s ease both;
+    }
+
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        border-radius: 8px;
+        box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.03);
+    }
+
+    th,
+    td {
+        padding: 10px;
+        font-size: 0.95rem;
+    }
+
+    #noibat {
+        display: block;
+        margin-top: 0.5rem;
+        padding: 0.6rem;
+        background: linear-gradient(90deg, rgba(255, 200, 80, 0.06), rgba(255, 255, 255, 0.02));
+        border-radius: 8px;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(6px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .relatedtourlist {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .related-tour-item {
+        border-radius: 12px;
+        overflow: hidden;
+        transition: all 0.3s cubic-bezier(0.2, 0.9, 0.2, 1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .related-tour-item:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+    }
+
+    .related-tour-item a {
+        transition: all 0.28s ease;
+        background: linear-gradient(135deg, var(--dark-shades), #2a2a2a);
+    }
+
+    .related-tour-item a:hover {
+        transform: scale(1.02);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+}
