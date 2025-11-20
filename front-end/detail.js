@@ -38,6 +38,7 @@ function displayRelatedTours(tours) {
         const tourItem = document.createElement("div");
         tourItem.classList.add("related-tour-item");
         tourItem.innerHTML = `
+            <div><img src="${tour.images}" alt="${tour.location}"></div>
             <h3>${tour.title}</h3>
             <p>${tour.description}</p>
             <p>Giá: ${tour.price.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' })}</p>

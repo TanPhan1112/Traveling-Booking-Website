@@ -350,9 +350,7 @@ main {
 /* Very small / narrow devices */
 @media (max-width: 400px) {
     .margin2sides {
-        width: 100%;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        width: 95%;
     }
 
     .firstmenu>.hotline {

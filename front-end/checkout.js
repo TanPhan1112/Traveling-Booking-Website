@@ -138,7 +138,8 @@ function showCuxInfo_checkOut(user) {
         }
     });
 
-    cuxCard.appendChild(peopleInputsContainer);
+    const passengerInfoDiv = document.querySelector("#passengerInfo");
+    passengerInfoDiv.appendChild(peopleInputsContainer);
 
     const bookNow = document.querySelector("#bookNow");
 
@@ -207,6 +208,7 @@ function showCuxInfo_checkOut(user) {
                     if (!response.ok) {
                         throw new Error(`HTTP error! status: ${response.status}`);
                     }
+                    localStorage.removeItem("cart");
                     window.location.href = "confirm.html";
                 } catch (error) {
                     alert("Đặt tour thất bại!");
@@ -253,6 +255,7 @@ function showCuxInfo_checkOut(user) {
                     if (!response.ok) {
                         throw new Error(`HTTP error! status: ${response.status}`);
                     }
+                    localStorage.removeItem("cart");
                     window.location.href = "confirm.html";
                 } catch (error) {
                     alert("Đặt tour thất bại!");
