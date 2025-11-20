@@ -123,20 +123,36 @@
 
 #peopleInputsContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     padding: 1.5rem;
+    background-color: var(--dark-accent);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
 }
 
 #peopleInputsContainer label {
     font-weight: 600;
-    color: white;
+    color: var(--dark-shades);
+    font-size: 1rem;
 }
 
 #peopleInputsContainer .person-input {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    background-color: var(--light-shades);
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 40%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+#passengerInfo {
+    margin-top: 2rem;
+    border-bottom: 1px solid;
+    padding-bottom: 1rem;
 }
 
 @media (max-width: 768px) {

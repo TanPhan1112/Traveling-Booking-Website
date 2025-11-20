@@ -148,6 +148,24 @@ thead {
     margin-top: 1rem;
 }
 
+.related-tour-item>div:first-child {
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    max-width: min-content;
+}
+
+.relatedtourlist img {
+    width: 16rem;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(80%);
+}
+
+.relatedtourlist img:hover {
+    filter: brightness(100%);
+    transform: scale(1.5);
+}
+
 .related-tour-item>h3 {
     color: var(--dark-accent);
     padding: 1rem 0;
@@ -312,6 +330,24 @@ thead {
         overflow: hidden;
         transition: all 0.3s cubic-bezier(0.2, 0.9, 0.2, 1);
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .related-tour-item>div:first-child {
+        border-radius: 10px 10px 0 0;
+        overflow: hidden;
+        max-width: min-content;
+    }
+
+    .relatedtourlist img {
+        width: 16rem;
+        transition: transform 2s, filter 1.5s ease-in-out;
+        transform-origin: center center;
+        filter: brightness(80%);
+    }
+
+    .relatedtourlist:hover img:hover {
+        filter: brightness(100%);
+        transform: scale(1.5);
     }
 
     .related-tour-item:hover {
