@@ -19,7 +19,7 @@ function openTab(evt, cityName) {
 
 async function fetchRelatedTours() {
     try {
-        const response = await fetch(`http://localhost:3000/tours?category_id=2&id_ne=${id}&_limit=4`);
+        const response = await fetch(`https://traveling-booking-website.onrender.com/tours?category_id=2&id_ne=${id}&_limit=4`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -50,7 +50,7 @@ function displayRelatedTours(tours) {
 
 async function fetchTours() {
     try {
-        const response = await fetch(`http://localhost:3000/tours?id=${id}`);
+        const response = await fetch(`https://traveling-booking-website.onrender.com/tours?id=${id}`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
